@@ -14,7 +14,7 @@
     height: 100%;
     overflow: hidden;
     @include bg_img();
-    background-image: url("images/wallpapers/morocco-wallpaper/wp11216683-desert-4k-wallpapers.jpg");
+    background-image: url("/images/wallpapers/morocco-wallpaper/wp11216683-desert-4k-wallpapers.jpg");
     &:before{
         background: none;
     }
