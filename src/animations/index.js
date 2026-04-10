@@ -1,0 +1,2 @@
+export { loadingPage } from "./loadingPage";
+

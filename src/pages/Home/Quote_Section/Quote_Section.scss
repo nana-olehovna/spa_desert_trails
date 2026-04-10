@@ -1,0 +1,22 @@
+@use "../../../styles/tools.scss" as *;
+
+
+.quotes_section {
+    min-height: 80dvh;
+    background-color: var(--color-bg-primary);
+    .quote {
+        font-style: oblique;
+        width: 70%;
+        margin-bottom: 4rem;
+        font-weight: 500;
+        line-height: 2.2;
+    }
+}
+
+@media (max-width: 490px) {
+    .quotes_section {
+        .quote {
+            font-size: clamp(18px, 4vw, 22px);
+        }
+    }
+}

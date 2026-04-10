@@ -1,0 +1,93 @@
+@use "../../styles/tools.scss" as *;
+
+#header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 80px;
+    @include flex-row();
+    padding-inline: 1rem;
+    background-color: transparent;
+    border-bottom: 0.5px solid var(--color-border-default);
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: opacity 0.5s ease;
+}
+
+#header.scrolled {
+    opacity: 0;
+    // display:none;
+    pointer-events: none;
+}
+
+.logo_container {
+    @include flex-row($g: 0.5rem,  $jc: start);
+    height: 100%;
+    width: 30%;
+    margin-left: 0.5rem;
+}
+
+.logo_img {
+    aspect-ratio: 1 / 1;
+    height: 60%;
+    display: flex;
+    border-radius: 4px;
+    a {
+        width: 100%;
+        height: 100%;
+        background: var(--logo);
+        background-position: center;
+        background-size: cover;
+        border-radius: 4px;
+        &:hover {box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;}
+    }
+}
+
+.site_name {
+    font-family: Cinzel;
+    font-weight: 600;
+    font-size: clamp(18px, 2.5vw, 24px);
+    letter-spacing: 0.1rem;
+    color: var(--color-link-default);
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+    &:hover{
+        color: var(--color-link-hover);
+        transform: translateY(-2px);
+    }
+}
+
+
+.personalization {
+    width: 30%;
+    height: 100%;
+    @include flex-row($jc: end, $g: clamp(0.5rem, 1.8vw, 2.5rem));
+}
+
+@media (min-width: 768px) and (max-width: 930px) {
+    .site_name {
+        max-width: 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header_menu {display: none;}
+}
+
+@media (max-width: 768px) {
+    #header{height: 100px;}
+    .logo_container {flex:1}
+    .logo_img {display: none;}
+    .header_nav {display: none;}
+    .header_menu_btn {display: flex;}
+}
+
+@media (max-width: 490px){
+    
+    .personalization {
+        @include flex-column($jc: center, $ai:end);
+        .theme_box, .lang_select_box {padding: 2px 5px;}
+    }
+}

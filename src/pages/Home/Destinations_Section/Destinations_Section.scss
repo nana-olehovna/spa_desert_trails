@@ -1,0 +1,62 @@
+@use "../../../styles/tools.scss" as *;
+
+
+#destinations_home_section {
+    padding: 0;
+    overflow: hidden;
+    .title.overlay_text, .subtitle.overlay_text{color: var(--color-text-overlay);}
+}
+
+
+.destination_container.morocco {
+    background-image: url("/images/wallpapers/morocco-sergey-pesterev-222162.webp");
+}
+
+.destination_container.jordan {
+    background-image: url("/images/wallpapers/jordan wallpaper/626158-2560x1600-desktop-hd-jordan-country-wallpaper-image.jpg");
+}
+
+.destination_container.oman {
+    background-image: url("/images/wallpapers/oman wallpaper/1599565-2508x1672-desktop-hd-muscat-oman-wallpaper.jpg");
+}
+
+
+
+.destination_container {
+    @include bg_img();
+    position: relative;
+    width: 100%;
+    min-height: 100dvh;
+    @include flex-column($jc: end, $ai: var(--align-items), $g:2rem);
+    padding-inline: clamp(16px, 4vw, 48px);
+    padding-block: clamp(40px, 6vw, 80px);
+    text-align: start;
+    cursor: pointer;
+    .title, .subtitle, .destination_link {z-index: 3; text-align: var(--text-align);}
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    &:hover {
+        transform: scale(1.03);
+    }
+    
+}
+
+.destination_link {
+    transition: transform 0.5s ease;
+    transform: translateY(0);
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+
+@media (max-width: 490px) {
+    .destination_container {
+        .title {
+            font-size: clamp(32px, 8vw, 42px);
+        }
+        .subtitle {
+            font-size: clamp(22px, 6vw, 32px);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@use "../../../styles/tools.scss" as *;
+
+
+.hero.morocco {
+    @include bg_img();
+    background-image: var(--bg-hero-morocco);
+}
+
+
+.subtitle_container {
+    width: 100%;
+    @include flex-row($jc: space-evenly);
+}
+
+

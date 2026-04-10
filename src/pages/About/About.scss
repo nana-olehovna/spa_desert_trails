@@ -1,0 +1,14 @@
+@use "../../styles/tools.scss" as *;
+
+#about_page {
+    @include flex-column();
+    width: 100%;
+    section {
+        width: 100%;
+        min-width: 0;
+        @include flex-column($jc: center);
+        text-align: center;
+        padding-inline: clamp(16px, 4vw, 48px);
+        padding-block: clamp(40px, 6vw, 80px);
+    }
+}

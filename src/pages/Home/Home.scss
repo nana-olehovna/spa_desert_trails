@@ -1,0 +1,6 @@
+@use "../../styles/tools.scss" as *;
+
+#home_page {
+    @include flex-column();
+    width: 100%;
+}

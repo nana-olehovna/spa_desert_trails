@@ -1,0 +1,297 @@
+{
+    "header.nav.morocco": "Morocco",
+    "header.nav.jordan": "Jordan",
+    "header.nav.oman": "Oman",
+    "header.nav.about": "About",
+    "header.login": "Login",
+    "header.theme.light": "Sand",
+    "header.theme.dark": "Midnight",
+
+
+    "Theme.light" : "Sand",
+    "Theme.dark" : "Midnight",
+
+
+    "Home.HeroSection.Title": "Desert Trails",
+    "Home.HeroSection.Subtitle": "Curated journeys through Morocco, Jordan, and Oman — where desert silence, old cities, and quiet beauty unfold at their own pace.",
+    "Home.HeroSection.PrimaryButton": "Explore",
+    "Home.HeroSection.SecondaryButton": "Plan With Us",
+
+    "Home.DestinationsSection.Title": "Destinations",
+    "Home.DestinationsSection.Subtitle": "Places to feel, not just to see.",
+    "Home.DestinationsSection.Morocco.Title": "Morocco",
+    "Home.DestinationsSection.Morocco.Tagline": "Color, contrast, and endless horizon.",
+    "Home.DestinationsSection.Morocco.Button": "Explore",
+    "Home.DestinationsSection.Jordan.Title": "Jordan",
+    "Home.DestinationsSection.Jordan.Tagline": "Stone, silence, and living history.",
+    "Home.DestinationsSection.Jordan.Button": "Explore",
+    "Home.DestinationsSection.Oman.Title": "Oman",
+    "Home.DestinationsSection.Oman.Tagline": "Quiet beauty between sea, mountain, and desert.",
+    "Home.DestinationsSection.Oman.Button": "Explore",
+
+    "Home.AboutPreviewSection.Title": "How We Travel",
+    "Home.AboutPreviewSection.Point1": "We don’t rush beautiful places.",
+    "Home.AboutPreviewSection.Point3": "We leave space for silence, architecture, and surprise.",
+    "Home.AboutPreviewSection.Point4": "Journeys shaped around feeling, not checklists.",
+    "Home.AboutPreviewSection.Link": "Our Philosophy",
+
+    "Home.FeaturedJourneysSection.Title": "Selected Journeys",
+    "Home.FeaturedJourneysSection.Subtitle": "A few moments worth crossing a desert for.",
+    "Home.FeaturedJourneysSection.Card1.Title": "Night Beneath the Sahara",
+    "Home.FeaturedJourneysSection.Card1.Country": "Morocco",
+    "Home.FeaturedJourneysSection.Card2.Title": "Petra Before the Crowds",
+    "Home.FeaturedJourneysSection.Card2.Country": "Jordan",
+    "Home.FeaturedJourneysSection.Card3.Title": "Between Sea and Wadi",
+    "Home.FeaturedJourneysSection.Card3.Country": "Oman",
+
+    "Home.QuotesSection.Quote1": "The desert does not ask to be conquered, only understood.",
+    "Home.QuotesSection.Quote2": "The best journeys leave you quieter than they found you.",
+
+    "Home.CTASection.Title": "Stay close to the next journey.",
+    "Home.CTASection.Subtitle": "Rare routes, quiet places, and new journeys — shared from time to time.",
+    "Home.CTASection.InputPlaceholder": "Your email",
+    "Home.CTASection.Button": "Subscribe",
+    "Home.CTASection.Button1": "Working...",
+    "Home.CTASection.Button2": "Success!",
+
+
+
+
+
+    "About.HeroSection.Title": "How We Travel",
+    "About.HeroSection.Subtitle": "We create journeys for people who want to move more slowly, feel more deeply, and return with something real.",
+
+    "About.OurPaceSection.Title1": "We leave space in the route",
+    "About.OurPaceSection.Description1": "Not every hour is planned. Space to wander. To rest. To let the day unfold.",
+    "About.OurPaceSection.Title2": "We choose fewer places",
+    "About.OurPaceSection.Description2": "Depth over breadth. We'd rather spend four nights in one riad than one night in four hotels.",
+    "About.OurPaceSection.Title3": "We travel slower, we never rush",
+    "About.OurPaceSection.Description3": "Three places over ten days, not ten places over three days. Time to feel the rhythm of a place, not just see it.",
+    "About.OurPaceSection.Title4": "We stay in places that feel like homes",
+    "About.OurPaceSection.Description4": "Small riads. Family-run lodges. Camps where you can hear the silence. Never chain hotels.",
+
+    "About.PropositionSection": "We design journeys for people who want to travel less like tourists and more like temporary residents. Who value stillness as much as movement. Who understand that the best travel stories aren't about how much you saw, but how deeply you felt.",
+
+    "About.CTASection.Title": "If this is your way of travel, we should talk.",
+    "About.CTASection.Subtitle": "We’ll shape something personal, thoughtful, and quietly unforgettable.",
+    "About.CTASection.Button": "Get in Touch",
+
+
+
+
+
+    "Morocco.HeroSection.Title": "Morocco",
+    "Morocco.HeroSection.Word1": "Riad",
+    "Morocco.HeroSection.Word2": "Atlas",
+    "Morocco.HeroSection.Word3": "Sahara",
+
+    "Morocco.AboutSection.Title": "A Country of Contrast and Depth",
+    "Morocco.AboutSection.Description": "Morocco moves between intimacy and scale — tiled riads and open dunes, mountain roads and ancient medinas, still courtyards and vivid streets. It is layered, textured, and endlessly atmospheric.",
+    "Morocco.AboutSection.Quote": "“In Morocco, every doorway feels like the entrance to another world.”",
+
+
+    "Morocco.ExperiencesSection.Title": "Selected Experiences",
+    "Morocco.ExperiencesSection.Card1.Title": "Night Beneath the Sahara sky",
+    "Morocco.ExperiencesSection.Card1.Description": "A desert night you will not want to end.",
+    "Morocco.ExperiencesSection.Card2.Title": "Atlas Valleys",
+    "Morocco.ExperiencesSection.Card2.Description": "Picturesque villages where time flows slowly.",
+    "Morocco.ExperiencesSection.Card3.Title": "Morning in Fes",
+    "Morocco.ExperiencesSection.Card3.Description": "Quiet streets before the city begins to stir.",
+    "Morocco.ExperiencesSection.Card4.Title": "Courtyard Morning",
+    "Morocco.ExperiencesSection.Card4.Description": "Hidden calm behind carved walls and shade.",
+    
+    "Morocco.ExperiencesSection.Card6.Title": "Desert Fire Dinner",
+    "Morocco.ExperiencesSection.Card6.Description": "An evening shaped by warmth and open space.",
+    "Morocco.ExperiencesSection.Card7.Title": "Essaouira Lagoon",
+    "Morocco.ExperiencesSection.Card7.Description": "Serenity by the water.",
+    "Morocco.ExperiencesSection.Card8.Title": "Chefchaouen",
+    "Morocco.ExperiencesSection.Card8.Description": "Stroll through tranquil streets.",
+    "Morocco.ExperiencesSection.Card9.Title": "Sunset in Casablanca",
+    "Morocco.ExperiencesSection.Card9.Description": "Golden light over the sea.",
+    "Morocco.ExperiencesSection.Book": "Book Now",
+    "Morocco.ExperiencesSection.Back": "Go Back",
+
+    "Morocco.TravelNotesSection.Title": "The Rhythm of Morocco",
+    "Morocco.TravelNotesSection.Point1": "Mornings begin in shade, stone, and silence.",
+    "Morocco.TravelNotesSection.Point2": "The road shifts from intimacy to vastness.",
+    "Morocco.TravelNotesSection.Point3": "Desert space brings clarity to everything around it.",
+    "Morocco.TravelNotesSection.Point4": "Beauty lives equally in silence and detail.",
+
+    "Morocco.CTASection.Title": "Land of Contrasts. Every Turn a New World.",
+    "Morocco.CTASection.Button": "Begin Your Own Journey",
+
+
+
+
+
+    "Jordan.HeroSection.Title": "Jordan",
+    "Jordan.HeroSection.Word1": "Stone",
+    "Jordan.HeroSection.Word2": "Silence",
+    "Jordan.HeroSection.Word3": "Dawn",
+
+
+    "Jordan.AboutSection.Title": "A Journey Through Stillness and Time",
+    "Jordan.AboutSection.Description": "Jordan feels ancient in the best way — carved into rock, stretched across desert, softened by early light, and filled with the kind of silence that stays with you.",
+    "Jordan.AboutSection.Quote": "Jordan does not ask for attention. It earns it.",
+
+
+    "Jordan.ExperiencesSection.Title": "Selected Experiences",
+    "Jordan.ExperiencesSection.Card1.Title": "Petra at First Light",
+    "Jordan.ExperiencesSection.Card1.Description": "Stone, shadow, and the early hour.",
+    "Jordan.ExperiencesSection.Card2.Title": "Wadi Rum Under Stars",
+    "Jordan.ExperiencesSection.Card2.Description": "Vast stillness in the heart of the desert.",
+    "Jordan.ExperiencesSection.Card3.Title": "Dawn Through the Canyon",
+    "Jordan.ExperiencesSection.Card3.Description": "Early light across ancient terrain.",
+    "Jordan.ExperiencesSection.Card4.Title": "Dead Sea Stillness",
+    "Jordan.ExperiencesSection.Card4.Description": "Salt air, warm water, and complete calm.",
+    "Jordan.ExperiencesSection.Card5.Title": "Ancient Paths",
+    "Jordan.ExperiencesSection.Card5.Description": "Walk slowly through living history.",
+    "Jordan.ExperiencesSection.Card6.Title": "Quiet City Hours",
+    "Jordan.ExperiencesSection.Card6.Description": "Architecture, prayer, and calm beyond the rush.",
+    "Jordan.ExperiencesSection.Card7.Title": "Amman at Ease",
+    "Jordan.ExperiencesSection.Card7.Description": "A city of soft rhythm and timeless contrast.",
+    "Jordan.ExperiencesSection.Card8.Title": "Ma'in in the Rocks",
+    "Jordan.ExperiencesSection.Card8.Description": "Thermal waters flowing through quiet stone.",
+    "Jordan.ExperiencesSection.Card9.Title": "Desert by Quad",
+    "Jordan.ExperiencesSection.Card9.Description": "Slow movement across open sand and silence.",
+
+
+    "Jordan.TravelNotesSection.Title": "The Rhythm of Jordan",
+    "Jordan.TravelNotesSection.Point1": "Silence is part of the landscape.",
+    "Jordan.TravelNotesSection.Point2": "History feels present, never staged.",
+    "Jordan.TravelNotesSection.Point3": "Dawn changes the entire landscape.",
+    "Jordan.TravelNotesSection.Point4": "Mornings here carry a particular kind of calm.",
+
+
+    "Jordan.CTASection.Title": "Ready to step into the stillness?",
+    "Jordan.CTASection.Subtitle": "From Petra at first light to long evenings in Wadi Rum, this is a journey for people who want to feel the place, not just pass through it.",
+    "Jordan.CTASection.Button": "Begin This Journey",
+
+
+
+
+
+
+    "Oman.HeroSection.Title": "Oman",
+    "Oman.HeroSection.Word1": "Coast",
+    "Oman.HeroSection.Word2": "Wadi",
+    "Oman.HeroSection.Word3": "Light",
+
+
+    "Oman.AboutSection.Title": "Quiet Beauty, Deeply Felt",
+    "Oman.AboutSection.Description": "Oman has a rare kind of calm — in its white stone cities, peaceful mosques, open coastlines, mountain roads, and desert horizons. It feels clear, spacious, and quietly extraordinary.",
+    "Oman.AboutSection.Quote": "Oman does not impress loudly — it stays with quiet certainty.",
+
+
+    "Oman.ExperiencesSection.Title": "Selected Experiences",
+    "Oman.ExperiencesSection.Card1.Title": "Wadi Morning",
+    "Oman.ExperiencesSection.Card1.Description": "Fresh water, stone, and the early quiet.",
+    "Oman.ExperiencesSection.Card2.Title": "Coastal Drift",
+    "Oman.ExperiencesSection.Card2.Description": "Sea air, open roads, and calm horizons.",
+    "Oman.ExperiencesSection.Card3.Title": "Wahiba Sands",
+    "Oman.ExperiencesSection.Card3.Description": "Vastness, evening light, and stillness.",
+    "Oman.ExperiencesSection.Card4.Title": "Mountain Air",
+    "Oman.ExperiencesSection.Card4.Description": "Altitude, distance, and open views.",
+    "Oman.ExperiencesSection.Card5.Title": "Hidden Shoreline",
+    "Oman.ExperiencesSection.Card5.Description": "Secluded beauty at the edge of the sea.",
+    "Oman.ExperiencesSection.Card6.Title": "White City Calm",
+    "Oman.ExperiencesSection.Card6.Description": "Clean lines, mosques, and quiet streets.",
+    "Oman.ExperiencesSection.Card7.Title": "Wahiba by Jeep",
+    "Oman.ExperiencesSection.Card7.Description": "Rolling dunes, open skies, and a quiet sense of scale.",
+    "Oman.ExperiencesSection.Card8.Title": "Wadi Bani Khalid",
+    "Oman.ExperiencesSection.Card8.Description": "Clear water, palm shade, and stillness in the canyon.",
+    "Oman.ExperiencesSection.Card9.Title": "E-Foil Over Water",
+    "Oman.ExperiencesSection.Card9.Description": "Effortless motion above the sea in near silence.",
+
+
+    "Oman.TravelNotesSection.Title": "The Rhythm of Oman",
+    "Oman.TravelNotesSection.Point1": "Beauty here is clear, clean, and unforced.",
+    "Oman.TravelNotesSection.Point2": "The route feels calm from beginning to end.",
+    "Oman.TravelNotesSection.Point3": "Even the cities move with quiet dignity.",
+    "Oman.TravelNotesSection.Point4": "Every stop feels quietly self-contained.",
+
+
+    "Oman.CTASection.Title": "Let Oman slow the world for a while",
+    "Oman.CTASection.Subtitle": "A slower route through desert space, coastal calm, white stone, and mountain light.",
+    "Oman.CTASection.Button": "Begin This Journey",
+
+
+
+    "LoginPage.LoginForm.Title": "Login",
+    "LoginPage.LoginForm.Field.FirstName": "First Name",
+    "LoginPage.LoginForm.Field.Email": "Email",
+    "LoginPage.LoginForm.Field.Password": "Password",
+    "LoginPage.LoginForm.Field.Remember": "Remember me",
+    "LoginPage.LoginForm.Forgot.": "Forgot your password?",
+    "LoginPage.LoginForm.NotAMember": "Not a member yet?",
+    "LoginPage.LoginForm.SignIn": "Sign In",
+    "LoginPage.LoginForm.SignUp": "Sign Up",
+    "LoginPage.LoginForm.Error.Name1": "First Name must contain at least 2 letters",
+    "LoginPage.LoginForm.Error.Email1": "Please enter your email",
+    "LoginPage.LoginForm.Error.Email2": "Email must contain @",
+    "LoginPage.LoginForm.Error.Password1": "Please enter your password",
+    "LoginPage.LoginForm.Error.Password2": "Password must contain at least 6 symbols",
+    "LoginPage.Processing1": "Processing your data",
+    "LoginPage.Processing2": "Success",
+    "LoginPage.SuccessMessage1": "Welcome back,",
+    "LoginPage.SuccessMessage2": "We missed you.",
+    "LoginPage.SuccessMessage3": "What is your plan?",
+    "LoginPage.Success.Button": "Start Planning",
+
+    "RegistrationPage.RegisterForm.Title": "Join our family",
+    "RegistrationPage.RegisterForm.Field.FirstName": "First Name",
+    "RegistrationPage.RegisterForm.Field.LastName": "Last Name",
+    "RegistrationPage.RegisterForm.Field.Email": "Email",
+    "RegistrationPage.RegisterForm.Field.Password": "Password",
+    "RegistrationPage.RegisterForm.Field.PasswordConfirm": "Confirm Password",
+    "RegistrationPage.RegisterForm.Field.Subscribe": "Subscribe on our Newsletter",
+    "RegistrationPage.RegisterForm.Already": "Already a member?",
+    "RegistrationPage.RegisterForm.SignUp": "Create account",
+    "RegistrationPage.RegisterForm.SignIn": "Sign In",
+    "RegistrationPage.RegisterForm.Warning1": "By creating an account you are agreeing to our " ,
+    "RegistrationPage.RegisterForm.Warning2": "Terms of Services" ,
+    "RegistrationPage.RegisterForm.Warning3": " and " ,
+    "RegistrationPage.RegisterForm.Warning4": "Privacy Policy" ,
+    "RegistrationPage.RegisterForm.Error.Name1": "Name must contain at least 2 letters",
+    "RegistrationPage.RegisterForm.Error.Name2": "Please enter your name",
+    "RegistrationPage.RegisterForm.Error.Email1": "Please enter your email",
+    "RegistrationPage.RegisterForm.Error.Email2": "Email must contain @",
+    "RegistrationPage.RegisterForm.Error.Password1": "Please enter your password",
+    "RegistrationPage.RegisterForm.Error.Password2": "Password must contain at least 6 symbols",
+    "RegistrationPage.RegisterForm.Error.Password4": "Please confirm your password",
+    "RegistrationPage.RegisterForm.Error.Password3": "Passwords don't match",
+    "RegistrationPage.Processing1": "Processing your data...",
+    "RegistrationPage.Processing2": "Almost ready...",
+    "RegistrationPage.SuccessMessage1": "Congratulations,",
+    "RegistrationPage.SuccessMessage2": "Welcome to The Desert Trails Family!",
+    "RegistrationPage.SuccessMessage3": "Well... Where do you want your journey to begin?",
+    "RegistrationPage.Success.Button": "Start Planning",
+
+
+
+    "404.Message1": "Sorry, looks like the page you were looking for doesn't exist yet!",
+    "404.Message2": "Please try another page",
+    "404.Button": "Go to Home Page",
+
+
+
+    "ContactForm.Title": "Leave us your message",
+    "ContactForm.Name": "Your name",
+    "ContactForm.Email": "Email",
+    "ContactForm.Message": "Message",
+    "ContactForm.Btn": "Send",
+    "ContactForm.Final": "Thank you for your message," ,
+    "ContactForm.Final1": "We will contact you ASAP. Have a nice day!",
+
+
+    "Form.SingUpBtn": "Sign Up",
+    "Form.SingInBtn": "Sign In",
+
+
+
+    "footer.link.contacts": "Reach Us",
+    "footer.link.privacy": "Privacy",
+    "footer.link.terms": "Terms",
+    "footer.rights": "All rights reserved."
+
+}

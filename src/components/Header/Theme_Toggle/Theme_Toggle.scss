@@ -1,0 +1,12 @@
+.theme_btn{
+  font-family: var(--font-link);
+  font-size: var(--link-font-size);
+  letter-spacing: var(--letter-spac-s);
+  line-height: var();
+  color: var(--color-link-default);
+  &:hover{color: var(--color-link-hover)};
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}

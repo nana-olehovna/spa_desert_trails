@@ -1,0 +1,300 @@
+{
+  "header.nav.morocco": "Марокко",
+  "header.nav.jordan": "Йорданія",
+  "header.nav.oman": "Оман",
+  "header.nav.about": "Хто ми",
+  "header.login": "Увійти",
+
+
+
+  "Theme.light" : "Дюни",
+  "Theme.dark" : "Північ",
+
+
+  "Home.HeroSection.Title": "Desert Trails",
+  "Home.HeroSection.Subtitle": "Особистi подорожі Марокко, Йорданією та Оманом — там, де тиша пустелі, старі міста й спокійна краса розкриваються у власному ритмі.",
+  "Home.HeroSection.PrimaryButton": "Дослідити",
+  "Home.HeroSection.SecondaryButton": "Спланувати",
+
+  "Home.DestinationsSection.Title": "Напрямки",
+  "Home.DestinationsSection.Subtitle": "Місця, які треба не лише побачити, а й відчути.",
+  "Home.DestinationsSection.Morocco.Title": "Марокко",
+  "Home.DestinationsSection.Morocco.Tagline": "Колір, контраст і безмежний горизонт.",
+  "Home.DestinationsSection.Morocco.Button": "Дослідити",
+  "Home.DestinationsSection.Jordan.Title": "Йорданія",
+  "Home.DestinationsSection.Jordan.Tagline": "Камінь, тиша й жива історія.",
+  "Home.DestinationsSection.Jordan.Button": "Дослідити",
+  "Home.DestinationsSection.Oman.Title": "Оман",
+  "Home.DestinationsSection.Oman.Tagline": "Тиха краса між морем, горами й пустелею.",
+  "Home.DestinationsSection.Oman.Button": "Дослідити",
+
+  "Home.AboutPreviewSection.Title": "Як ми подорожуємо",
+  "Home.AboutPreviewSection.Point1": "Ми не поспішаємо в особливих місцях.",
+  "Home.AboutPreviewSection.Point2": "Ми залишаємо місце для тихих моментів.",
+  "Home.AboutPreviewSection.Point3": "Ми залишаємо простір для тиші, архітектури та несподіванок.",
+  "Home.AboutPreviewSection.Point4": "Подорожі, створені навколо відчуттів, а не чек-листів.",
+  "Home.AboutPreviewSection.Link": "Наша фiлософiя",
+
+  "Home.FeaturedJourneysSection.Title": "Обрані подорожі",
+  "Home.FeaturedJourneysSection.Subtitle": "Кілька моментів, заради яких варто перетнути пустелю.",
+  "Home.FeaturedJourneysSection.Card1.Title": "Ніч під небом Сахари",
+  "Home.FeaturedJourneysSection.Card1.Country": "Марокко",
+  "Home.FeaturedJourneysSection.Card2.Title": "Петра до натовпу",
+  "Home.FeaturedJourneysSection.Card2.Country": "Йорданія",
+  "Home.FeaturedJourneysSection.Card3.Title": "Між морем і пустелею",
+  "Home.FeaturedJourneysSection.Card3.Country": "Оман",
+
+  "Home.QuotesSection.Quote1": "«Пустеля не просить підкорення — лише розуміння.»",
+  "Home.QuotesSection.Quote2": "«Найкращі подорожі повертають тебе тихішим, ніж ти був до них.»",
+
+  "Home.CTASection.Title": "Залишайтеся ближче до наступної подорожі.",
+  "Home.CTASection.Subtitle": "Рідкісні маршрути, тихі місця та нові подорожі — час від часу у вашій поштовій скриньці.",
+  "Home.CTASection.InputPlaceholder": "Ваш email",
+  "Home.CTASection.Button": "Підписатися",
+  "Home.CTASection.Button1": "Обробка...",
+  "Home.CTASection.Button2": "Успішно!",
+
+
+
+
+
+
+
+  "About.HeroSection.Title": "Як ми подорожуємо",
+  "About.HeroSection.Subtitle": "Ми створюємо подорожі для тих, хто хоче рухатися повільніше, відчувати глибше й повертатися з чимось справжнім.",
+
+  "About.OurPaceSection.Title1": "Ми залишаємо простір у маршруті",
+  "About.OurPaceSection.Description1": "Не кожна година має бути розписана. Простір для прогулянок, відпочинку й дня, який тече природньо.",
+  "About.OurPaceSection.Title2": "Ми обираємо менше місць",
+  "About.OurPaceSection.Description2": "Глибина важливіша за кількість. Краще чотири ночі в одному ріаді, ніж одна ніч у чотирьох готелях.",
+  "About.OurPaceSection.Title3": "Ми подорожуємо повільніше й ніколи не поспішаємо",
+  "About.OurPaceSection.Description3": "Три місця за десять днів, а не десять місць за три. Час, щоб відчути ритм місця, а не просто побачити його.",
+  "About.OurPaceSection.Title4": "Ми зупиняємося там, де відчуваєш себе як удома",
+  "About.OurPaceSection.Description4": "Невеликі ріади. Сімейні лоджії. Кемпи, де можна почути тишу. Жодних мережевих готелів.",
+
+  "About.PropositionSection": "Ми створюємо подорожі для людей, які хочуть мандрувати менше як туристи й більше як тимчасові мешканці. Для тих, хто цінує тишу не менше, ніж рух. І розуміє, що найкращі історії про подорожі — не про те, скільки ти побачив, а про те, наскільки глибоко ти це відчув.",
+
+  "About.CTASection.Title": "Якщо це ваш спосіб подорожувати, нам варто поговорити.",
+  "About.CTASection.Subtitle": "Ми створимо щось особисте, продумане й абсолютно незабутнє.",
+  "About.CTASection.Button": "Зв’язатися з нами",
+
+
+
+
+  
+
+
+  "Morocco.HeroSection.Title": "Марокко",
+  "Morocco.HeroSection.Word1": "Ріад",
+  "Morocco.HeroSection.Word2": "Атлас",
+  "Morocco.HeroSection.Word3": "Сахара",
+
+  "Morocco.AboutSection.Title": "Країна контрастів і глибини",
+  "Morocco.AboutSection.Description": "Марокко живе між камерністю та простором — мозаїчні ріади й відкриті дюни, гірські дороги й стародавні медіни, тихі дворики та яскраві вулиці. Це багатошарова, фактурна й безмежно атмосферна країна.",
+  "Morocco.AboutSection.Quote": "«У Марокко кожні двері начебто ведуть до іншого світу.»",
+
+  "Morocco.ExperiencesSection.Title": "Обрані враження",
+  "Morocco.ExperiencesSection.Card1.Title": "Ніч під небом Сахари",
+  "Morocco.ExperiencesSection.Card1.Description": "Пустельна ніч, яку не захочеться завершувати.",
+  "Morocco.ExperiencesSection.Card2.Title": "Долини Атласу",
+  "Morocco.ExperiencesSection.Card2.Description": "Мальовничі села, де час тече повільно.",
+  "Morocco.ExperiencesSection.Card3.Title": "Ранок у Фесі",
+  "Morocco.ExperiencesSection.Card3.Description": "Тихі вулиці до того, як місто почне прокидатися.",
+  "Morocco.ExperiencesSection.Card4.Title": "Ранок у внутрішньому дворику",
+  "Morocco.ExperiencesSection.Card4.Description": "Прихований спокій за різьбленими стінами.",
+  "Morocco.ExperiencesSection.Card5.Title": "Оазис Сахру",
+  "Morocco.ExperiencesSection.Card5.Description": "День у зеленому раю серед пальм.",
+  "Morocco.ExperiencesSection.Card6.Title": "Вечеря біля вогнища в пустелі",
+  "Morocco.ExperiencesSection.Card6.Description": "Вечір, створений теплом і вільним небокраєм.",
+  "Morocco.ExperiencesSection.Card7.Title": "Лагуна Ес-Сувейри",
+  "Morocco.ExperiencesSection.Card7.Description": "Спокій біля води.",
+  "Morocco.ExperiencesSection.Card8.Title": "Шефшауен",
+  "Morocco.ExperiencesSection.Card8.Description": "Прогулянка мальовничими вулицями.",
+  "Morocco.ExperiencesSection.Card9.Title": "Захід сонця в Касабланці",
+  "Morocco.ExperiencesSection.Card9.Description": "Золоте проміння над морем.",
+  "Morocco.ExperiencesSection.Book": "Забронювати",
+  "Morocco.ExperiencesSection.Back": "Назад",
+
+
+  "Morocco.TravelNotesSection.Title": "Ритм Марокко",
+  "Morocco.TravelNotesSection.Point1": "Ранки починаються у тіні й тиші.",
+  "Morocco.TravelNotesSection.Point2": "Дорога коливається між близькістю та безмежним роздоллям.",
+  "Morocco.TravelNotesSection.Point3": "У безмежжі пустелі все довкола набуває дивовижної ясності.",
+  "Morocco.TravelNotesSection.Point4": "Краса живе і в тиші, і в деталях.",
+
+  "Morocco.CTASection.Title": "Земля контрастів. Кожен поворот відкриває новий світ.",
+  "Morocco.CTASection.Button": "Почати власну подорож",
+
+
+
+
+
+
+
+  
+  "Jordan.HeroSection.Title": "Йорданія",
+  "Jordan.HeroSection.Word1": "Скеля",
+  "Jordan.HeroSection.Word2": "Тиша",
+  "Jordan.HeroSection.Word3": "Світанок",
+
+  "Jordan.AboutSection.Title": "Подорож крізь тишу і час",
+  "Jordan.AboutSection.Description": "Йорданія відчувається давньою в найкращому сенсі — висіченою в камені, розпростертою серед пустелі, пом’якшеною ранковим світлом і наповненою тишею, що залишається з тобою.",
+  "Jordan.AboutSection.Quote": "Йорданія не просить уваги. Вона її заслуговує.",
+
+  "Jordan.ExperiencesSection.Title": "Обрані враження",
+  "Jordan.ExperiencesSection.Card1.Title": "Петра у перших променях",
+  "Jordan.ExperiencesSection.Card1.Description": "Скелi, тіні та ранкова година.",
+  "Jordan.ExperiencesSection.Card2.Title": "Ваді-Рам під зорями",
+  "Jordan.ExperiencesSection.Card2.Description": "Безмежна тиша в серці пустелі.",
+  "Jordan.ExperiencesSection.Card3.Title": "Світанок крізь каньйон",
+  "Jordan.ExperiencesSection.Card3.Description": "Ранкове світло над давнім краєвидом.",
+  "Jordan.ExperiencesSection.Card4.Title": "Тиша Мертвого моря",
+  "Jordan.ExperiencesSection.Card4.Description": "Солоне повітря, тепла вода й абсолютний спокій.",
+  "Jordan.ExperiencesSection.Card5.Title": "Давні стежки",
+  "Jordan.ExperiencesSection.Card5.Description": "Ідіть повільно крізь живу історію.",
+  "Jordan.ExperiencesSection.Card6.Title": "Тихі години міста",
+  "Jordan.ExperiencesSection.Card6.Description": "Архітектура, молитва й спокій поза межами метушні.",
+  "Jordan.ExperiencesSection.Card7.Title": "Амман у спокої",
+  "Jordan.ExperiencesSection.Card7.Description": "Місто м’якого ритму та позачасових контрастів.",
+  "Jordan.ExperiencesSection.Card8.Title": "Маїн серед скель",
+  "Jordan.ExperiencesSection.Card8.Description": "Термальні води, що течуть крізь тихий камінь.",
+  "Jordan.ExperiencesSection.Card9.Title": "Пустеля на квадроциклі",
+  "Jordan.ExperiencesSection.Card9.Description": "Неквапливий рух крізь відкритий пісок і тишу.",
+
+  "Jordan.TravelNotesSection.Title": "Ритм Йорданії",
+  "Jordan.TravelNotesSection.Point1": "Тиша — частина цього краєвиду.",
+  "Jordan.TravelNotesSection.Point2": "Історія тут відчувається живою, а не постановною.",
+  "Jordan.TravelNotesSection.Point3": "Світанок повністю змінює цей краєвид.",
+  "Jordan.TravelNotesSection.Point4": "Ранки тут несуть особливий вид спокою.",
+
+  "Jordan.CTASection.Title": "Готові зробити крок у нерухомiсть?",
+  "Jordan.CTASection.Subtitle": "Від Петри у перших променях до довгих вечорів у Ваді-Рам — це подорож для тих, хто хоче відчути місце, а не просто проїхати крiзь нього.",
+  "Jordan.CTASection.Button": "Розпочати цю подорож",
+
+
+
+
+
+
+
+  
+  "Oman.HeroSection.Title": "Оман",
+  "Oman.HeroSection.Word1": "Узбережжя",
+  "Oman.HeroSection.Word2": "Ваді",
+  "Oman.HeroSection.Word3": "Світло",
+
+  "Oman.AboutSection.Title": "Тиха краса, яку відчуваєш глибоко",
+  "Oman.AboutSection.Description": "Оман має рідкісне відчуття спокою — у своїх білих кам’яних містах, тихих мечетях, відкритих узбережжях, гірських дорогах і пустельних горизонтах. Він відчувається ясним, просторим і просто винятковим.",
+  "Oman.AboutSection.Quote": "Оман не вражає голосно — він залишається з вами своєю тихою впевненістю.",
+
+  "Oman.ExperiencesSection.Title": "Обрані враження",
+  "Oman.ExperiencesSection.Card1.Title": "Ранок у Ваді",
+  "Oman.ExperiencesSection.Card1.Description": "Свіжа вода, камінь і ранкова тиша.",
+  "Oman.ExperiencesSection.Card2.Title": "Уздовж узбережжя",
+  "Oman.ExperiencesSection.Card2.Description": "Морське повітря, відкриті дороги й спокійні горизонти.",
+  "Oman.ExperiencesSection.Card3.Title": "Піски Вахіба",
+  "Oman.ExperiencesSection.Card3.Description": "Простір, вечірнє світло й тиша.",
+  "Oman.ExperiencesSection.Card4.Title": "Гірське повітря",
+  "Oman.ExperiencesSection.Card4.Description": "Висота, далечінь і відкриті краєвиди.",
+  "Oman.ExperiencesSection.Card5.Title": "Приховане узбережжя",
+  "Oman.ExperiencesSection.Card5.Description": "Усамітнена краса на самому краю моря.",
+  "Oman.ExperiencesSection.Card6.Title": "Спокій білого міста",
+  "Oman.ExperiencesSection.Card6.Description": "Чисті лінії, мечеті й тихі вулиці.",
+  "Oman.ExperiencesSection.Card7.Title": "Вахіба на джипі",
+  "Oman.ExperiencesSection.Card7.Description": "Хвилясті дюни, відкрите небо й тихе відчуття масштабу.",
+  "Oman.ExperiencesSection.Card8.Title": "Ваді-Бані-Халід",
+  "Oman.ExperiencesSection.Card8.Description": "Прозора вода, тінь пальм і тиша каньйону.",
+  "Oman.ExperiencesSection.Card9.Title": "E-Foil над водою",
+  "Oman.ExperiencesSection.Card9.Description": "Легке ковзання над морем майже в повній тиші.",
+
+  "Oman.TravelNotesSection.Title": "Ритм Оману",
+  "Oman.TravelNotesSection.Point1": "Краса тут ясна, чиста й природна.",
+  "Oman.TravelNotesSection.Point2": "Увесь маршрут відчувається спокійним від початку до кінця.",
+  "Oman.TravelNotesSection.Point3": "Навіть міста тут живуть із тихою гідністю.",
+  "Oman.TravelNotesSection.Point4": "Кожна зупинка відчувається цілісною й самодостатньою.",
+
+  "Oman.CTASection.Title": "Довольте Оману на мить зупинити час",
+  "Oman.CTASection.Subtitle": "Повільний маршрут крізь пустельний простір, спокій узбережжя, білий камінь і гірське світло.",
+  "Oman.CTASection.Button": "Розпочати цю подорож",
+
+
+
+  "LoginPage.LoginForm.Title": "Вхід",
+  "LoginPage.LoginForm.Field.FirstName": "Ім’я",
+  "LoginPage.LoginForm.Field.Email": "Email",
+  "LoginPage.LoginForm.Field.Password": "Пароль",
+  "LoginPage.LoginForm.Field.Remember": "Запам’ятати мене",
+  "LoginPage.LoginForm.Forgot.": "Забули пароль?",
+  "LoginPage.LoginForm.NotAMember": "Ще не з нами?",
+  "LoginPage.LoginForm.SignIn": "Увійти",
+  "LoginPage.LoginForm.SignUp": "Зареєструватися",
+  "LoginPage.LoginForm.Error.Name1": "Ім’я має містити щонайменше 2 літери",
+  "LoginPage.LoginForm.Error.Email1": "Будь ласка, введіть email",
+  "LoginPage.LoginForm.Error.Email2": "Email має містити @",
+  "LoginPage.LoginForm.Error.Password1": "Будь ласка, введіть пароль",
+  "LoginPage.LoginForm.Error.Password2": "Пароль має містити щонайменше 6 символів",
+  "LoginPage.Processing1": "Обробляємо ваші дані",
+  "LoginPage.Processing2": "Успішно",
+  "LoginPage.SuccessMessage1": "З поверненням,",
+  "LoginPage.SuccessMessage2": "Ми за вами скучили.",
+  "LoginPage.SuccessMessage3": "Який ваш план?",
+  "LoginPage.Success.Button": "Почати планування",
+
+  "RegistrationPage.RegisterForm.Title": "Приєднуйтесь до нашої родини",
+  "RegistrationPage.RegisterForm.Field.FirstName": "Ім’я",
+  "RegistrationPage.RegisterForm.Field.LastName": "Прізвище",
+  "RegistrationPage.RegisterForm.Field.Email": "Email",
+  "RegistrationPage.RegisterForm.Field.Password": "Пароль",
+  "RegistrationPage.RegisterForm.Field.PasswordConfirm": "Підтвердьте пароль",
+  "RegistrationPage.RegisterForm.Field.Subscribe": "Підписатися на нашу розсилку",
+  "RegistrationPage.RegisterForm.Already": "Вже з нами?",
+  "RegistrationPage.RegisterForm.SignUp": "Створити акаунт",
+  "RegistrationPage.RegisterForm.SignIn": "Увійти",
+  "RegistrationPage.RegisterForm.Warning1": "Створюючи акаунт, ви погоджуєтеся з нашими ",
+  "RegistrationPage.RegisterForm.Warning2": "Умовами користування",
+  "RegistrationPage.RegisterForm.Warning3": " та ",
+  "RegistrationPage.RegisterForm.Warning4": "Політикою конфіденційності",
+  "RegistrationPage.RegisterForm.Error.Name1": "Ім’я має містити щонайменше 2 літери",
+  "RegistrationPage.RegisterForm.Error.Name2": "Будь ласка, введіть ім’я",
+  "RegistrationPage.RegisterForm.Error.Email1": "Будь ласка, введіть email",
+  "RegistrationPage.RegisterForm.Error.Email2": "Email має містити @",
+  "RegistrationPage.RegisterForm.Error.Password1": "Будь ласка, введіть пароль",
+  "RegistrationPage.RegisterForm.Error.Password2": "Пароль має містити щонайменше 6 символів",
+  "RegistrationPage.RegisterForm.Error.Password4": "Будь ласка, підтвердьте пароль",
+  "RegistrationPage.RegisterForm.Error.Password3": "Паролі не збігаються",
+  "RegistrationPage.Processing1": "Обробляємо ваші дані...",
+  "RegistrationPage.Processing2": "Майже готово...",
+  "RegistrationPage.SuccessMessage1": "Вітаємо,",
+  "RegistrationPage.SuccessMessage2": "Ласкаво просимо до родини The Desert Trails!",
+  "RegistrationPage.SuccessMessage3": "Ну що ж... Звідки ви хочете почати свою подорож?",
+  "RegistrationPage.Success.Button": "Почати планування",
+
+  "404.Message1": "Вибачте, схоже, сторінка, яку ви шукали, ще не існує!",
+  "404.Message2": "Будь ласка, спробуйте іншу сторінку",
+  "404.Button": "Перейти на головну",
+
+  "ContactForm.Title": "Залиште нам своє повідомлення",
+  "ContactForm.Name": "Ваше ім’я",
+  "ContactForm.Email": "Email",
+  "ContactForm.Message": "Повідомлення",
+  "ContactForm.Btn": "Надіслати",
+  "ContactForm.Final": "Дякуємо за ваше повідомлення,",
+  "ContactForm.Final1": "Ми зв’яжемося з вами якнайшвидше. Гарного дня!",
+
+
+  "Form.SingUpBtn": "Зареєструватися",
+  "Form.SingInBtn": "Увійти",
+
+
+  "footer.link.contacts": "Зв’язатися з нами",
+  "footer.link.privacy": "Конфіденційність",
+  "footer.link.terms": "Умови",
+  "footer.rights": "Усі права захищено."
+}
+
+
+
+
+
+
+

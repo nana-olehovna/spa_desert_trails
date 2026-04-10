@@ -1,0 +1,7 @@
+@use "../../styles/tools.scss" as *;
+
+#oman_page {
+    @include flex-column();
+    width: 100%;
+}
+

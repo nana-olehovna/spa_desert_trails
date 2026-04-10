@@ -1,0 +1,165 @@
+/* Colors */
+
+:root {
+  --color-bg-primary: #F0DFC9;
+  --color-bg-secondary: #F2D9BA;
+  --color-bg-card: #F0DFC9;
+  --color-bg-form: #fcf8f196;
+  --color-bg-accent: #D2AF94;
+
+  --color-button-primary-bg: #f5be3c;
+  --color-button-primary-hover: #fdc543;
+  --color-button-secondary-bg: #ECE4D7;
+  --color-button-secondary-hover: #f2eadd;
+
+  --color-border-default: #d6ccbdda;
+
+  --color-text-overlay: #FFF9F1;
+  --color-text-body: #111827;
+  --color-text-muted: #6B7280;
+  --color-text-quote: #a15f0e;
+
+  --color-button-text: #FFF9F1;
+  --color-button-secondary-text: #111827;
+
+  --color-link-default: #8A5A1B;
+  --color-link-hover: rgb(200, 134, 41);
+
+
+
+
+  --logo: url(/favicon_io/apple-touch-icon1.png);
+
+  --bg-hero-morocco: url(/images/wallpapers/morocco wallpaper/wp7651470.jpg);
+  --bg-hero-jordan: url(/images/wallpapers/jordan wallpaper/1533586-2500x1666-desktop-hd-wadi-rum-village-wallpaper.jpg);
+  --bg-hero-oman: url(/images/Oman/wp2236390-oman-wallpapers.jpg);
+  --bg-hero-home: url(/images/wallpapers/morocco wallpaper/stunning-4k-desert-landscape-1q81pmfdzkd117my.jpg);
+  --bg-login: url(/images/wallpapers/jordan wallpaper/187949-3840x2160-desktop-4k-desert-background-image.jpg);
+
+}
+
+:root[data-theme="dark"] {
+  --color-bg-primary: #0D1420;
+  --color-bg-secondary: #131D2B;
+  --color-bg-card: #1A2535;
+  --color-bg-form: #1a2535c0;
+  --color-bg-accent: #030b1a;
+
+  --color-button-primary-bg: #D39A2C;
+  --color-button-primary-hover: #E3AC45;
+  --color-button-secondary-bg: #1D2A3A;
+  --color-button-secondary-hover: #243245;
+
+  --color-border-default: #323f537e;
+
+  --color-text-overlay: #F2E9DA;
+  --color-text-body: #FFF6EA;
+  --color-text-muted: #A8B1BE;
+  --color-text-quote: #F0B94B;
+
+  --color-button-text: #0F1723;
+  --color-button-secondary-text: #E8B14A;
+
+  --color-link-default: #8A5A1B;
+  --color-link-hover: rgb(200, 134, 41);
+
+
+
+  --logo: url(/favicon_io/apple-touch-icon.png);
+
+  --bg-hero-morocco: url(/images/wallpapers/morocco wallpaper/wallpapersden.com_sahara-desert-in-scenery-night_1920x1080.jpg);
+  --bg-hero-jordan: url(/images/wallpapers/morocco wallpaper/wadi-rum-skies_16x9.avif);
+  --bg-hero-oman: url(/images/wallpapers/morocco wallpaper/starry_sky_desert_night_122437_4200x2800.jpg);
+  --bg-hero-home: url(/images/wallpapers/morocco wallpaper/Sahara_Night_Sky.jpeg);
+  --bg-login: url(/images/wallpapers/morocco wallpaper/noch-pustynia-priroda.jpg);
+
+
+}
+
+
+/* Fonts */
+:root {
+    --headliner-font-size: clamp(50px, 7vw, 80px);
+    --title-font-size: 46px;
+    --subtitle-font-size: 36px;
+    --body-font-size: 22px;
+    --link-font-size: 14px;
+    --quote-font-size: 26px;
+    --btn-font-size: 16px;
+    --cta-font-size: 26px;
+
+    --font-weight-thin: 200;
+    --font-weight-bold: 600;
+
+    --font-caps: uppercase;
+
+    --font-ital: oblique;
+
+    --letter-spac-s: 0.12rem;
+    --letter-spac-m: 0.15rem;
+    --letter-spac-l: 0.2rem;
+
+    --line-height: 1.4;
+
+    --text-align: start;
+
+    --align-items: start;
+    --justify-content: start;
+}
+
+:root[data-lang="en"], 
+:root[data-lang="cz"] {
+    --font-headliner: "Cinzel";
+    --font-title: "Cormorant Garamond";
+    --font-subtitle: "Cormorant Garamond";
+    --font-body: "Cormorant Garamond";
+    --font-link: "Bodoni Moda";
+    --font-quote: "Cinzel";
+    --font-btn: "Bodoni Moda";
+    --font-cta: "Bodoni Moda";
+    --font-quote-dest: "Bodoni Moda";
+}
+
+:root[data-lang="ru"] {
+    --font-headliner: "Bodoni Moda";
+    --font-title: "Bodoni Moda";
+    --font-subtitle: "Cormorant Garamond";
+    --font-body: "Cormorant Garamond";
+    --font-link: "Bodoni Moda";
+    --font-quote: "Bodoni Moda";
+    --font-btn: "Cormorant Garamond";
+    --font-cta: "Bodoni Moda";
+    --font-quote-dest: "Bodoni Moda";
+}
+
+:root[data-lang="ar"] {
+    --font-headliner: "Rakkas";
+    --headliner-font-size: 100px;
+
+    --font-title: "Tajawal";
+    --title-font-size: 60px;
+
+    --font-subtitle: "Tajawal";
+    --subtitle-font-size: 44px;
+
+    --font-body: "Tajawal";
+
+    --font-link: "Tajawal";
+    --link-font-size: 18px;
+
+    --font-quote: "Lateef";
+    --font-quote-dest: "Lateef";
+    --quote-font-size: 44px;
+
+    --font-btn: "Tajawal";
+    --brn-font-size: 22px;
+
+    --font-cta: "Rakkas";
+
+    --cta-font-size: 40px;
+
+    --text-align: end;
+
+    --align-items: end;
+    --justify-content: end;
+}

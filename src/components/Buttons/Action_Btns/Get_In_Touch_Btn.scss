@@ -1,0 +1,60 @@
+
+.get_in_touch_btn {
+    height: 50px;
+    width: 220px;
+    background-color: var(--color-button-primary-bg);
+    border: 1px solid var(--color-border-default);
+    color: var(--color-button-text);
+    cursor: pointer;
+    &:hover {
+        background-color: var(--color-button-primary-hover);
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+                    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+                    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+}
+
+
+
+.action_btn {
+    height: 50px;
+    width: 220px;
+    background-color: var(--color-button-secondary-bg);
+    border: 1px solid var(--color-border-default);
+    color: var(--color-button-secondary-text);
+    cursor: pointer;
+    &:hover {
+        background-color: var(--color-button-secondary-hover);
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+                    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+                    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+}
+
+
+.get_in_touch_btn.btn_disabled, .action_btn.btn_disabled {
+    background-color: transparent;
+    &:hover{background-color: transparent; box-shadow: none;}
+    pointer-events: none;
+    .btn_casual {color: rgb(154, 135, 109);}
+}
+
+.get_in_touch_btn.btn_success, .action_btn.btn_success {
+    background-color: transparent; 
+    border-color: var(--color-button-primary-bg);
+    ;
+    &:hover{background-color: transparent; box-shadow: none; border-color: var(--color-button-primary-bg);}
+    pointer-events: none;
+    .btn_casual {color: var(--color-button-primary-bg);}
+}
+
+
+@media (max-width: 490px) {
+    .get_in_touch_btn, .action_btn {
+        height:40px;
+        width: 200px;
+        .btn_accent {
+            font-size: 14px;
+        }
+    }
+}

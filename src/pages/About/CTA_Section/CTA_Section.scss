@@ -1,0 +1,11 @@
+@use "../../../styles/tools.scss" as *;
+
+
+
+.cta_container {
+    .subtitle{
+        font-size: clamp(20px, 4vw, 36px);
+        font-weight: var(--font-weight-thin);
+    }
+}
+

@@ -1,0 +1,194 @@
+@use "../../styles/tools.scss" as *;
+
+.exp_card {
+  position: relative;
+  height: 100%;
+  min-width: 0;
+  flex: 1 1 0;
+  cursor: pointer;
+  transition: flex 0.5s ease;
+  overflow:hidden;
+  background-color: rgb(241, 229, 203);
+  text-align: var(--text-align);
+  .title{
+    font-size: clamp(24px, 2.5vw, 30px);
+    color: white;
+    width: 210px;
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+  }
+  .support_text {
+    color: white;
+    font-size: clamp(18px, 2.2vw, 20px);
+  }
+}
+
+.close_exp_card {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    z-index: 4;
+}
+
+.exp_card_img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+  transform: scale(1);
+  transition: transform 0.7s ease;
+  z-index: 1;
+}
+
+
+.exp_card_overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.712) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.exp_card_content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 35%;
+  z-index: 3;
+  padding: 2rem;
+  @include flex-column($g:1rem, $ai: var(--align-items));
+}
+
+.exp_card_hidden {
+  width: 250px;
+  @include flex-column($g: 1rem, $ai: var(--align-items));
+  transform: translateY(150%);
+  opacity: 0;
+  transition: transform 0.5s ease,
+              opacity 0.5s ease;
+}
+
+.open_exp_card{
+  border: none;
+  background: transparent;
+  color: var(--color-link-default);
+  font-size: clamp(14px, 3vw, 18px);
+  transform: translateY(0);
+  transition: transform 0.5s ease;
+  &:hover {
+    color: var(--color-link-hover);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+}
+
+.close_exp_card {
+  font-family: var(--font-btn);
+  font-size: var(--btn-font-size);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spac-m);
+  line-height: var(--line-height);
+  color: var(--color-button-secondary-text);
+  text-transform: var(--font-caps);
+  height: 35px;
+  width: 100px;
+  border: none;
+  background-color: var(--color-button-primary-bg);
+  border: 1px solid var(--color-border-default);
+  color: var(--color-button-text);
+  cursor: pointer;
+  &:hover {
+    background-color: var(--color-button-primary-hover);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+                rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+                rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+}
+
+.close_exp_card {display:none;}
+
+.exp_card:hover{
+  flex: 1.5;
+  .exp_card_img {
+      transform: scale(1.075);
+  }
+  .title {
+    transform: translateY(2px);
+  }
+  .exp_card_hidden{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .exp_card {
+    min-height: calc(100% / 3);
+    width: 100%;
+  }
+  .exp_card:hover{ 
+    flex:1;
+  }
+  .exp_card_content {
+    height: 100%;
+  }
+}
+
+
+
+.exp_card.full_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  cursor: auto;
+  animation: fullScreen 0.8s ease forwards;
+  .title {
+      font-size: clamp(36px, 6vw, 60px);
+  }
+
+  .support_text {
+  font-size: clamp(24px, 4vw, 36px);
+  }
+
+  .exp_card_hidden {opacity: 1;}
+
+  .exp_card, .exp_card:hover, 
+  .exp_card_hidden, .exp_card_hidden:hover, 
+  .exp_card_img, .exp_card_img:hover {transform: none;}
+
+  .exp_card_hidden, .title {width: 100%;}
+
+  .exp_card_content {justify-content: end;}
+
+  .title:hover{transform: translateY(-2px)}
+
+  .close_exp_card {display:block;}
+
+  .open_exp_card {
+    font-family: var(--font-btn);
+    font-size: var(--btn-font-size);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spac-m);
+    line-height: var(--line-height);
+    color: var(--color-button-text);
+    text-transform: var(--font-caps);
+    height: 50px;
+    width: 220px;
+    background-color: var(--color-button-primary-bg);
+    border: 1px solid var(--color-border-default);
+    color: var(--color-button-text);
+    cursor: pointer;
+    &:hover {
+        background-color: var(--color-button-primary-hover);
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+                    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+                    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+  }
+}
+

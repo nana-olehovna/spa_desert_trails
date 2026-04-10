@@ -1,0 +1,22 @@
+@use "../../../styles/tools.scss" as *;
+.cinematic {
+    width: 100%;
+    overflow: hidden;
+    height: 100dvh;
+}
+
+
+#about_page .cinematic {padding-inline: 0; padding-block: 0;}
+
+
+.img_container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    @include bg_img();
+    background-image: url("images/wallpapers/morocco wallpaper/wp11216683-desert-4k-wallpapers.jpg");
+    &:before{
+        background: none;
+    }
+}
+

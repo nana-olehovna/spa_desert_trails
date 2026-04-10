@@ -1,0 +1,8 @@
+@use "../../../styles/tools.scss" as *;
+
+
+.hero.oman {
+    @include bg_img();
+    background-image: var(--bg-hero-oman);
+}
+

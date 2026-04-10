@@ -1,0 +1,40 @@
+@use "../../../styles/tools.scss" as *;
+
+#registration_page {
+    .title {
+        font-size: clamp(38px, 4.3vw, 46px);
+        text-align: center;
+    }
+    .support_text, .destination_link{
+        font-size: clamp(14px, 3.5vw, 20px);
+    }
+}
+
+.register_page_content {
+    position: relative;
+    @include flex-column($g:1rem);
+    max-width: 600px;
+    width: 600px;
+    padding-inline: clamp(16px, 4vw, 48px);
+    padding-block: clamp(30px, 4.5vw, 60px);
+    border: 1px solid var(--color-border-default);
+    background-color: var(--color-bg-form);
+    .title, .agree_note{z-index: 2;}
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: (15px);
+        z-index: 1;
+    }
+}
+
+#register-form {
+    width: 80%;
+    @include flex-column();
+    gap: 0.9rem;
+    z-index: 2;
+}
+
+

@@ -1,0 +1,21 @@
+@use "../../../styles/tools.scss" as *;
+
+
+.hero.about{
+    background-color: var(--color-bg-accent);
+}
+
+.hero_container.about {
+    width: #{'min(90%, calc(100% - 2rem))'};
+    @include flex-column($jc: center, $g: 40px);
+    .headliner {
+        color: var(--color-text-body);
+    
+    }
+    .subtitle{ 
+        font-weight: 500;
+        font-size: clamp(24px, 5vw, 42px);
+    }
+}
+
+

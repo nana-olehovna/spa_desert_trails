@@ -1,0 +1,16 @@
+@use "../../styles/tools.scss" as *;
+
+#login_page {
+    min-height: 100dvh;
+    width: 100%;
+    min-width: 0;
+    @include flex-column($jc: center, $g: 2rem);
+    padding-inline: clamp(16px, 4vw, 48px);
+    padding-block-start: calc(clamp(40px, 6vw, 80px) + 80px) !important;
+    padding-block: clamp(40px, 6vw, 80px);
+    background-position: centr;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: var(--bg-login);
+}
+

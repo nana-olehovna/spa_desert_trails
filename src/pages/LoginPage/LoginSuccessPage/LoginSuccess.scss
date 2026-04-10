@@ -1,0 +1,23 @@
+@use "../../../styles/tools.scss" as *;
+
+#login-success{
+  position: relative;
+  @include flex-column($jc: center);
+  &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: (15px);
+        z-index: 1;
+      }
+}
+
+.login_success {
+  z-index: 2;
+  background-color: var(--color-bg-form);
+  padding: 3rem;
+  text-align: center;
+  @include flex-column($g:2rem, $ai: center, $jc: center);
+  .quote {font-size: clamp(28px, 3.5vw, 36px);}
+}

@@ -1,0 +1,15 @@
+@use "../../styles/tools.scss" as *;
+
+#page_404 {
+    min-height: 80dvh;
+    height:84vh;
+    width: 100%;
+    min-width: 0;
+    @include flex-column($jc: center, $g: 2rem, $ai:center);
+    padding-inline: clamp(16px, 4vw, 48px);
+    padding-block: clamp(40px, 6vw, 80px);
+    padding-block-start: calc(clamp(40px, 6vw, 80px) + 80px) !important;
+    text-align: center;
+    background-color: var(--color-bg-primary);
+    .quote {font-size: clamp(28px, 3.5vw, 36px); max-width: 1400px;}
+}

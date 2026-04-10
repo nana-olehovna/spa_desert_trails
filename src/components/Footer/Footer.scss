@@ -1,0 +1,57 @@
+@use "../../styles/tools.scss" as *;
+
+#footer {
+    width: 100%;
+    min-height: 160px;
+    @include flex-column($jc: space-between, $ai:center);
+    padding-inline: 3rem;
+    padding-block: 1.5rem;
+    background-color: var(--color-bg-card);
+    border-top: 1px solid var(--color-border-default);
+}
+
+.footer_top {
+    width: 100%;
+    @include flex-row($jc: space-between);
+    flex:1;
+}
+
+.footer_name {
+    font-family: Cinzel;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+    color: var(--color-text-quote);
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+    &:hover{
+        color: var(--color-link-hover);
+        transform: translateY(-2px);
+    }
+}
+.footer_links {
+    @include flex-row($g: 2rem);
+}
+
+
+.footer_bottom {
+    width: 100%;
+    text-align: center;
+}
+
+
+@media (max-width: 900px) {
+    #footer {
+        gap: 0.7rem;
+        .footer_top {flex-direction: column; gap: 0.7rem}
+        .footer_name{font-size: clamp(20px, 4.5vw, 30px);}
+    }
+}
+
+@media (max-width: 550px) {
+    #footer {
+        .footer_links {flex-direction: column; gap: 0.7rem;}
+        .footer_link {font-size: clamp(10px, 2.5vw, 14px);}
+        .support_text {font-size: clamp(14px, 3vw, 16px);}
+    }
+}

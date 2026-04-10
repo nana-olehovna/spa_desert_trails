@@ -1,0 +1,289 @@
+{
+  "header.nav.morocco": "Maroko",
+  "header.nav.jordan": "Jordánsko",
+  "header.nav.oman": "Omán",
+  "header.nav.about": "O nás",
+  "header.login": "Přihlášení",
+
+
+
+  "Theme.light" : "Duny",
+  "Theme.dark" : "Půlnoc",
+
+
+  "Home.HeroSection.Title": "Desert Trails",
+  "Home.HeroSection.Subtitle": "Pečlivě navržené cesty po Maroku, Jordánsku a Ománu — tam, kde se ticho pouště, stará města a klidná krása odhalují vlastním tempem.",
+  "Home.HeroSection.PrimaryButton": "Objevovat",
+  "Home.HeroSection.SecondaryButton": "Naplánovat",
+
+  "Home.DestinationsSection.Title": "Destinace",
+  "Home.DestinationsSection.Subtitle": "Místa, která se nemají jen vidět, ale i prožít.",
+  "Home.DestinationsSection.Morocco.Title": "Maroko",
+  "Home.DestinationsSection.Morocco.Tagline": "Barvy, kontrasty a nekonečný horizont.",
+  "Home.DestinationsSection.Morocco.Button": "Objevovat",
+  "Home.DestinationsSection.Jordan.Title": "Jordánsko",
+  "Home.DestinationsSection.Jordan.Tagline": "Kámen, ticho a živá historie.",
+  "Home.DestinationsSection.Jordan.Button": "Objevovat",
+  "Home.DestinationsSection.Oman.Title": "Omán",
+  "Home.DestinationsSection.Oman.Tagline": "Tichá krása mezi mořem, horami a pouští.",
+  "Home.DestinationsSection.Oman.Button": "Objevovat",
+
+  "Home.AboutPreviewSection.Title": "Jak cestujeme",
+  "Home.AboutPreviewSection.Point1": "Krásná místa nenecháváme ve spěchu.",
+  "Home.AboutPreviewSection.Point2": "Necháváme prostor pro tiché chvíle.",
+  "Home.AboutPreviewSection.Point3": "Dáváme místo tichu, architektuře i nečekaným okamžikům.",
+  "Home.AboutPreviewSection.Point4": "Cesty tvořené podle pocitu, ne podle seznamu.",
+
+  "Home.FeaturedJourneysSection.Title": "Vybrané cesty",
+  "Home.FeaturedJourneysSection.Subtitle": "Pár okamžiků, kvůli kterým stojí za to přejít poušť.",
+  "Home.FeaturedJourneysSection.Card1.Title": "Noc pod saharským nebem",
+  "Home.FeaturedJourneysSection.Card1.Country": "Maroko",
+  "Home.FeaturedJourneysSection.Card2.Title": "Petra před davy",
+  "Home.FeaturedJourneysSection.Card2.Country": "Jordánsko",
+  "Home.FeaturedJourneysSection.Card3.Title": "Mezi mořem a wádí",
+  "Home.FeaturedJourneysSection.Card3.Country": "Omán",
+
+  "Home.QuotesSection.Quote1": "„Poušť nechce být dobyta, jen pochopena.“",
+  "Home.QuotesSection.Quote2": "„Ty nejlepší cesty vás vracejí tiššími, než jste byli před nimi.“",
+
+  "Home.CTASection.Title": "Zůstaňte blízko další cestě.",
+  "Home.CTASection.Subtitle": "Výjimečné trasy, tichá místa a nové cesty — čas od času ve vaší schránce.",
+  "Home.CTASection.InputPlaceholder": "Váš e-mail",
+  "Home.CTASection.Button": "Přihlásit se",
+  "Home.CTASection.Button1": "Zpracování...",
+  "Home.CTASection.Button2": "Úspěch!",
+
+
+
+
+
+
+    "About.HeroSection.Title": "Jak cestujeme",
+  "About.HeroSection.Subtitle": "Tvoříme cesty pro ty, kdo chtějí zpomalit, vnímat hlouběji a vrátit se s něčím skutečným.",
+
+  "About.OurPaceSection.Title1": "Necháváme v itineráři prostor",
+  "About.OurPaceSection.Description1": "Ne každá hodina musí být naplánovaná. Prostor na toulání, odpočinek a den, který plyne vlastním tempem.",
+  "About.OurPaceSection.Title2": "Volíme méně míst",
+  "About.OurPaceSection.Description2": "Hloubka je víc než množství. Raději čtyři noci v jednom riadu než jednu noc ve čtyřech hotelech.",
+  "About.OurPaceSection.Title3": "Cestujeme pomaleji, nikdy nespěcháme",
+  "About.OurPaceSection.Description3": "Tři místa za deset dní, ne deset míst za tři dny. Dost času cítit rytmus místa, ne ho jen vidět.",
+  "About.OurPaceSection.Title4": "Bydlíme na místech, která působí jako domov",
+  "About.OurPaceSection.Description4": "Malé riady. Rodinné lodge. Kempy, kde je slyšet ticho. Nikdy řetězcové hotely.",
+
+  "About.PropositionSection": "Navrhujeme cesty pro lidi, kteří chtějí cestovat méně jako turisté a více jako dočasní místní. Pro ty, kdo si cení klidu stejně jako pohybu. A chápou, že nejlepší cestovatelské příběhy nejsou o tom, kolik jste toho viděli, ale jak hluboce jste to prožili.",
+
+  "About.CTASection.Title": "Pokud je tohle váš způsob cestování, měli bychom si promluvit.",
+  "About.CTASection.Subtitle": "Vytvoříme něco osobního, promyšleného a do opravdy nezapomenutelného.",
+  "About.CTASection.Button": "Ozvěte se nám",
+
+
+
+
+
+
+  "Morocco.HeroSection.Title": "Maroko",
+  "Morocco.HeroSection.Word1": "Riad",
+  "Morocco.HeroSection.Word2": "Atlas",
+  "Morocco.HeroSection.Word3": "Sahara",
+
+  "Morocco.AboutSection.Title": "Země kontrastů a hloubky",
+  "Morocco.AboutSection.Description": "Maroko se pohybuje mezi intimitou a velkolepostí — mozaikové riady a otevřené duny, horské cesty a starobylé mediny, klidná nádvoří i živé ulice. Je vrstvené, výrazné a plné atmosféry.",
+  "Morocco.AboutSection.Quote": "„V Maroku působí každý vchod jako brána do jiného světa.“",
+
+  "Morocco.ExperiencesSection.Card1.Title": "Noc pod saharským nebem",
+  "Morocco.ExperiencesSection.Card1.Description": "Pouštní noc, kterou nebudete chtít ukončit.",
+  "Morocco.ExperiencesSection.Card2.Title": "Údolí Atlasu",
+  "Morocco.ExperiencesSection.Card2.Description": "Malebné vesnice, kde čas plyne pomalu.",
+  "Morocco.ExperiencesSection.Card3.Title": "Ráno ve Fesu",
+  "Morocco.ExperiencesSection.Card3.Description": "Tiché ulice dřív, než se město probudí.",
+  "Morocco.ExperiencesSection.Card4.Title": "Ráno na nádvoří",
+  "Morocco.ExperiencesSection.Card4.Description": "Skrytý klid za vyřezávanými stěnami a ve stínu.",
+  "Morocco.ExperiencesSection.Card5.Title": "Oáza Sahru",
+  "Morocco.ExperiencesSection.Card5.Description": "Den v zeleném ráji mezi palmami.",
+  "Morocco.ExperiencesSection.Card6.Title": "Večeře u ohně v poušti",
+  "Morocco.ExperiencesSection.Card6.Description": "Večer utvářený teplem a otevřeným horizotem.",
+  "Morocco.ExperiencesSection.Card7.Title": "Laguna Essaouira",
+  "Morocco.ExperiencesSection.Card7.Description": "Klid u vody.",
+  "Morocco.ExperiencesSection.Card8.Title": "Chefchaouen",
+  "Morocco.ExperiencesSection.Card8.Description": "Procházka kouzelnými uličkami.",
+  "Morocco.ExperiencesSection.Card9.Title": "Západ slunce v Casablance",
+  "Morocco.ExperiencesSection.Card9.Description": "Zlaté světlo nad mořem.",
+  "Morocco.ExperiencesSection.Book": "Rezervovat",
+  "Morocco.ExperiencesSection.Back": "Zpět",
+
+  "Morocco.TravelNotesSection.Title": "Rytmus Maroka",
+  "Morocco.TravelNotesSection.Point1": "Rána začínají ve stínu, kameni a tichu.",
+  "Morocco.TravelNotesSection.Point2": "Cesta přechází od blízkosti k nekonečnému prostoru.",
+  "Morocco.TravelNotesSection.Point3": "Poušť přináší zvláštní jasnost všemu kolem.",
+  "Morocco.TravelNotesSection.Point4": "Krása žije stejně v tichu jako v detailu.",
+
+  "Morocco.CTASection.Title": "Země kontrastů. Každá zatáčka otevírá nový svět.",
+  "Morocco.CTASection.Button": "Začít vlastní cestu",
+
+
+
+
+
+
+
+
+  "Jordan.HeroSection.Title": "Jordánsko",
+  "Jordan.HeroSection.Word1": "Kámen",
+  "Jordan.HeroSection.Word2": "Ticho",
+  "Jordan.HeroSection.Word3": "Úsvit",
+
+  "Jordan.AboutSection.Title": "Cesta skrze ticho a čas",
+  "Jordan.AboutSection.Description": "Jordánsko působí starobyle v tom nejlepším slova smyslu — vytesané do skály, rozprostřené napříč pouští, zjemněné ranním světlem a naplněné tichem, které ve vás zůstane.",
+  "Jordan.AboutSection.Quote": "Jordánsko si o pozornost neříká. Zaslouží si ji.",
+
+  "Jordan.ExperiencesSection.Title": "Vybrané zážitky",
+  "Jordan.ExperiencesSection.Card1.Title": "Petra v prvním světle",
+  "Jordan.ExperiencesSection.Card1.Description": "Kámen, stíny a časné ráno.",
+  "Jordan.ExperiencesSection.Card2.Title": "Wadi Rum pod hvězdami",
+  "Jordan.ExperiencesSection.Card2.Description": "Nekonečný klid v srdci pouště.",
+  "Jordan.ExperiencesSection.Card3.Title": "Úsvit skrze kaňon",
+  "Jordan.ExperiencesSection.Card3.Description": "Ranní světlo nad starobylou krajinou.",
+  "Jordan.ExperiencesSection.Card4.Title": "Klid Mrtvého moře",
+  "Jordan.ExperiencesSection.Card4.Description": "Slaný vzduch, teplá voda a naprostý klid.",
+  "Jordan.ExperiencesSection.Card5.Title": "Starobylé stezky",
+  "Jordan.ExperiencesSection.Card5.Description": "Procházejte se pomalu živou historií.",
+  "Jordan.ExperiencesSection.Card6.Title": "Tiché hodiny města",
+  "Jordan.ExperiencesSection.Card6.Description": "Architektura, modlitba a klid za hranicí ruchu.",
+  "Jordan.ExperiencesSection.Card7.Title": "Ammán v pohodě",
+  "Jordan.ExperiencesSection.Card7.Description": "Město jemného rytmu a nadčasových kontrastů.",
+  "Jordan.ExperiencesSection.Card8.Title": "Ma'in mezi skalami",
+  "Jordan.ExperiencesSection.Card8.Description": "Termální vody proudící tichým kamenem.",
+  "Jordan.ExperiencesSection.Card9.Title": "Poušť na čtyřkolce",
+  "Jordan.ExperiencesSection.Card9.Description": "Pomalý pohyb napříč otevřeným pískem a tichem.",
+
+  "Jordan.TravelNotesSection.Title": "Rytmus Jordánska",
+  "Jordan.TravelNotesSection.Point1": "Ticho je součástí zdejší krajiny.",
+  "Jordan.TravelNotesSection.Point2": "Historie je tu přítomná, nikdy nepůsobí naaranžovaně.",
+  "Jordan.TravelNotesSection.Point3": "Úsvit proměňuje celou krajinu.",
+  "Jordan.TravelNotesSection.Point4": "Rána tu nesou zvláštní druh klidu.",
+
+  "Jordan.CTASection.Title": "Jste připraveni vstoupit do ticha?",
+  "Jordan.CTASection.Subtitle": "Od Petry v prvním světle až po dlouhé večery ve Wadi Rum — tohle je cesta pro ty, kdo chtějí místo opravdu procítit, ne jím jen projet.",
+  "Jordan.CTASection.Button": "Začít tuto cestu",
+
+
+
+
+
+
+
+
+
+  "Oman.HeroSection.Title": "Omán",
+  "Oman.HeroSection.Word1": "Pobřeží",
+  "Oman.HeroSection.Word2": "Wádí",
+  "Oman.HeroSection.Word3": "Světlo",
+
+  "Oman.AboutSection.Title": "Tichá krása, kterou opravdu pocítíte",
+  "Oman.AboutSection.Description": "Omán má vzácný druh klidu — ve svých bílých kamenných městech, poklidných mešitách, otevřeném pobřeží, horských silnicích i pouštních horizontech. Působí čistě, prostorně a tiše výjimečně.",
+  "Oman.AboutSection.Quote": "Omán neohromuje nahlas — zůstává v paměti svou tichou jistotou.",
+
+  "Oman.ExperiencesSection.Title": "Vybrané zážitky",
+  "Oman.ExperiencesSection.Card1.Title": "Ráno ve wádí",
+  "Oman.ExperiencesSection.Card1.Description": "Svěží voda, kámen a ranní ticho.",
+  "Oman.ExperiencesSection.Card2.Title": "Podél pobřeží",
+  "Oman.ExperiencesSection.Card2.Description": "Mořský vzduch, otevřené cesty a klidné obzory.",
+  "Oman.ExperiencesSection.Card3.Title": "Písky Wahiby",
+  "Oman.ExperiencesSection.Card3.Description": "Prostor, večerní světlo a ticho.",
+  "Oman.ExperiencesSection.Card4.Title": "Horský vzduch",
+  "Oman.ExperiencesSection.Card4.Description": "Výška, dálka a otevřené výhledy.",
+  "Oman.ExperiencesSection.Card5.Title": "Skryté pobřeží",
+  "Oman.ExperiencesSection.Card5.Description": "Odlehlá krása na okraji moře.",
+  "Oman.ExperiencesSection.Card6.Title": "Klid bílého města",
+  "Oman.ExperiencesSection.Card6.Description": "Čisté linie, mešity a tiché ulice.",
+  "Oman.ExperiencesSection.Card7.Title": "Wahiba džípem",
+  "Oman.ExperiencesSection.Card7.Description": "Zvlněné duny, otevřená obloha a tichý pocit rozlehlosti.",
+  "Oman.ExperiencesSection.Card8.Title": "Wádí Bani Khalid",
+  "Oman.ExperiencesSection.Card8.Description": "Průzračná voda, stín palem a ticho kaňonu.",
+  "Oman.ExperiencesSection.Card9.Title": "E-Foil nad vodou",
+  "Oman.ExperiencesSection.Card9.Description": "Lehký pohyb nad mořem v téměř úplném tichu.",
+
+  "Oman.TravelNotesSection.Title": "Rytmus Ománu",
+  "Oman.TravelNotesSection.Point1": "Krása je tu čistá, jasná a nenucená.",
+  "Oman.TravelNotesSection.Point2": "Celá cesta působí klidně od začátku do konce.",
+  "Oman.TravelNotesSection.Point3": "I města se tu pohybují s tichou důstojností.",
+  "Oman.TravelNotesSection.Point4": "Každá zastávka působí tiše uceleně.",
+
+  "Oman.CTASection.Title": "Dovolte Ománu na chvíle zastavit čas",
+  "Oman.CTASection.Subtitle": "Pomalejší cesta pouštním prostorem, pobřežním klidem, bílým kamenem a horským světlem.",
+  "Oman.CTASection.Button": "Začít tuto cestu",
+
+
+
+
+  "LoginPage.LoginForm.Title": "Přihlášení",
+  "LoginPage.LoginForm.Field.FirstName": "Jméno",
+  "LoginPage.LoginForm.Field.Email": "Email",
+  "LoginPage.LoginForm.Field.Password": "Heslo",
+  "LoginPage.LoginForm.Field.Remember": "Zapamatovat si mě",
+  "LoginPage.LoginForm.Forgot.": "Zapomněli jste heslo?",
+  "LoginPage.LoginForm.NotAMember": "Ještě nejste členem?",
+  "LoginPage.LoginForm.SignIn": "Přihlásit se",
+  "LoginPage.LoginForm.SignUp": "Zaregistrovat se",
+  "LoginPage.LoginForm.Error.Name1": "Jméno musí obsahovat alespoň 2 písmena",
+  "LoginPage.LoginForm.Error.Email1": "Zadejte prosím email",
+  "LoginPage.LoginForm.Error.Email2": "Email musí obsahovat @",
+  "LoginPage.LoginForm.Error.Password1": "Zadejte prosím heslo",
+  "LoginPage.LoginForm.Error.Password2": "Heslo musí obsahovat alespoň 6 znaků",
+  "LoginPage.Processing1": "Zpracováváme vaše údaje",
+  "LoginPage.Processing2": "Úspěch",
+  "LoginPage.SuccessMessage1": "Vítejte zpět,",
+  "LoginPage.SuccessMessage2": "Chyběli jste nám.",
+  "LoginPage.SuccessMessage3": "Jaký je váš plán?",
+  "LoginPage.Success.Button": "Začít plánovat",
+
+  "RegistrationPage.RegisterForm.Title": "Přidejte se k naší rodině",
+  "RegistrationPage.RegisterForm.Field.FirstName": "Jméno",
+  "RegistrationPage.RegisterForm.Field.LastName": "Příjmení",
+  "RegistrationPage.RegisterForm.Field.Email": "Email",
+  "RegistrationPage.RegisterForm.Field.Password": "Heslo",
+  "RegistrationPage.RegisterForm.Field.PasswordConfirm": "Potvrďte heslo",
+  "RegistrationPage.RegisterForm.Field.Subscribe": "Přihlásit se k odběru našeho newsletteru",
+  "RegistrationPage.RegisterForm.Already": "Už jste členem?",
+  "RegistrationPage.RegisterForm.SignUp": "Vytvořit účet",
+  "RegistrationPage.RegisterForm.SignIn": "Přihlásit se",
+  "RegistrationPage.RegisterForm.Warning1": "Vytvořením účtu souhlasíte s našimi ",
+  "RegistrationPage.RegisterForm.Warning2": "Podmínkami služby",
+  "RegistrationPage.RegisterForm.Warning3": " a ",
+  "RegistrationPage.RegisterForm.Warning4": "Zásadami ochrany osobních údajů",
+  "RegistrationPage.RegisterForm.Error.Name1": "Jméno musí obsahovat alespoň 2 písmena",
+  "RegistrationPage.RegisterForm.Error.Name2": "Zadejte prosím své jméno",
+  "RegistrationPage.RegisterForm.Error.Email1": "Zadejte prosím email",
+  "RegistrationPage.RegisterForm.Error.Email2": "Email musí obsahovat @",
+  "RegistrationPage.RegisterForm.Error.Password1": "Zadejte prosím heslo",
+  "RegistrationPage.RegisterForm.Error.Password2": "Heslo musí obsahovat alespoň 6 znaků",
+  "RegistrationPage.RegisterForm.Error.Password3": "Hesla se neshodují",
+  "RegistrationPage.RegisterForm.Error.Password4": "Potvrďte prosím heslo",
+  "RegistrationPage.Processing1": "Zpracováváme vaše údaje...",
+  "RegistrationPage.Processing2": "Už to bude...",
+  "RegistrationPage.SuccessMessage1": "Gratulujeme,",
+  "RegistrationPage.SuccessMessage2": "Vítejte v rodině The Desert Trails!",
+  "RegistrationPage.SuccessMessage3": "Tak tedy... Kde chcete svou cestu začít?",
+  "RegistrationPage.Success.Button": "Začít plánovat",
+
+  "404.Message1": "Omlouváme se, vypadá to, že stránka, kterou hledáte, zatím neexistuje!",
+  "404.Message2": "Zkuste prosím jinou stránku",
+  "404.Button": "Přejít na hlavní stránku",
+
+  "ContactForm.Title": "Zanechte nám zprávu",
+  "ContactForm.Name": "Vaše jméno",
+  "ContactForm.Email": "Email",
+  "ContactForm.Message": "Zpráva",
+  "ContactForm.Btn": "Odeslat",
+  "ContactForm.Final": "Děkujeme za vaši zprávu,",
+  "ContactForm.Final1": "Ozveme se vám co nejdříve. Přejeme hezký den!",
+
+
+  "Form.SingUpBtn": "Zaregistrovat se",
+  "Form.SingInBtn": "Přihlásit se",
+
+  "footer.link.contacts": "Kontakt",
+  "footer.link.privacy": "Soukromí",
+  "footer.link.terms": "Podmínky",
+  "footer.rights": "Všechna práva vyhrazena."
+}

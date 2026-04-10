@@ -1,0 +1,28 @@
+@use "../../../styles/tools.scss";
+
+.header_menu_btn {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: none;
+    position: relative;
+    margin: 0 1rem;
+}
+
+
+.closing_btn_box, .open_btn_box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    img {
+        display: block;
+        width: 100%;
+        filter: invert(1);
+    }
+}
+
+.closing_btn_box.hidden, .open_btn_box.hidden {
+    display: none;
+}

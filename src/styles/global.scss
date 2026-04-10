@@ -1,0 +1,52 @@
+@use "_mixins.scss" as *;
+
+//     Gaps      
+$gap_s: 10px;
+$gap_m: 20px;
+$gap_l: 30px;
+$gap_xl: 50px;
+
+
+//      Layers      
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--color-bg-primary);
+}
+
+body.no_scroll {
+    overflow: hidden;
+}
+
+#app {
+    width: 100%;
+    min-height: 100vh;
+        @include flex-column($jc:start);
+}
+
+
+
+section {
+    width: 100%;
+    min-width: 0;
+    @include flex-column($jc: center);
+    text-align: center;
+    padding-inline: clamp(16px, 4vw, 48px);
+    padding-block: clamp(40px, 6vw, 80px);
+}
+
+.page_leave {
+    animation: pageLeave 0.8s ease;
+}

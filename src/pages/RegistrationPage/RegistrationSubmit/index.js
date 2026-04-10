@@ -1,0 +1,1 @@
+export {registrationSubmit } from "./RegistrationSubmit"

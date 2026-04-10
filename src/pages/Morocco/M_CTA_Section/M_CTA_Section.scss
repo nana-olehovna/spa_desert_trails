@@ -1,0 +1,25 @@
+@use "../../../styles/tools.scss" as *;
+
+
+
+.cta_container {
+    width: #{'min(90%, calc(100% - 2rem))'};
+    height: 100%;
+    @include flex-column($g: 2rem);
+    .title {
+        font-size: clamp(30px, 5vw, 46px);
+        color: var(--color-text-body);
+    }
+    .get_in_touch_btn {
+        min-width: 300px;
+    }
+}
+
+@media (max-width: 490px) {
+    .cta_container {
+        .get_in_touch_btn {
+            width: 270px;
+            min-width: 0;
+        }
+    }
+}

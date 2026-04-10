@@ -1,0 +1,282 @@
+{
+    "header.nav.morocco": "Марокко",
+    "header.nav.jordan": "Иордания",
+    "header.nav.oman": "Оман",
+    "header.nav.about": "О Нас",
+    "header.login": "Войти",
+
+  "Theme.light" : "Дюны",
+  "Theme.dark" : "Полночь",
+
+  "Home.HeroSection.Title": "Desert Trails",
+  "Home.HeroSection.Subtitle": "Персонализированные путешествия по Марокко, Иордании и Оману — туда, где тишина пустыни, старые города и спокойная красота раскрываются в своём ритме.",
+  "Home.HeroSection.PrimaryButton": "Исследовать",
+  "Home.HeroSection.SecondaryButton": "Запланировать",
+
+  "Home.DestinationsSection.Title": "Направления",
+  "Home.DestinationsSection.Subtitle": "Места, которые стоит не только увидеть, но и почувствовать.",
+  "Home.DestinationsSection.Morocco.Title": "Марокко",
+  "Home.DestinationsSection.Morocco.Tagline": "Цвет, контраст и бесконечный горизонт.",
+  "Home.DestinationsSection.Morocco.Button": "Исследовать",
+  "Home.DestinationsSection.Jordan.Title": "Иордания",
+  "Home.DestinationsSection.Jordan.Tagline": "Камень, тишина и живая история.",
+  "Home.DestinationsSection.Jordan.Button": "Исследовать",
+  "Home.DestinationsSection.Oman.Title": "Оман",
+  "Home.DestinationsSection.Oman.Tagline": "Тихая красота между морем, горами и пустыней.",
+  "Home.DestinationsSection.Oman.Button": "Исследовать",
+
+  "Home.AboutPreviewSection.Title": "Как мы путешествуем",
+  "Home.AboutPreviewSection.Point1": "Мы не торопим красивые места.",
+  "Home.AboutPreviewSection.Point2": "Мы оставляем место для тихих моментов.",
+  "Home.AboutPreviewSection.Point3": "Мы оставляем пространство для тишины, архитектуры и неожиданностей.",
+  "Home.AboutPreviewSection.Point4": "Путешествия, созданные вокруг ощущений, а не чек-листов.",
+
+  "Home.FeaturedJourneysSection.Title": "Избранные путешествия",
+  "Home.FeaturedJourneysSection.Subtitle": "Моменты, ради которых стоит пересечь пустыню.",
+  "Home.FeaturedJourneysSection.Card1.Title": "Ночь под небом Сахары",
+  "Home.FeaturedJourneysSection.Card1.Country": "Марокко",
+  "Home.FeaturedJourneysSection.Card2.Title": "Петра до прихода людей",
+  "Home.FeaturedJourneysSection.Card2.Country": "Иордания",
+  "Home.FeaturedJourneysSection.Card3.Title": "Между морем и пустыней",
+  "Home.FeaturedJourneysSection.Card3.Country": "Оман",
+
+  "Home.QuotesSection.Quote1": "Пустыня не просит ее покорить — лишь понять.",
+  "Home.QuotesSection.Quote2": "Лучшие путешествия оставляют после себя больше тишины, чем было до.",
+
+  "Home.CTASection.Title": "Будьте ближе к следующему путешествию.",
+  "Home.CTASection.Subtitle": "Редкие маршруты, тихие места и новые путешествия — время от времени в вашем почтовом ящике.",
+  "Home.CTASection.InputPlaceholder": "Ваш email",
+  "Home.CTASection.Button": "Подписаться",
+  "Home.CTASection.Button1": "Обработка...",
+  "Home.CTASection.Button2": "Успешно!",
+
+
+
+
+
+"About.HeroSection.Title": "Как мы путешествуем",
+  "About.HeroSection.Subtitle": "Мы создаём путешествия для тех, кто хочет двигаться медленнее, чувствовать глубже и возвращаться с чем-то настоящим.",
+
+  "About.OurPaceSection.Title1": "Мы оставляем свободу в маршруте",
+  "About.OurPaceSection.Description1": "Не каждый час должен быть расписан. Свободу, чтобы гулять, отдыхать и позволить дню идти своим ходом.",
+  "About.OurPaceSection.Title2": "Мы выбираем меньше мест",
+  "About.OurPaceSection.Description2": "Глубина важнее количества. Лучше четыре ночи в одном риаде, чем одна ночь в четырёх отелях.",
+  "About.OurPaceSection.Title3": "Мы путешествуем медленно и без спешки",
+  "About.OurPaceSection.Description3": "Три места за десять дней, а не десять мест за три. Чтобы почувствовать ритм страны, а не просто увидеть её.",
+  "About.OurPaceSection.Title4": "Мы останавливаемся там, где чувствуешь себя как дома",
+  "About.OurPaceSection.Description4": "Небольшие риады. Семейные лоджи. Кемпы, где слышна тишина. Сетевые отели - никогда.",
+
+  "About.PropositionSection": "Мы создаём путешествия для тех, кто хочет себя чувствовать не туристом, а местным жителем. Для тех, кто ценит тишину не меньше, чем движение. Кто понимает: лучшие истории о путешествиях рождаются не из количества увиденного, а из глубины пережитого.",
+
+  "About.CTASection.Title": "Если вам близок такой способ путешествовать, нам стоит поговорить.",
+  "About.CTASection.Subtitle": "Мы создадим что-то личное, продуманное и по-настоящему запоминающееся.",
+  "About.CTASection.Button": "Связаться с нами",
+
+
+
+
+
+
+  "Morocco.HeroSection.Title": "Марокко",
+  "Morocco.HeroSection.Word1": "Риад",
+  "Morocco.HeroSection.Word2": "Атлас",
+  "Morocco.HeroSection.Word3": "Сахара",
+
+  "Morocco.AboutSection.Title": "Страна контрастов и глубины",
+  "Morocco.AboutSection.Description": "Марокко движется между камерностью и масштабом — мозаичные риады и открытые дюны, горные дороги и древние медины, тихие дворики и яркие улицы. Это многослойная, фактурная и бесконечно атмосферная страна.",
+  "Morocco.AboutSection.Quote": "«В Марокко каждый дверной проём будто ведёт в другой мир.»",
+
+  "Morocco.ExperiencesSection.Card1.Title": "Ночь под небом Сахары",
+  "Morocco.ExperiencesSection.Card1.Description": "Пустынная ночь, которую не захочется заканчивать.",
+  "Morocco.ExperiencesSection.Card2.Title": "Долины Атласа",
+  "Morocco.ExperiencesSection.Card2.Description": "Живописные деревни, где время течёт медленно.",
+  "Morocco.ExperiencesSection.Card3.Title": "Утро в Фесе",
+  "Morocco.ExperiencesSection.Card3.Description": "Тихие улицы до пробуждения города.",
+  "Morocco.ExperiencesSection.Card4.Title": "Утро во внутреннем дворике",
+  "Morocco.ExperiencesSection.Card4.Description": "Скрытое спокойствие за резными стенами и в тени восходящего солнца.",
+  "Morocco.ExperiencesSection.Card5.Title": "Оазис Сахру",
+  "Morocco.ExperiencesSection.Card5.Description": "День в зелёном раю среди пальм.",
+  "Morocco.ExperiencesSection.Card6.Title": "Ужин у костра в пустыне",
+  "Morocco.ExperiencesSection.Card6.Description": "Вечер, наполненный теплом и свободным горизонтом.",
+  "Morocco.ExperiencesSection.Card7.Title": "Лагуна Эс-Сувейры",
+  "Morocco.ExperiencesSection.Card7.Description": "Спокойствие у воды.",
+  "Morocco.ExperiencesSection.Card8.Title": "Шефшауэн",
+  "Morocco.ExperiencesSection.Card8.Description": "Прогулки по завораживающим улицам.",
+  "Morocco.ExperiencesSection.Card9.Title": "Закат в Касабланке",
+  "Morocco.ExperiencesSection.Card9.Description": "Золотые лучи солнца над морем.",
+  "Morocco.ExperiencesSection.Book": "Забронировать",
+
+  "Morocco.TravelNotesSection.Title": "Ритм Марокко",
+  "Morocco.TravelNotesSection.Point1": "Утро начинается в тени и тишине.",
+  "Morocco.TravelNotesSection.Point2": "Дорога между уединенностью и необъятностью.",
+  "Morocco.TravelNotesSection.Point3": "Пространство пустыни проясняет всё вокруг.",
+  "Morocco.TravelNotesSection.Point4": "Красота живёт и в тишине, и в деталях.",
+
+  "Morocco.CTASection.Title": "Земля контрастов. Каждый поворот — новый мир.",
+  "Morocco.CTASection.Button": "Начать путешествие",
+  "Morocco.ExperiencesSection.Back": "Назад",
+
+
+
+
+
+  "Jordan.HeroSection.Title": "Иордания",
+  "Jordan.HeroSection.Word1": "Скалы",
+  "Jordan.HeroSection.Word2": "Тишина",
+  "Jordan.HeroSection.Word3": "Рассвет",
+
+  "Jordan.AboutSection.Title": "Путешествие сквозь тишину и время",
+  "Jordan.AboutSection.Description": "Иордания ощущается древней в самом лучшем смысле — высеченной в камне, раскинувшейся среди пустыни, смягчённой утренним светом и наполненной тишиной, которая остаётся с тобой.",
+  "Jordan.AboutSection.Quote": "Иордания не требует внимания. Она его заслуживает.",
+
+  "Jordan.ExperiencesSection.Title": "Избранные впечатления",
+  "Jordan.ExperiencesSection.Card1.Title": "Петра в первых лучах",
+  "Jordan.ExperiencesSection.Card1.Description": "Камень, тени и ранний час.",
+  "Jordan.ExperiencesSection.Card2.Title": "Вади-Рам под звёздами",
+  "Jordan.ExperiencesSection.Card2.Description": "Безмолвный простор в сердце пустыни.",
+  "Jordan.ExperiencesSection.Card3.Title": "Рассвет в каньоне",
+  "Jordan.ExperiencesSection.Card3.Description": "Утренний свет над древними землями.",
+  "Jordan.ExperiencesSection.Card4.Title": "Тишина Мёртвого моря",
+  "Jordan.ExperiencesSection.Card4.Description": "Солёный воздух, тёплая вода и абсолютный покой.",
+  "Jordan.ExperiencesSection.Card5.Title": "Древние тропы",
+  "Jordan.ExperiencesSection.Card5.Description": "Идите неторопливо сквозь живую историю.",
+  "Jordan.ExperiencesSection.Card6.Title": "Тихие часы города",
+  "Jordan.ExperiencesSection.Card6.Description": "Архитектура, молитва и спокойствие вдали от суеты.",
+  "Jordan.ExperiencesSection.Card7.Title": "Спокойный Амман",
+  "Jordan.ExperiencesSection.Card7.Description": "Город мягкого ритма и вечных контрастов.",
+  "Jordan.ExperiencesSection.Card8.Title": "Маин среди скал",
+  "Jordan.ExperiencesSection.Card8.Description": "Термальные воды, текущие сквозь тихий камень.",
+  "Jordan.ExperiencesSection.Card9.Title": "Пустыня на квадроцикле",
+  "Jordan.ExperiencesSection.Card9.Description": "Неспешное движение сквозь песок и тишину.",
+
+  "Jordan.TravelNotesSection.Title": "Ритм Иордании",
+  "Jordan.TravelNotesSection.Point1": "Тишина — часть этого пейзажа.",
+  "Jordan.TravelNotesSection.Point2": "История здесь ощущается живой, а не постановочной.",
+  "Jordan.TravelNotesSection.Point3": "Рассвет полностью преображает этот край.",
+  "Jordan.TravelNotesSection.Point4": "Утро здесь приносит особое спокойствие.",
+
+  "Jordan.CTASection.Title": "Готовы шагнуть в тишину?",
+  "Jordan.CTASection.Subtitle": "От Петры в первых лучах до долгих вечеров в Вади-Рам — это путешествие для тех, кто хочет прочувствовать место, а не просто проехать мимо.",
+  "Jordan.CTASection.Button": "Начать это путешествие",
+
+
+
+
+
+
+
+  "Oman.HeroSection.Title": "Оман",
+  "Oman.HeroSection.Word1": "Побережье",
+  "Oman.HeroSection.Word2": "Вади",
+  "Oman.HeroSection.Word3": "Свет",
+
+  "Oman.AboutSection.Title": "Тихая красота, которую чувствуешь глубоко",
+  "Oman.AboutSection.Description": "В Омане есть редкое ощущение покоя — в его белокаменных городах, умиротворённых мечетях, открытых побережьях, горных дорогах и пустынных горизонтах. Он ощущается ясным, просторным и по-своему исключительным.",
+  "Oman.AboutSection.Quote": "Оман не впечатляет громко — он остаётся с вами своей тихой уверенностью.",
+
+  "Oman.ExperiencesSection.Title": "Избранные впечатления",
+  "Oman.ExperiencesSection.Card1.Title": "Утро в вади",
+  "Oman.ExperiencesSection.Card1.Description": "Свежая вода, камень и ранняя тишина.",
+  "Oman.ExperiencesSection.Card2.Title": "Вдоль побережья",
+  "Oman.ExperiencesSection.Card2.Description": "Морской воздух, открытые дороги и спокойные горизонты.",
+  "Oman.ExperiencesSection.Card3.Title": "Пески Вахиба",
+  "Oman.ExperiencesSection.Card3.Description": "Простор, вечерний свет и тишина.",
+  "Oman.ExperiencesSection.Card4.Title": "Горный воздух",
+  "Oman.ExperiencesSection.Card4.Description": "Высота, расстояние и открытые виды.",
+  "Oman.ExperiencesSection.Card5.Title": "Скрытое побережье",
+  "Oman.ExperiencesSection.Card5.Description": "Уединённая красота у самого моря.",
+  "Oman.ExperiencesSection.Card6.Title": "Спокойствие белого города",
+  "Oman.ExperiencesSection.Card6.Description": "Чистые линии, мечети и тихие улицы.",
+  "Oman.ExperiencesSection.Card7.Title": "Вахиба на джипе",
+  "Oman.ExperiencesSection.Card7.Description": "Волнистые дюны, открытое небо и тихое чувство масштаба.",
+  "Oman.ExperiencesSection.Card8.Title": "Вади-Бани-Халид",
+  "Oman.ExperiencesSection.Card8.Description": "Прозрачная вода, тень пальм и тишина каньона.",
+  "Oman.ExperiencesSection.Card9.Title": "E-Foil над водой",
+  "Oman.ExperiencesSection.Card9.Description": "Лёгкое скольжение над морем почти в полной тишине.",
+
+  "Oman.TravelNotesSection.Title": "Ритм Омана",
+  "Oman.TravelNotesSection.Point1": "Красота здесь ясная, чистая и естественная.",
+  "Oman.TravelNotesSection.Point2": "Весь маршрут ощущается спокойным от начала до конца.",
+  "Oman.TravelNotesSection.Point3": "Даже города здесь живут с тихим достоинством.",
+  "Oman.TravelNotesSection.Point4": "Каждая остановка ощущается цельной и самодостаточной.",
+
+  "Oman.CTASection.Title": "Позвольте Оману на мгновение остановить время",
+  "Oman.CTASection.Subtitle": "Более медленный маршрут через пустынные просторы, спокойствие побережья, белый камень и горный свет.",
+  "Oman.CTASection.Button": "Начать это путешествие",
+
+
+
+
+
+  "LoginPage.LoginForm.Title": "Вход",
+  "LoginPage.LoginForm.Field.FirstName": "Имя",
+  "LoginPage.LoginForm.Field.Email": "Email",
+  "LoginPage.LoginForm.Field.Password": "Пароль",
+  "LoginPage.LoginForm.Field.Remember": "Запомнить меня",
+  "LoginPage.LoginForm.Forgot.": "Забыли пароль?",
+  "LoginPage.LoginForm.NotAMember": "Ещё не с нами?",
+  "LoginPage.LoginForm.SignIn": "Войти",
+  "LoginPage.LoginForm.SignUp": "Зарегистрироваться",
+  "LoginPage.LoginForm.Error.Name1": "Имя должно содержать минимум 2 буквы",
+  "LoginPage.LoginForm.Error.Email1": "Пожалуйста, введите email",
+  "LoginPage.LoginForm.Error.Email2": "Email должен содержать @",
+  "LoginPage.LoginForm.Error.Password1": "Пожалуйста, введите пароль",
+  "LoginPage.LoginForm.Error.Password2": "Пароль должен содержать минимум 6 символов",
+  "LoginPage.Processing1": "Обрабатываем ваши данные",
+  "LoginPage.Processing2": "Успешно",
+  "LoginPage.SuccessMessage1": "С возвращением,",
+  "LoginPage.SuccessMessage2": "Мы скучали по вам.",
+  "LoginPage.SuccessMessage3": "Какой у вас план?",
+  "LoginPage.Success.Button": "Начать планирование",
+
+  "RegistrationPage.RegisterForm.Title": "Присоединяйтесь к нашей семье",
+  "RegistrationPage.RegisterForm.Field.FirstName": "Имя",
+  "RegistrationPage.RegisterForm.Field.LastName": "Фамилия",
+  "RegistrationPage.RegisterForm.Field.Email": "Email",
+  "RegistrationPage.RegisterForm.Field.Password": "Пароль",
+  "RegistrationPage.RegisterForm.Field.PasswordConfirm": "Подтвердите пароль",
+  "RegistrationPage.RegisterForm.Field.Subscribe": "Подписаться на нашу рассылку",
+  "RegistrationPage.RegisterForm.Already": "Уже с нами?",
+  "RegistrationPage.RegisterForm.SignUp": "Создать аккаунт",
+  "RegistrationPage.RegisterForm.SignIn": "Войти",
+  "RegistrationPage.RegisterForm.Warning1": "Создавая аккаунт, вы соглашаетесь с нашими ",
+  "RegistrationPage.RegisterForm.Warning2": "Условиями использования",
+  "RegistrationPage.RegisterForm.Warning3": " и ",
+  "RegistrationPage.RegisterForm.Warning4": "Политикой конфиденциальности",
+  "RegistrationPage.RegisterForm.Error.Name1": "Имя должно содержать минимум 2 буквы",
+  "RegistrationPage.RegisterForm.Error.Name2": "Пожалуйста, введите имя",
+  "RegistrationPage.RegisterForm.Error.Email1": "Пожалуйста, введите email",
+  "RegistrationPage.RegisterForm.Error.Email2": "Email должен содержать @",
+  "RegistrationPage.RegisterForm.Error.Password1": "Пожалуйста, введите пароль",
+  "RegistrationPage.RegisterForm.Error.Password2": "Пароль должен содержать минимум 6 символов",
+  "RegistrationPage.RegisterForm.Error.Password4": "Пожалуйста, подтвердите пароль",
+  "RegistrationPage.RegisterForm.Error.Password3": "Пароли не совпадают",
+  "RegistrationPage.Processing1": "Обрабатываем ваши данные...",
+  "RegistrationPage.Processing2": "Почти готово...",
+  "RegistrationPage.SuccessMessage1": "Поздравляем,",
+  "RegistrationPage.SuccessMessage2": "Добро пожаловать в семью The Desert Trails!",
+  "RegistrationPage.SuccessMessage3": "Ну что... С чего вы хотите начать своё путешествие?",
+  "RegistrationPage.Success.Button": "Начать планирование",
+
+  "404.Message1": "Извините, похоже, страницы, которую вы ищете, пока не существует!",
+  "404.Message2": "Пожалуйста, попробуйте другую страницу",
+  "404.Button": "Перейти на главную",
+
+  "ContactForm.Title": "Оставьте нам сообщение",
+  "ContactForm.Name": "Ваше имя",
+  "ContactForm.Email": "Email",
+  "ContactForm.Message": "Сообщение",
+  "ContactForm.Btn": "Отправить",
+  "ContactForm.Final": "Спасибо за ваше сообщение,",
+  "ContactForm.Final1": "Мы свяжемся с вами как можно скорее. Хорошего дня!",
+
+
+  "Form.SingUpBtn": "Зарегистрироваться",
+  "Form.SingInBtn": "Войти",
+
+
+    "footer.link.contacts": "Контакты",
+    "footer.link.privacy": "Конфиденциальность",
+    "footer.link.terms": "Условия",
+    "footer.rights": "Все права защищены."
+}

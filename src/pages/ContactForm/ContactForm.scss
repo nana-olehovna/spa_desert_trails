@@ -1,0 +1,90 @@
+@use "../../styles/tools.scss" as *;
+
+.popup_wrapper {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    @include flex-column($jc: center);
+
+}
+
+.popup_wrapper.hidden{display: none;}
+
+.popup_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: var(--bg-login);
+}
+
+#contact-form-container {
+    animation: fullScreen 0.8s ease forwards;
+    @include flex-column($g:2rem);
+    margin: 4rem;
+    padding-block: clamp(40px, 6vw, 80px);
+    position: relative;
+    z-index: 10001;
+    width: 600px;
+    max-width: 80%;
+    background: var(--color-bg-form);
+    padding: 2rem;
+    .title{z-index: 2; font-size: clamp(26px, 4vw, 36px)};
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: (15px);
+        z-index: 1;
+    }
+}
+
+#contact-close-btn {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+    z-index: 2;
+    img {
+        display: block;
+        width: 100%;
+        filter: invert(1);
+    }
+
+}
+
+#contact-form {
+    @include flex-column($g:1.3rem);
+    width: 90%;
+    z-index: 2;
+}
+
+.textarea{
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid var(--color-border-default);
+    background-color: var(--color-bg-card);
+    opacity: 0.5;
+    color: var(--color-text-quote);
+    font-style: var(--font-body);
+    font-size: clamp(14px, 3.5vw, 20px);
+    outline: none;
+    resize: none;
+    padding: 1rem;
+    transition: opasity 0.5s ease;
+    &:focus {opacity: 1;}
+}
+
+.contactMessageContainer {
+    text-align: center;
+    z-index: 2;
+}
+

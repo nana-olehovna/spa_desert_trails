@@ -1,0 +1,297 @@
+{
+  "header.nav.morocco": "المغرب",
+  "header.nav.jordan": "الأردن",
+  "header.nav.oman": "عُمان",
+  "header.nav.about": "من نحن",
+  "header.login": "تسجيل الدخول",
+
+
+  "Theme.light" : "الكُثبان",
+  "Theme.dark" : "منتصف الليل",
+
+
+  "Home.HeroSection.Title": "Desert Trails",
+  "Home.HeroSection.Subtitle": "رحلات مصممة بعناية عبر المغرب والأردن وعُمان — حيث ينكشف صمت الصحراء، والمدن العتيقة، والجمال الهادئ على مهلٍ وبإيقاعه الخاص",
+  "Home.HeroSection.PrimaryButton": "استكشف",
+  "Home.HeroSection.SecondaryButton": "خطّط معنا",
+
+  "Home.DestinationsSection.Title": "الوجهات",
+  "Home.DestinationsSection.Subtitle": "أماكن لا تُرى فقط، بل تُعاش وتُحَس",
+  "Home.DestinationsSection.Morocco.Title": "المغرب",
+  "Home.DestinationsSection.Morocco.Tagline": "ألوان، وتباين، وأفق لا ينتهي",
+  "Home.DestinationsSection.Morocco.Button": "استكشف",
+  "Home.DestinationsSection.Jordan.Title": "الأردن",
+  "Home.DestinationsSection.Jordan.Tagline": "حجر، وصمت، وتاريخ نابض بالحياة",
+  "Home.DestinationsSection.Jordan.Button": "استكشف",
+  "Home.DestinationsSection.Oman.Title": "عُمان",
+  "Home.DestinationsSection.Oman.Tagline": "جمال هادئ بين البحر والجبل والصحراء",
+  "Home.DestinationsSection.Oman.Button": "استكشف",
+
+  "Home.AboutPreviewSection.Title": "كيف نسافر",
+  "Home.AboutPreviewSection.Point1": "لا نتعامل مع الأماكن الجميلة بعجلة",
+  "Home.AboutPreviewSection.Point2": "نترك مساحة للحظات الهادئة",
+  "Home.AboutPreviewSection.Point3": "نفسح المجال للصمت، وللعمارة، وللمفاجآت الجميلة",
+  "Home.AboutPreviewSection.Point4": "رحلات تُبنى على الإحساس، لا على قوائم الإنجاز",
+
+  "Home.FeaturedJourneysSection.Title": "رحلات مختارة",
+  "Home.FeaturedJourneysSection.Subtitle": "لحظات تستحق عبور الصحراء من أجلها",
+  "Home.FeaturedJourneysSection.Card1.Title": "ليلة تحت سماء الصحراء الكبرى",
+  "Home.FeaturedJourneysSection.Card1.Country": "المغرب",
+  "Home.FeaturedJourneysSection.Card2.Title": "البتراء قبل الزحام",
+  "Home.FeaturedJourneysSection.Card2.Country": "الأردن",
+  "Home.FeaturedJourneysSection.Card3.Title": "بين البحر والوادي",
+  "Home.FeaturedJourneysSection.Card3.Country": "عُمان",
+
+  "Home.QuotesSection.Quote1": "«الصحراء لا تطلب أن تُغزَى، بل أن تُفهَم»",
+  "Home.QuotesSection.Quote2": "«أجمل الرحلات هي التي تعيدك أكثر هدوءاً مما كنت»",
+
+  "Home.CTASection.Title": "ابقَ قريباً من الرحلة القادمة",
+  "Home.CTASection.Subtitle": "مسارات نادرة، وأماكن هادئة، ورحلات جديدة — نشاركها معك من وقت لآخر",
+  "Home.CTASection.InputPlaceholder": "بريدك الإلكتروني",
+  "Home.CTASection.Button": "اشترك",
+  "Home.CTASection.Button1": "جارٍ المعالجة",
+  "Home.CTASection.Button2": "تم بنجاح",
+
+
+
+
+
+
+  "About.HeroSection.Title": "كيف نسافر",
+  "About.HeroSection.Subtitle": "نصمم رحلات لمن يرغبون في التمهّل أكثر، والشعور بعمق أكبر، والعودة بشيء حقيقي",
+
+  "About.OurPaceSection.Title1": "نترك مساحة في خطّ الرحلة",
+  "About.OurPaceSection.Description1": "ليس كل وقتٍ في الرحلة مخططاً له. مساحة للتجوّل، وللراحة، ولترك اليوم يمضي على سجيّته",
+  "About.OurPaceSection.Title2": "نختار أماكن أقل",
+  "About.OurPaceSection.Description2": "العمق أهم من الكثرة. نفضّل أربع ليالٍ في رياض واحد على ليلة واحدة في أربعة فنادق",
+  "About.OurPaceSection.Title3": "نسافر ببطء، ولا نستعجل أبداً",
+  "About.OurPaceSection.Description3": "ثلاثة أماكن خلال عشرة أيام، لا عشرة أماكن خلال ثلاثة أيام وقتٌ كافٍ للشعور بإيقاع المكان، لا مجرد رؤيته",
+  "About.OurPaceSection.Title4": "نقيم في أماكن تشبه المنزل",
+  "About.OurPaceSection.Description4": "رياضات صغيرة. نُزل عائلية. مخيمات يمكنك فيها سماع الصمت. وليس فنادق السلاسل الكبيرة",
+
+  "About.PropositionSection": "نصمم رحلات لمن يريدون السفر بطريقة أقرب إلى حياة المقيمين المؤقتين، لا السياح. لمن يقدّرون السكون بقدر ما يقدّرون الحركة. ولمن يفهمون أن أجمل قصص السفر لا تُقاس بكمّ ما رأيته، بل بعمق ما شعرت به",
+
+  "About.CTASection.Title": "إذا كانت هذه هي طريقتك في السفر، فلنتحدث",
+  "About.CTASection.Subtitle": "سنصوغ لك رحلة شخصية، مدروسة، ولا تُنسى بهدوئها",
+  "About.CTASection.Button": "تواصل معنا",
+
+
+
+
+
+
+
+  "Morocco.HeroSection.Title": "المغرب",
+  "Morocco.HeroSection.Word1": "رياض",
+  "Morocco.HeroSection.Word2": "الأطلس",
+  "Morocco.HeroSection.Word3": "الصحراء",
+
+  "Morocco.AboutSection.Title": "بلد التباين والعمق",
+  "Morocco.AboutSection.Description": "يتحرّك المغرب بين الحميمية والاتساع — رياضات مزخرفة وكثبان مفتوحة، وطرق جبلية ومدن عتيقة، وساحات داخلية ساكنة وشوارع نابضة بالألوان. إنه بلد متعدد الطبقات، غنيّ بالتفاصيل، ومفعم بالأجواء",
+  "Morocco.AboutSection.Quote": "«في المغرب، يبدو كل باب وكأنه مدخل إلى عالم آخر»",
+
+  "Morocco.ExperiencesSection.Card1.Title": "ليلة تحت سماء الصحراء الكبرى",
+  "Morocco.ExperiencesSection.Card1.Description": "ليلة صحراوية لن ترغب في أن تنتهي",
+  "Morocco.ExperiencesSection.Card2.Title": "وديان الأطلس",
+  "Morocco.ExperiencesSection.Card2.Description": "قرى خلّابة يسير فيها الوقت ببطء",
+  "Morocco.ExperiencesSection.Card3.Title": "صباح في فاس",
+  "Morocco.ExperiencesSection.Card3.Description": "شوارع هادئة قبل أن تبدأ المدينة بالاستيقاظ",
+  "Morocco.ExperiencesSection.Card4.Title": "صباح في الفناء الداخلي",
+  "Morocco.ExperiencesSection.Card4.Description": "هدوء مخفي خلف الجدران المنحوتة والظل",
+  "Morocco.ExperiencesSection.Card5.Title": "واحة صحرو",
+  "Morocco.ExperiencesSection.Card5.Description": "يوم في فردوس أخضر بين أشجار النخيل",
+  "Morocco.ExperiencesSection.Card6.Title": "عشاء عند نار الصحراء",
+  "Morocco.ExperiencesSection.Card6.Description": "أمسية تصوغها الدفء والمساحات المفتوحة",
+  "Morocco.ExperiencesSection.Card7.Title": "بحيرة الصويرة",
+  "Morocco.ExperiencesSection.Card7.Description": "سكينة على ضفاف الماء",
+  "Morocco.ExperiencesSection.Card8.Title": "شفشاون",
+  "Morocco.ExperiencesSection.Card8.Description": "تجوّل بين الأزقة الهادئة",
+  "Morocco.ExperiencesSection.Card9.Title": "غروب في الدار البيضاء",
+  "Morocco.ExperiencesSection.Card9.Description": "ضوء ذهبي فوق البحر",
+  "Morocco.ExperiencesSection.Book": "احجز الآن",
+  "Morocco.ExperiencesSection.Back": "العودة",
+
+  "Morocco.TravelNotesSection.Title": "إيقاع المغرب",
+  "Morocco.TravelNotesSection.Point1": "تبدأ الصباحات بالظل، والحجر، والصمت",
+  "Morocco.TravelNotesSection.Point2": "يتحوّل الطريق من الحميمية إلى الاتساع",
+  "Morocco.TravelNotesSection.Point3": "فسحة الصحراء تمنح وضوحاً لكل ما حولها",
+  "Morocco.TravelNotesSection.Point4": "الجمال يسكن الصمت كما يسكن التفاصيل",
+
+  "Morocco.CTASection.Title": "أرض التباينات. وكل منعطف فيها عالم جديد",
+  "Morocco.CTASection.Button": "ابدأ رحلتك الخاصة",
+
+
+
+
+
+
+
+
+  
+  "Jordan.HeroSection.Title": "الأردن",
+  "Jordan.HeroSection.Word1": "الحجر",
+  "Jordan.HeroSection.Word2": "السكينة",
+  "Jordan.HeroSection.Word3": "الفجر",
+
+  "Jordan.AboutSection.Title": "رحلة عبر السكينة والزمن",
+  "Jordan.AboutSection.Description": "يشعرك الأردن بعراقته بأجمل معنى — منحوتًا في الصخر، ممتدًا عبر الصحراء، تلطّفه أنوار الصباح الأولى، وتملؤه سكينة تبقى معك طويلًا",
+  "Jordan.AboutSection.Quote": "الأردن لا يطلب الانتباه، بل يستحقه",
+
+  "Jordan.ExperiencesSection.Title": "تجارب مختارة",
+  "Jordan.ExperiencesSection.Card1.Title": "البتراء في أول الضوء",
+  "Jordan.ExperiencesSection.Card1.Description": "حجر وظلال وبدايات الصباح",
+  "Jordan.ExperiencesSection.Card2.Title": "وادي رم تحت النجوم",
+  "Jordan.ExperiencesSection.Card2.Description": "سكون واسع في قلب الصحراء",
+  "Jordan.ExperiencesSection.Card3.Title": "الفجر عبر الوادي",
+  "Jordan.ExperiencesSection.Card3.Description": "ضوء الصباح فوق أرض عريقة",
+  "Jordan.ExperiencesSection.Card4.Title": "سكينة البحر الميت",
+  "Jordan.ExperiencesSection.Card4.Description": "هواء مالح ومياه دافئة وهدوء كامل",
+  "Jordan.ExperiencesSection.Card5.Title": "مسارات عتيقة",
+  "Jordan.ExperiencesSection.Card5.Description": "تمهّل في السير عبر تاريخ حي",
+  "Jordan.ExperiencesSection.Card6.Title": "ساعات المدينة الهادئة",
+  "Jordan.ExperiencesSection.Card6.Description": "عمارة وصلاة وطمأنينة بعيدًا عن الازدحام",
+  "Jordan.ExperiencesSection.Card7.Title": "عمّان على مهل",
+  "Jordan.ExperiencesSection.Card7.Description": "مدينة بإيقاع هادئ وتباين خالد",
+  "Jordan.ExperiencesSection.Card8.Title": "معين بين الصخور",
+  "Jordan.ExperiencesSection.Card8.Description": "مياه حرارية تنساب بين الصخور الهادئة",
+  "Jordan.ExperiencesSection.Card9.Title": "الصحراء على الدراجة الرباعية",
+  "Jordan.ExperiencesSection.Card9.Description": "حركة هادئة عبر الرمال المفتوحة والصمت",
+
+  "Jordan.TravelNotesSection.Title": "إيقاع الأردن",
+  "Jordan.TravelNotesSection.Point1": "السكينة جزء من هذا المشهد الطبيعي",
+  "Jordan.TravelNotesSection.Point2": "التاريخ حاضر هنا، دون أي تصنّع",
+  "Jordan.TravelNotesSection.Point3": "الفجر يغيّر ملامح المكان بالكامل",
+  "Jordan.TravelNotesSection.Point4": "تحمل الصباحات هنا نوعًا خاصًا من الهدوء",
+
+  "Jordan.CTASection.Title": "هل أنت مستعد للدخول في السكينة؟",
+  "Jordan.CTASection.Subtitle": "من البتراء في أول الضوء إلى الأمسيات الطويلة في وادي رم، هذه رحلة لمن يريد أن يشعر بالمكان، لا أن يمرّ به فقط",
+  "Jordan.CTASection.Button": "ابدأ هذه الرحلة",
+
+
+
+
+
+  "Oman.HeroSection.Title": "عُمان",
+  "Oman.HeroSection.Word1": "الساحل",
+  "Oman.HeroSection.Word2": "الوادي",
+  "Oman.HeroSection.Word3": "الضوء",
+
+  "Oman.AboutSection.Title": "جمال هادئ يُشعَر به بعمق",
+  "Oman.AboutSection.Description": "تملك عُمان نوعًا نادرًا من السكينة — في مدنها البيضاء الحجرية، ومساجدها الهادئة، وسواحلها المفتوحة، وطرقها الجبلية، وآفاقها الصحراوية. تبدو واضحة، رحبة، واستثنائية بهدوء",
+  "Oman.AboutSection.Quote": "عُمان لا تُبهر بصخب، بل تبقى في الذاكرة بيقينها الهادئ",
+
+  "Oman.ExperiencesSection.Title": "تجارب مختارة",
+  "Oman.ExperiencesSection.Card1.Title": "صباح في الوادي",
+  "Oman.ExperiencesSection.Card1.Description": "مياه عذبة، وصخر، وهدوء الصباح الباكر",
+  "Oman.ExperiencesSection.Card2.Title": "على امتداد الساحل",
+  "Oman.ExperiencesSection.Card2.Description": "هواء البحر، وطرق مفتوحة، وآفاق هادئة.",
+  "Oman.ExperiencesSection.Card3.Title": "رمال وهيبة",
+  "Oman.ExperiencesSection.Card3.Description": "اتساع، وضوء المساء، وسكون",
+  "Oman.ExperiencesSection.Card4.Title": "هواء الجبال",
+  "Oman.ExperiencesSection.Card4.Description": "ارتفاع، ومسافات بعيدة، وإطلالات مفتوحة",
+  "Oman.ExperiencesSection.Card5.Title": "شاطئ خفي",
+  "Oman.ExperiencesSection.Card5.Description": "جمال منعزل على حافة البحر",
+  "Oman.ExperiencesSection.Card6.Title": "هدوء المدينة البيضاء",
+  "Oman.ExperiencesSection.Card6.Description": "خطوط نقية، ومساجد، وشوارع هادئة",
+  "Oman.ExperiencesSection.Card7.Title": "وهيبة بسيارة جيب",
+  "Oman.ExperiencesSection.Card7.Description": "كثبان متموجة، وسماء مفتوحة، وإحساس هادئ بالاتساع",
+  "Oman.ExperiencesSection.Card8.Title": "وادي بني خالد",
+  "Oman.ExperiencesSection.Card8.Description": "مياه صافية، وظلال النخيل، وسكون في قلب الوادي",
+  "Oman.ExperiencesSection.Card9.Title": "إي-فويل فوق الماء",
+  "Oman.ExperiencesSection.Card9.Description": "حركة سلسة فوق البحر في شبه صمت",
+
+  "Oman.TravelNotesSection.Title": "إيقاع عُمان",
+  "Oman.TravelNotesSection.Point1": "الجمال هنا واضح، نقي، ومن دون تكلّف",
+  "Oman.TravelNotesSection.Point2": "يبدو المسار هادئًا من البداية إلى النهاية",
+  "Oman.TravelNotesSection.Point3": "حتى المدن تتحرك هنا بوقار هادئ",
+  "Oman.TravelNotesSection.Point4": "كل محطة تبدو مكتفية بذاتها بهدوء",
+
+  "Oman.CTASection.Title": "اكتشف عُمان على وتيرتها الخاصة",
+  "Oman.CTASection.Subtitle": "مسار أبطأ عبر اتساع الصحراء، وهدوء الساحل، وبياض الحجر، ونور الجبال",
+  "Oman.CTASection.Button": "ابدأ هذه الرحلة",
+
+
+  
+  "LoginPage.LoginForm.Title": "تسجيل الدخول",
+  "LoginPage.LoginForm.Field.FirstName": "الاسم الأول",
+  "LoginPage.LoginForm.Field.Email": "البريد الإلكتروني",
+  "LoginPage.LoginForm.Field.Password": "كلمة المرور",
+  "LoginPage.LoginForm.Field.Remember": "تذكرني",
+  "LoginPage.LoginForm.Forgot.": "هل نسيت كلمة المرور؟",
+  "LoginPage.LoginForm.NotAMember": "لست عضوًا بعد؟",
+  "LoginPage.LoginForm.SignIn": "تسجيل الدخول",
+  "LoginPage.LoginForm.SignUp": "إنشاء حساب",
+  "LoginPage.LoginForm.Error.Name1": "يجب أن يحتوي الاسم الأول على حرفين على الأقل",
+  "LoginPage.LoginForm.Error.Email1": "يرجى إدخال بريدك الإلكتروني",
+  "LoginPage.LoginForm.Error.Email2": "يجب أن يحتوي البريد الإلكتروني على @",
+  "LoginPage.LoginForm.Error.Password1": "يرجى إدخال كلمة المرور",
+  "LoginPage.LoginForm.Error.Password2": "يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل",
+  "LoginPage.Processing1": "جارٍ معالجة بياناتك",
+  "LoginPage.Processing2": "تم بنجاح",
+  "LoginPage.SuccessMessage1": "مرحبًا بعودتك،",
+  "LoginPage.SuccessMessage2": "لقد افتقدناك",
+  "LoginPage.SuccessMessage3": "ما خطتك؟",
+  "LoginPage.Success.Button": "ابدأ التخطيط",
+
+  "RegistrationPage.RegisterForm.Title": "انضم إلى عائلتنا",
+  "RegistrationPage.RegisterForm.Field.FirstName": "الاسم الأول",
+  "RegistrationPage.RegisterForm.Field.LastName": "اسم العائلة",
+  "RegistrationPage.RegisterForm.Field.Email": "البريد الإلكتروني",
+  "RegistrationPage.RegisterForm.Field.Password": "كلمة المرور",
+  "RegistrationPage.RegisterForm.Field.PasswordConfirm": "تأكيد كلمة المرور",
+  "RegistrationPage.RegisterForm.Field.Subscribe": "الاشتراك في نشرتنا البريدية",
+  "RegistrationPage.RegisterForm.Already": "هل أنت عضو بالفعل؟",
+  "RegistrationPage.RegisterForm.SignUp": "إنشاء حساب",
+  "RegistrationPage.RegisterForm.SignIn": "تسجيل الدخول",
+  "RegistrationPage.RegisterForm.Warning1": "من خلال إنشاء حساب، فإنك توافق على ",
+  "RegistrationPage.RegisterForm.Warning2": "شروط الخدمة",
+  "RegistrationPage.RegisterForm.Warning3": " و",
+  "RegistrationPage.RegisterForm.Warning4": "سياسة الخصوصية",
+  "RegistrationPage.RegisterForm.Error.Name1": "يجب أن يحتوي الاسم على حرفين على الأقل",
+  "RegistrationPage.RegisterForm.Error.Name2": "يرجى إدخال الاسم",
+  "RegistrationPage.RegisterForm.Error.Email1": "يرجى إدخال بريدك الإلكتروني",
+  "RegistrationPage.RegisterForm.Error.Email2": "يجب أن يحتوي البريد الإلكتروني على @",
+  "RegistrationPage.RegisterForm.Error.Password1": "يرجى إدخال كلمة المرور",
+  "RegistrationPage.RegisterForm.Error.Password2": "يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل",
+  "RegistrationPage.RegisterForm.Error.Password3": "كلمتا المرور غير متطابقتين",
+  "RegistrationPage.RegisterForm.Error.Password4": "يرجى تأكيد كلمة المرور",
+  "RegistrationPage.Processing1": "جارٍ معالجة بياناتك",
+  "RegistrationPage.Processing2": "أوشكنا على الانتهاء",
+  "RegistrationPage.SuccessMessage1": "تهانينا،",
+  "RegistrationPage.SuccessMessage2": "مرحبًا بك في عائلة The Desert Trails",
+  "RegistrationPage.SuccessMessage3": "حسنًا... من أين تريد أن تبدأ رحلتك؟",
+  "RegistrationPage.Success.Button": "ابدأ التخطيط",
+
+  "404.Message1": "عذرًا، يبدو أن الصفحة التي تبحث عنها غير موجودة بعد",
+  "404.Message2": "يرجى تجربة صفحة أخرى",
+  "404.Button": "العودة إلى الصفحة الرئيسية",
+
+  "ContactForm.Title": "اترك لنا رسالتك",
+  "ContactForm.Name": "اسمك",
+  "ContactForm.Email": "البريد الإلكتروني",
+  "ContactForm.Message": "الرسالة",
+  "ContactForm.Btn": "إرسا",
+  "ContactForm.Final": "شكرًا لرسالتك،",
+  "ContactForm.Final1": "سنتواصل معك في أقرب وقت ممكن. نتمنى لك يومًا سعيدًا",
+
+  "Form.SingUpBtn": "إنشاء حساب",
+  "Form.SingInBtn": "تسجيل الدخول",
+
+  "footer.link.contacts": "تواصل معنا",
+  "footer.link.privacy": "الخصوصية",
+  "footer.link.terms": "الشروط",
+  "footer.rights": "جميع الحقوق محفوظة"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

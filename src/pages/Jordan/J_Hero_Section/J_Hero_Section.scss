@@ -1,0 +1,11 @@
+@use "../../../styles/tools.scss" as *;
+
+
+.hero.jordan {
+    @include bg_img();
+
+    @include flex-column($jc: center);
+
+    background-image: var(--bg-hero-jordan);
+}
+
