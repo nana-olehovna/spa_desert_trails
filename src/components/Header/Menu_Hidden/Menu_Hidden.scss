@@ -16,7 +16,7 @@
     @include flex-column();
     width: 100%;
     min-height: calc(100vh - 80px);
-    background: url("/images/Banners/187949-3840x2160-desktop-4k-desert-background-image.jpg");
+    background-image: var(--bg-login);
     background-position: center;
     background-size: cover;
     padding: 2rem;

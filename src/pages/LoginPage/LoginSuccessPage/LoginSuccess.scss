@@ -19,5 +19,5 @@
   padding: 3rem;
   text-align: center;
   @include flex-column($g:2rem, $ai: center, $jc: center);
-  .quote {font-size: clamp(28px, 3.5vw, 36px);}
+  .quote {font-size: clamp(18px, 3.5vw, 36px);}
 }

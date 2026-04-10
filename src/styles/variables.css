@@ -30,11 +30,11 @@
 
   --logo: url(/favicon_io/apple-touch-icon1.png);
 
-  --bg-hero-morocco: url(/images/wallpapers/morocco wallpaper/wp7651470.jpg);
-  --bg-hero-jordan: url(/images/wallpapers/jordan wallpaper/1533586-2500x1666-desktop-hd-wadi-rum-village-wallpaper.jpg);
+  --bg-hero-morocco: url(/images/wallpapers/morocco-wallpaper/wp7651470.jpg);
+  --bg-hero-jordan: url(/images/wallpapers/jordan-wallpaper/1533586-2500x1666-desktop-hd-wadi-rum-village-wallpaper.jpg);
   --bg-hero-oman: url(/images/Oman/wp2236390-oman-wallpapers.jpg);
-  --bg-hero-home: url(/images/wallpapers/morocco wallpaper/stunning-4k-desert-landscape-1q81pmfdzkd117my.jpg);
-  --bg-login: url(/images/wallpapers/jordan wallpaper/187949-3840x2160-desktop-4k-desert-background-image.jpg);
+  --bg-hero-home: url(/images/wallpapers/morocco-wallpaper/stunning-4k-desert-landscape-1q81pmfdzkd117my.jpg);
+  --bg-login: url(/images/wallpapers/jordan-wallpaper/187949-3840x2160-desktop-4k-desert-background-image.jpg);
 
 }
 
@@ -67,11 +67,11 @@
 
   --logo: url(/favicon_io/apple-touch-icon.png);
 
-  --bg-hero-morocco: url(/images/wallpapers/morocco wallpaper/wallpapersden.com_sahara-desert-in-scenery-night_1920x1080.jpg);
-  --bg-hero-jordan: url(/images/wallpapers/morocco wallpaper/wadi-rum-skies_16x9.avif);
-  --bg-hero-oman: url(/images/wallpapers/morocco wallpaper/starry_sky_desert_night_122437_4200x2800.jpg);
-  --bg-hero-home: url(/images/wallpapers/morocco wallpaper/Sahara_Night_Sky.jpeg);
-  --bg-login: url(/images/wallpapers/morocco wallpaper/noch-pustynia-priroda.jpg);
+  --bg-hero-morocco: url(/images/wallpapers/morocco-wallpaper/wallpapersden.com_sahara-desert-in-scenery-night_1920x1080.jpg);
+  --bg-hero-jordan: url(/images/wallpapers/morocco-wallpaper/wadi-rum-skies_16x9.avif);
+  --bg-hero-oman: url(/images/wallpapers/morocco-wallpaper/starry_sky_desert_night_122437_4200x2800.jpg);
+  --bg-hero-home: url(/images/wallpapers/morocco-wallpaper/Sahara_Night_Sky.jpeg);
+  --bg-login: url(/images/wallpapers/morocco-wallpaper/noch-pustynia-priroda.jpg);
 
 
 }
