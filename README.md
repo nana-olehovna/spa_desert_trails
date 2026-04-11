@@ -168,4 +168,4 @@ Work in progress — routing and UI improvements coming soon
 
 ## Live Demo
 
-https://github.com/nana-olehovna/spa_desert_trails/
+https://nana-olehovna.github.io/spa_desert_trails/
