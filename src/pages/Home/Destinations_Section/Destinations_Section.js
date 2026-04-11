@@ -1,4 +1,6 @@
 import { t } from "../../../languages";
+import page from "page";
+const base = import.meta.env.BASE_URL;
 
 export const DestinationGenerator = (title_content, subtitle_content, button_content, pathname) => {
   return `
@@ -6,7 +8,7 @@ export const DestinationGenerator = (title_content, subtitle_content, button_con
       <div class="destination_background"></div>
       <h1 class="title overlay_text">${t(title_content)}</h1>
       <h3 class="subtitle overlay_text">${t(subtitle_content)}</h3>
-      <a href="/${pathname}" class="destination_link">${t(button_content)}</a>
+      <a href="${base}${pathname}" class="destination_link">${t(button_content)}</a>
     </div>
     `
 }
@@ -27,5 +29,5 @@ export function openDestination(event) {
   if (!destContainer) return
 
   const path = destContainer.id
-  location.pathname = path
+  page.show(path) 
 }

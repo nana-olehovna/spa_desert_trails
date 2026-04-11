@@ -86,6 +86,62 @@ http://localhost:5173
  npm run deploy
 ```
 
+### GitHub Pages Notes
+
+GitHub Pages can work well for this project because it is a static Vite SPA.
+
+The main catch is client-side routing:
+
+- URLs like `/about` or `/oman` do not exist as real files on the server
+- after a browser refresh, GitHub Pages looks for those files and returns `404`
+- to fix that for SPAs, the production build must include a `404.html` fallback that loads the app
+
+This project is configured for a repository deployment at:
+
+`https://<your-github-username>.github.io/spa_desert_trails/`
+
+Important details:
+
+- `vite.config.js` uses `base: "/spa_desert_trails/"`
+- `src/router/index.js` uses `page.base("/spa_desert_trails")`
+- `npm run deploy` now builds the app first and creates `dist/404.html` automatically
+
+### Deploy Steps
+
+1. Create a GitHub repository named `spa_desert_trails`
+2. Push this project to that repository
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Deploy:
+
+```bash
+npm run deploy
+```
+
+5. In GitHub, open:
+   `Settings -> Pages`
+6. Confirm the site is being published from the `gh-pages` branch
+7. Open:
+   `https://<your-github-username>.github.io/spa_desert_trails/`
+
+### When GitHub Pages Is A Good Idea
+
+GitHub Pages is a good option if:
+
+- this is a frontend-only portfolio project
+- you want free static hosting
+- you do not need server-side rendering or a backend
+
+You may prefer Netlify or Vercel if:
+
+- you want easier SPA routing setup
+- you want preview deployments for every push
+- you expect to add forms, server functions, or more advanced hosting features
+
 ---
 
 ## Project Goal

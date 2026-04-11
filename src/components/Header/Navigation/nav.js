@@ -19,9 +19,17 @@ const links = [
     }
 ]
 
+
+
+const base = import.meta.env.BASE_URL;
+
+function buildHref(path) {
+  return `${base.replace(/\/$/, "")}${path}`;
+}
+
 function linkGenerator(currentPath) {
   return links
-    .map(link => `<a href="${link.path}" class="header_link ${currentPath === link.path ? " active" : ""}" >${t(link.name)}</a>`)
+    .map(link => `<a href="${buildHref(link.path)}" class="header_link ${currentPath === link.path ? " active" : ""}" >${t(link.name)}</a>`)
     .join("")
 }
 

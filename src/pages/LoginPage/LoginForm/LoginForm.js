@@ -1,6 +1,8 @@
 import { t } from "../../../languages";
 import { SignUpRerouteBtnCreate } from "../../../components";
 
+const base = import.meta.env.BASE_URL;
+
 export const LoginForm = () => {
   return `
     <div class="login_page_content">
@@ -24,7 +26,7 @@ export const LoginForm = () => {
           <p class="support_text">${t("LoginPage.LoginForm.Field.Password")}</p>
           <input type="password" name="password" placeholder=" " class="wide_input"/>
           <small class="error" data-error-for="password"></small>
-        <a href="/restore-password" class="login_form_link destination_link">${t("LoginPage.LoginForm.Forgot.")}</a>
+        <a href="${base}restore-password" class="login_form_link destination_link">${t("LoginPage.LoginForm.Forgot.")}</a>
         </label>
 
         <label class="form_row_checkbox">

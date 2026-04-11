@@ -2,6 +2,8 @@ import { t } from "../../../languages";
 
 import { SignInRerouteBtnCreate } from "../../../components";
 
+const base = import.meta.env.BASE_URL;
+
 export const RegistrationForm = () => {
   return `
     <div class="register_page_content">
@@ -50,9 +52,9 @@ export const RegistrationForm = () => {
         ${SignInRerouteBtnCreate()}
 
       <p class="agree_note support_text">${t("RegistrationPage.RegisterForm.Warning1")}
-        <a href="/terms" class="destination_link">${t("RegistrationPage.RegisterForm.Warning2")}</a> 
+        <a href="${base}terms" class="destination_link">${t("RegistrationPage.RegisterForm.Warning2")}</a> 
       ${t("RegistrationPage.RegisterForm.Warning3")}
-        <a href="/privacy" class="destination_link">${t("RegistrationPage.RegisterForm.Warning4")}</a>
+        <a href="${base}privacy" class="destination_link">${t("RegistrationPage.RegisterForm.Warning4")}</a>
       </p>
       </form>
     </div>

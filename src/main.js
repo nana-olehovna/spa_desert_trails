@@ -14,7 +14,7 @@ export function renderApp( currentPage, currentPath) {
   document.querySelector("#app").innerHTML = `
     ${Header(currentPath)}
     ${Main(currentPage)}
-    ${Footer()}
+    ${Footer(currentPath)}
     ${Scroll_Btn()}
   `
   updateLangBtnValue()
@@ -59,4 +59,3 @@ window.addEventListener("load", () => {
   setTimeout(FormReset, 100)
   setTimeout(loadingPage, 500)
 })
-

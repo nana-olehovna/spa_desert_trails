@@ -4,6 +4,7 @@ import { themeBtnGenerator, changeTheme } from "./Theme_Toggle";
 import { LoginBtnCreate, HeaderMenuBtn } from "../Buttons";
 import { HeaderMenu } from "./Menu_Hidden";
 
+const base = import.meta.env.BASE_URL;
 
 
 
@@ -13,8 +14,8 @@ export function Header(currentPath) {
       ${HeaderMenuBtn()}
       ${HeaderMenu()}
       <div class="logo_container">
-        <div class="logo_img"><a href="/"></a></div>
-        <a href="/" class="site_name">Desert Trails</a>
+        <div class="logo_img"><a href="${base}"></a></div>
+        <a href="${base}" class="site_name">Desert Trails</a>
       </div>
       ${Navigation(currentPath)}
       <div class="personalization">

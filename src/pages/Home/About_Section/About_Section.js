@@ -1,5 +1,7 @@
 import { t } from "../../../languages";
 
+const base = import.meta.env.BASE_URL;
+
 export const PhilosophySection = () => {
   return `
     <section class="philosophy_section">
@@ -10,11 +12,11 @@ export const PhilosophySection = () => {
           <li class="thesis_item"><h6 class="body_text">${t("Home.AboutPreviewSection.Point3")}</h6></li>
           <li class="thesis_item"><h6 class="body_text">${t("Home.AboutPreviewSection.Point4")}</h6></li>
         </ul>
-        <a href="/about" class="destination_link">${t("Home.AboutPreviewSection.Link")}</a>
+        <a href="${base}about" class="destination_link">${t("Home.AboutPreviewSection.Link")}</a>
       </div>
 
       <div class="about_gallery">
-        <div class="div_img"><img src="/images/Oman/photo_2026-03-28 18.31.37.jpeg"></div>
+        <div class="div_img"><img src="${base}images/Oman/photo_2026-03-28 18.31.37.jpeg"></div>
       </div>
     </section>
   `

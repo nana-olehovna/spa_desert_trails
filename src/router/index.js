@@ -1,6 +1,8 @@
 import page from 'page';
 import { Home, About, LoginPage, RegistrationPage, Jordan, Morocco, Oman, Page404 } from "../pages";
 
+page.base("/spa_desert_trails")
+
 let currentPage = null
 let currentPath = null
 

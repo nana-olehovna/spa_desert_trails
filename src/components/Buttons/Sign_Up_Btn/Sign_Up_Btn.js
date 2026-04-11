@@ -1,4 +1,5 @@
 import { t } from "../../../languages";
+import page from "page";
 
 //  REROUTING BUTTON
 export const SignUpRerouteBtnCreate = () => {
@@ -10,6 +11,6 @@ export const SignUpRerouteBtnCreate = () => {
 
 export const goToRegistration = (event) => {
     if (event.target.closest("#register-btn-reroute")) {
-    location.pathname = "/registration"
+    page.show("/registration")
   }
 }

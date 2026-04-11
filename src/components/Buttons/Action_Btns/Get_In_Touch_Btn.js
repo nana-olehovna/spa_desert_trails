@@ -1,5 +1,6 @@
 import { t } from "../../../languages"
 import { wait } from "../../../pages/RegistrationPage/RegistrationMessage/RegistrationMessage"
+import page from "page"
 
 export const GetInTouchBtn = (content, Class=" ") => {
     return `
@@ -23,6 +24,6 @@ export async function goToDestinationFromOther(event) {
             page.classList.add("page_leave")
             await wait(400)
         }
-        location.pathname = "/"
+        page.show("/")
     }
 }

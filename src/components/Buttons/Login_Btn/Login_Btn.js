@@ -1,4 +1,5 @@
 import { t } from "../../../languages";
+import page from "page";
 
 export function LoginBtnCreate() {
     return `
@@ -8,6 +9,6 @@ export function LoginBtnCreate() {
 
 export function goToLogin(event) {
   if (event.target.closest("#login-page-btn")) {
-    location.pathname = "/login"
+    page.show("/login")
   }
 }
