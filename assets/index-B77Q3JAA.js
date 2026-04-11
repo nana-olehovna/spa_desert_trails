@@ -161,7 +161,7 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
       ${I(`Home.DestinationsSection.Jordan.Title`,`Home.DestinationsSection.Jordan.Tagline`,`Home.DestinationsSection.Jordan.Button`,`jordan`)}
       ${I(`Home.DestinationsSection.Oman.Title`,`Home.DestinationsSection.Oman.Tagline`,`Home.DestinationsSection.Oman.Button`,`oman`)}
     </section>
-  `;function qe(e){let t=e.target.closest(`.destination_container`);if(!t)return;let n=t.id;p.default.show(n)}var L=`/spa_desert_trails/`,Je=()=>`
+  `;function qe(e){let t=e.target.closest(`.destination_container`);if(!t)return;let n=`/${t.id}`;p.default.show(n)}var L=`/spa_desert_trails/`,Je=()=>`
     <section class="philosophy_section">
       <div class="about_text_content">
         <h1 class="title">${v(`Home.AboutPreviewSection.Title`)}</h1>
