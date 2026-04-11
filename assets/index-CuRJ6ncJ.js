@@ -11,88 +11,88 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
         </div>
       </div>
     </div>
-  `;function oe(e){let t=e.target.closest(`.exp_card`);if(!t)return;t.classList.add(`full_screen`),document.body.classList.add(`no_scroll`);let n=document.getElementById(`header`);n&&n.classList.add(`scrolled`);let r=t.querySelector(`.open_exp_card`);r&&(r.textContent=v(`Morocco.ExperiencesSection.Book`))}function se(e){let t=e.target.closest(`.close_exp_card`);if(!t)return;let n=t.closest(`.exp_card`);if(!n)return;n.classList.remove(`full_screen`),document.body.classList.remove(`no_scroll`);let r=n.querySelector(`.open_exp_card`);r&&(r.textContent=v(`Home.DestinationsSection.Morocco.Button`))}function ce(){return`
+  `;function oe(e){let t=e.target.closest(`.exp_card`);if(!t)return;t.classList.add(`full_screen`),document.body.classList.add(`no_scroll`);let n=document.getElementById(`header`);n&&n.classList.add(`scrolled`);let r=t.querySelector(`.open_exp_card`);r&&(r.textContent=v(`Morocco.ExperiencesSection.Book`))}function se(e){let t=e.target.closest(`.close_exp_card`);if(!t)return;let n=t.closest(`.exp_card`);if(!n)return;n.classList.remove(`full_screen`),document.body.classList.remove(`no_scroll`);let r=n.querySelector(`.open_exp_card`);r&&(r.textContent=v(`Home.DestinationsSection.Morocco.Button`))}var ce=`/spa_desert_trails/`;function le(){return`
     <div class="scroll_btn_box">
       <button type="button" id="scroll-btn">
-        <img src="/icons/arrow.png" alt="scroll button">
+        <img src="${ce}icons/arrow.png" alt="scroll button">
       </button>
     </div>
-  `}function le(e){e.target.closest(`.scroll_btn_box`)&&window.scrollTo({top:0,behavior:`smooth`})}var ue=()=>`
+  `}function ue(e){e.target.closest(`.scroll_btn_box`)&&window.scrollTo({top:0,behavior:`smooth`})}var b=`/spa_desert_trails/`,de=()=>`
       <button class="header_menu_btn">
-        <div id="header-menu-btn" class="open_btn_box"><img src="/icons/menu_burger.svg" alt="Header Menu Button"></div>
-        <div id="header-menu-close" class="closing_btn_box hidden"><img src="/icons/cross.svg" alt="Header Menu Closing Button"></img></div>
+        <div id="header-menu-btn" class="open_btn_box"><img src="${b}icons/menu_burger.svg" alt="Header Menu Button"></div>
+        <div id="header-menu-close" class="closing_btn_box hidden"><img src="${b}icons/cross.svg" alt="Header Menu Closing Button"></img></div>
       </button>
-    `;function b(e){e.target.closest(`#header-menu-btn`)&&(document.getElementById(`header-menu`).classList.remove(`hidden`),document.body.classList.add(`no_scroll`),document.getElementById(`header-menu-btn`).classList.add(`hidden`),document.getElementById(`header-menu-close`).classList.remove(`hidden`))}function de(e){(e.target.closest(`#header-menu-close`)||e.target.closest(`#header-menu a`))&&(document.getElementById(`header-menu`).classList.add(`hidden`),document.body.classList.remove(`no_scroll`),document.getElementById(`header-menu-btn`).classList.remove(`hidden`),document.getElementById(`header-menu-close`).classList.add(`hidden`))}function fe(e){return`
+    `;function x(e){e.target.closest(`#header-menu-btn`)&&(document.getElementById(`header-menu`).classList.remove(`hidden`),document.body.classList.add(`no_scroll`),document.getElementById(`header-menu-btn`).classList.add(`hidden`),document.getElementById(`header-menu-close`).classList.remove(`hidden`))}function fe(e){(e.target.closest(`#header-menu-close`)||e.target.closest(`#header-menu a`))&&(document.getElementById(`header-menu`).classList.add(`hidden`),document.body.classList.remove(`no_scroll`),document.getElementById(`header-menu-btn`).classList.remove(`hidden`),document.getElementById(`header-menu-close`).classList.add(`hidden`))}function pe(e){return`
     <section class="register_success">
     <h1 class="quote">${v(`RegistrationPage.SuccessMessage1`)} ${e.firstName}! </h1>
     <h3 class="quote">${v(`RegistrationPage.SuccessMessage2`)}</h3>
     <h5 class="quote">${v(`RegistrationPage.SuccessMessage3`)}</h5>
-    ${S(v(`RegistrationPage.Success.Button`),`goToDestinationFromOther`)}
+    ${C(v(`RegistrationPage.Success.Button`),`goToDestinationFromOther`)}
     </section>
-  `}function pe(e){return`
+  `}function me(e){return`
     <div id="registration-success" class="page">
-      ${fe(e)}
+      ${pe(e)}
     </div>
-  `}function x(e){return new Promise(t=>setTimeout(t,e))}async function me(){let e=document.getElementById(`register-form`);e.innerHTML=`<h3 class="subtitle">${v(`RegistrationPage.Processing1`)}</h3>`,await x(1500),e.innerHTML=`<h3 class="subtitle">${v(`RegistrationPage.Processing2`)}</h3>`,await x(1500)}async function he(e){await me();let t=document.getElementById(`registration_page`);t.innerHTML=pe(e)}var S=(e,t=` `)=>`
-        <button type="submit" class="get_in_touch_btn ${t}"><span class="btn_accent">${v(e)}</span></button>
-    `,C=(e,t=` `)=>`
+  `}function S(e){return new Promise(t=>setTimeout(t,e))}async function he(){let e=document.getElementById(`register-form`);e.innerHTML=`<h3 class="subtitle">${v(`RegistrationPage.Processing1`)}</h3>`,await S(1500),e.innerHTML=`<h3 class="subtitle">${v(`RegistrationPage.Processing2`)}</h3>`,await S(1500)}async function ge(e){await he();let t=document.getElementById(`registration_page`);t.innerHTML=me(e)}var C=(e,t=` `,n=`button`)=>`
+        <button type="${n}" class="get_in_touch_btn ${t}"><span class="btn_accent">${v(e)}</span></button>
+    `,w=(e,t=` `)=>`
         <button type="submit" class="action_btn ${t}"><span class="btn_casual">${v(e)}</span></button>
-    `;async function ge(e){if(e.target.closest(`.goToDestinationFromOther`)){let t=e.target.closest(`.page`);t&&(t.classList.remove(`page_leave`),t.classList.add(`page_leave`),await x(400)),t.show(`/`)}}function _e(){return`
+    `;async function _e(e){if(e.target.closest(`.goToDestinationFromOther`)){let t=e.target.closest(`.page`);t&&(t.classList.remove(`page_leave`),t.classList.add(`page_leave`),await S(400)),p.default.show(`/`)}}function ve(){return`
       <button id="login-page-btn">${v(`header.login`)}</button>
-    `}function ve(e){e.target.closest(`#login-page-btn`)&&p.default.show(`/login`)}var ye=()=>`
+    `}function ye(e){e.target.closest(`#login-page-btn`)&&p.default.show(`/login`)}var be=()=>`
     <button id="login-btn-reroute" type="button" class="btn_casual secondary_btn">${v(`Form.SingInBtn`)}</button>
-  `,be=e=>{e.target.closest(`#login-btn-reroute`)&&p.default.show(`/login`)},xe=()=>`
+  `,xe=e=>{e.target.closest(`#login-btn-reroute`)&&p.default.show(`/login`)},Se=()=>`
     <button id="register-btn-reroute" type="button" class="btn_casual secondary_btn">${v(`Form.SingUpBtn`)}</button>
-  `,Se=e=>{e.target.closest(`#register-btn-reroute`)&&p.default.show(`/registration`)},Ce=[{path:`/morocco`,name:`header.nav.morocco`},{path:`/jordan`,name:`header.nav.jordan`},{path:`/oman`,name:`header.nav.oman`},{path:`/about`,name:`header.nav.about`}],we=`/spa_desert_trails/`;function w(e){return`${we.replace(/\/$/,``)}${e}`}function T(e){return Ce.map(t=>`<a href="${w(t.path)}" class="header_link ${e===t.path?` active`:``}" >${v(t.name)}</a>`).join(``)}function E(e){return`
+  `,Ce=e=>{e.target.closest(`#register-btn-reroute`)&&p.default.show(`/registration`)},we=[{path:`/morocco`,name:`header.nav.morocco`},{path:`/jordan`,name:`header.nav.jordan`},{path:`/oman`,name:`header.nav.oman`},{path:`/about`,name:`header.nav.about`}],T=`/spa_desert_trails/`;function E(e){return`${T.replace(/\/$/,``)}${e}`}function D(e){return we.map(t=>`<a href="${E(t.path)}" class="header_link ${e===t.path?` active`:``}" >${v(t.name)}</a>`).join(``)}function O(e){return`
   <nav class="header_nav">
-    ${T(e)}
+    ${D(e)}
   </nav>
-  `}function D(e){return`
+  `}function k(e){return`
   <nav class="nav_mob">
-    ${T(e)}
+    ${D(e)}
   </nav>
-  `}var O=[`en`,`ru`,`cz`,`ua`,`ar`];function k(){return O.map(e=>`<option value="${e}">${e.toUpperCase()}</option>`).join(``)}function Te(){return`
+  `}var Te=[`en`,`ru`,`cz`,`ua`,`ar`];function Ee(){return Te.map(e=>`<option value="${e}">${e.toUpperCase()}</option>`).join(``)}function De(){return`
   <div class="lang_select_box">
       <select name="lang-select" id="lang-btn">
-        ${k()}
+        ${Ee()}
       </select>
     </div>
-  `}var Ee=[{storageName:`light`,btnName:`Theme.Light`},{storageName:`dark`,btnName:`Theme.Dark`}];function De(){return`<div class="theme_box"><button class="theme_btn"></button></div>`}var A=`desert-trails-theme`,Oe=`light`;function j(){return localStorage.getItem(A)||Oe}function ke(e){localStorage.setItem(A,e)}function M(e){return Ee.find(t=>t.storageName!==e)}function N(e){document.documentElement.setAttribute(`data-theme`,e)}function P(e){let t=document.querySelector(`.theme_btn`),n=M(e);t&&n&&(t.textContent=v(`Theme.${n.storageName}`))}function Ae(){let e=j();N(e),P(e)}function je(){document.querySelector(`.theme_btn`).addEventListener(`click`,()=>{let e=M(j()).storageName;ke(e),N(e),P(e)})}function Me(e){return`
+  `}var Oe=[{storageName:`light`,btnName:`Theme.Light`},{storageName:`dark`,btnName:`Theme.Dark`}];function ke(){return`<div class="theme_box"><button class="theme_btn"></button></div>`}var A=`desert-trails-theme`,Ae=`light`;function j(){return localStorage.getItem(A)||Ae}function je(e){localStorage.setItem(A,e)}function M(e){return Oe.find(t=>t.storageName!==e)}function N(e){document.documentElement.setAttribute(`data-theme`,e)}function P(e){let t=document.querySelector(`.theme_btn`),n=M(e);t&&n&&(t.textContent=v(`Theme.${n.storageName}`))}function Me(){let e=j();N(e),P(e)}function Ne(){document.querySelector(`.theme_btn`).addEventListener(`click`,()=>{let e=M(j()).storageName;je(e),N(e),P(e)})}function Pe(e){return`
     <div id="header-menu" class="header_menu hidden">
       <div class="header_menu_content">
-        ${D(e)}
+        ${k(e)}
       </div>
     </div>
-  `}var F=`/spa_desert_trails/`;function Ne(e){return`
+  `}var F=`/spa_desert_trails/`;function Fe(e){return`
     <header id="header">
-      ${ue()}
-      ${Me()}
+      ${de()}
+      ${Pe()}
       <div class="logo_container">
         <div class="logo_img"><a href="${F}"></a></div>
         <a href="${F}" class="site_name">Desert Trails</a>
       </div>
-      ${E(e)}
+      ${O(e)}
       <div class="personalization">
-        ${Te()}
         ${De()}
-        ${_e()}
+        ${ke()}
+        ${ve()}
       </div>
     </header>
-  `}function Pe(){window.scrollY>50?(document.getElementById(`header`).classList.add(`scrolled`),document.getElementById(`scroll-btn`).classList.add(`scrolled`)):(document.getElementById(`header`).classList.remove(`scrolled`),document.getElementById(`scroll-btn`).classList.remove(`scrolled`))}var Fe=()=>`
+  `}function Ie(){window.scrollY>50?(document.getElementById(`header`).classList.add(`scrolled`),document.getElementById(`scroll-btn`).classList.add(`scrolled`)):(document.getElementById(`header`).classList.remove(`scrolled`),document.getElementById(`scroll-btn`).classList.remove(`scrolled`))}var Le=()=>`
     <div id="about_page" class="page">
-      ${Re()}
-      ${Le()}
       ${Be()}
-      ${Ie()}
       ${ze()}
+      ${He()}
+      ${Re()}
+      ${Ve()}
     </div>
-    `,Ie=()=>`
+    `,Re=()=>`
       <section class="proposition">
         <article class="proposition_text">
           <p class="quote">${v(`About.PropositionSection`)}</p>
         </article>
       </section>
-    `,Le=()=>`
+    `,ze=()=>`
       <section class="our_pace">
        <div class="our_pace_content">
         <div class="our_pace_block">
@@ -113,7 +113,7 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
         </div>
        </div>
       </section>
-    `,Re=()=>`
+    `,Be=()=>`
       <section class="hero about">
         <div class="hero_container about">
           <div class="hero_background"></div>
@@ -121,47 +121,47 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
           <h3 class="subtitle">${v(`About.HeroSection.Subtitle`)}</h3>
         </div>
       </section>
-    `,ze=()=>`
+    `,Ve=()=>`
       <section class="cta_section">
         <div class="cta_container">
           <div class="section_background"></div>
           <h2 class="title">${v(`About.CTASection.Title`)}</h2>
           <h3 class="subtitle">${v(`About.CTASection.Subtitle`)}</h3>
-          ${S(`About.CTASection.Button`,`contact_btn`)}
+          ${C(`About.CTASection.Button`,`contact_btn`)}
         </div>
       </section>
-    `,Be=()=>`
+    `,He=()=>`
       <section class="cinematic">
         <div class="img_container">
           
         </div>
       </section>
-    `,Ve=()=>`
+    `,Ue=()=>`
       <section class="hero home">
         <div class="hero_container">
           <div class="hero_background"></div>
           <h1 class="headliner overlay_text">${v(`Home.HeroSection.Title`)}</h1>
           <h3 class="subtitle overlay_text">${v(`Home.HeroSection.Subtitle`)}</h3>
         <div class="hero_btns">
-          ${S(`Home.HeroSection.PrimaryButton`,`goToDestinationFromHomePage`)}
-          ${C(`Home.HeroSection.SecondaryButton`,`contact_btn`)}
+          ${C(`Home.HeroSection.PrimaryButton`,`goToDestinationFromHomePage`)}
+          ${w(`Home.HeroSection.SecondaryButton`,`contact_btn`)}
         </div>
         </div>
       </section>
-    `,He=e=>{e.target.closest(`.goToDestinationFromHomePage`)&&document.getElementById(`destinations_home_section`).scrollIntoView({behavior:`smooth`,block:`start`})},Ue=`/spa_desert_trails/`,I=(e,t,n,r)=>`
+    `,We=e=>{e.target.closest(`.goToDestinationFromHomePage`)&&document.getElementById(`destinations_home_section`).scrollIntoView({behavior:`smooth`,block:`start`})},Ge=`/spa_desert_trails/`,I=(e,t,n,r)=>`
     <div id="${r}" class="destination_container ${r}">
       <div class="destination_background"></div>
       <h1 class="title overlay_text">${v(e)}</h1>
       <h3 class="subtitle overlay_text">${v(t)}</h3>
-      <a href="${Ue}${r}" class="destination_link">${v(n)}</a>
+      <a href="${Ge}${r}" class="destination_link">${v(n)}</a>
     </div>
-    `,We=()=>`
+    `,Ke=()=>`
     <section id="destinations_home_section">
       ${I(`Home.DestinationsSection.Morocco.Title`,`Home.DestinationsSection.Morocco.Tagline`,`Home.DestinationsSection.Morocco.Button`,`morocco`)}
       ${I(`Home.DestinationsSection.Jordan.Title`,`Home.DestinationsSection.Jordan.Tagline`,`Home.DestinationsSection.Jordan.Button`,`jordan`)}
       ${I(`Home.DestinationsSection.Oman.Title`,`Home.DestinationsSection.Oman.Tagline`,`Home.DestinationsSection.Oman.Button`,`oman`)}
     </section>
-  `;function Ge(e){let t=e.target.closest(`.destination_container`);if(!t)return;let n=t.id;p.default.show(n)}var L=`/spa_desert_trails/`,Ke=()=>`
+  `;function qe(e){let t=e.target.closest(`.destination_container`);if(!t)return;let n=t.id;p.default.show(n)}var L=`/spa_desert_trails/`,Je=()=>`
     <section class="philosophy_section">
       <div class="about_text_content">
         <h1 class="title">${v(`Home.AboutPreviewSection.Title`)}</h1>
@@ -179,12 +179,12 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
     </section>
   `,R=e=>`
   <p class="quote">"${v(e)}"</p>
-  `,qe=()=>`
+  `,Ye=()=>`
     <section class="quotes_section">
       ${R(`Home.QuotesSection.Quote1`)}
       ${R(`Home.QuotesSection.Quote2`)}
     </section>
-  `;function z(e,t,n){if(!e)return;let r=e.querySelector(`[data-error-for="${t}"]`);r&&(r.textContent=n)}function B(e){e.querySelectorAll(`.error`).forEach(e=>{e.textContent=``})}function Je(){let e=document.getElementById(`login-form`);if(!e)return;let t={},n=e.elements.firstName.value.trim(),r=e.elements.email.value.trim(),i=e.elements.password.value;return n?n.length<2&&(t.firstName=v(`LoginPage.LoginForm.Error.Name1`)):t.firstName=v(`RegistrationPage.RegisterForm.Error.Name2`),r?r.includes(`@`)||(t.email=v(`LoginPage.LoginForm.Error.Email2`)):t.email=v(`LoginPage.LoginForm.Error.Email1`),i?i.length<6&&(t.password=v(`LoginPage.LoginForm.Error.Password2`)):t.password=v(`LoginPage.LoginForm.Error.Password1`),t}var Ye=()=>`
+  `;function z(e,t,n){if(!e)return;let r=e.querySelector(`[data-error-for="${t}"]`);r&&(r.textContent=n)}function B(e){e.querySelectorAll(`.error`).forEach(e=>{e.textContent=``})}function Xe(){let e=document.getElementById(`login-form`);if(!e)return;let t={},n=e.elements.firstName.value.trim(),r=e.elements.email.value.trim(),i=e.elements.password.value;return n?n.length<2&&(t.firstName=v(`LoginPage.LoginForm.Error.Name1`)):t.firstName=v(`RegistrationPage.RegisterForm.Error.Name2`),r?r.includes(`@`)||(t.email=v(`LoginPage.LoginForm.Error.Email2`)):t.email=v(`LoginPage.LoginForm.Error.Email1`),i?i.length<6&&(t.password=v(`LoginPage.LoginForm.Error.Password2`)):t.password=v(`LoginPage.LoginForm.Error.Password1`),t}var Ze=()=>`
       <section class="cta_section cta_section_Home">
         <div class="cta_container">
           <div class="section_background"></div>
@@ -193,19 +193,19 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
           <form id="subscribtion_form" novalidate>
             <div class="input_box"><input type="email" name="email" placeholder="${v(`Home.CTASection.InputPlaceholder`)}">
             <small class="error" data-error-for="email"></small></div>
-            ${C(`Home.CTASection.Button`,`subscribe_submit_btn`)}
+            ${w(`Home.CTASection.Button`,`subscribe_submit_btn`)}
           </form>
         </div>
       </section>
-    `;function Xe(){let e=document.getElementById(`subscribtion_form`);if(!e)return;let t={},n=e.elements.email.value.trim();return n?n.includes(`@`)||(t.email=v(`LoginPage.LoginForm.Error.Email2`)):t.email=v(`LoginPage.LoginForm.Error.Email1`),t}async function Ze(e){let t=e.target;if(t.id!==`subscribtion_form`)return;e.preventDefault();let n=document.querySelector(`.subscribe_submit_btn`),r=n.querySelector(`.btn_casual`);n.classList.add(`btn_disabled`),r.textContent=v(`Home.CTASection.Button1`),B(t);let i=Xe();if(Object.keys(i).length>0){Object.entries(i).forEach(([e,n])=>{z(t,e,n)}),n.classList.remove(`btn_disabled`),r.textContent=v(`Home.CTASection.Button`);return}B(t);let a=new FormData(t),o=Object.fromEntries(a);console.log(`Subscription email: `,o),await emailjs.sendForm(`contact_service`,`template_k31sx4s`,t,{publicKey:`Aq0zDHmoRxghcpM1Y`}),await x(1500),n.classList.remove(`btn_disabled`),t.reset(),n.classList.add(`btn_success`),r.textContent=v(`Home.CTASection.Button2`),await x(1e3),n.classList.remove(`btn_success`),r.textContent=v(`Home.CTASection.Button`)}var Qe=()=>`
+    `;function Qe(){let e=document.getElementById(`subscribtion_form`);if(!e)return;let t={},n=e.elements.email.value.trim();return n?n.includes(`@`)||(t.email=v(`LoginPage.LoginForm.Error.Email2`)):t.email=v(`LoginPage.LoginForm.Error.Email1`),t}async function $e(e){let t=e.target;if(t.id!==`subscribtion_form`)return;e.preventDefault();let n=document.querySelector(`.subscribe_submit_btn`),r=n.querySelector(`.btn_casual`);n.classList.add(`btn_disabled`),r.textContent=v(`Home.CTASection.Button1`),B(t);let i=Qe();if(Object.keys(i).length>0){Object.entries(i).forEach(([e,n])=>{z(t,e,n)}),n.classList.remove(`btn_disabled`),r.textContent=v(`Home.CTASection.Button`);return}B(t);let a=new FormData(t),o=Object.fromEntries(a);console.log(`Subscription email: `,o),await emailjs.sendForm(`contact_service`,`template_k31sx4s`,t,{publicKey:`Aq0zDHmoRxghcpM1Y`}),await S(1500),n.classList.remove(`btn_disabled`),t.reset(),n.classList.add(`btn_success`),r.textContent=v(`Home.CTASection.Button2`),await S(1e3),n.classList.remove(`btn_success`),r.textContent=v(`Home.CTASection.Button`)}var et=()=>`
     <div id="home_page" class="page">
-      ${Ve()}
-      ${We()}
+      ${Ue()}
       ${Ke()}
-      ${qe()}
+      ${Je()}
       ${Ye()}
+      ${Ze()}
     </div>
-    `,$e=`/spa_desert_trails/`,et=()=>`
+    `,tt=`/spa_desert_trails/`,nt=()=>`
     <div class="login_page_content">
       <h1 class="title">${v(`LoginPage.LoginForm.Title`)}</h1>
 
@@ -227,7 +227,7 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
           <p class="support_text">${v(`LoginPage.LoginForm.Field.Password`)}</p>
           <input type="password" name="password" placeholder=" " class="wide_input"/>
           <small class="error" data-error-for="password"></small>
-        <a href="${$e}restore-password" class="login_form_link destination_link">${v(`LoginPage.LoginForm.Forgot.`)}</a>
+        <a href="${tt}restore-password" class="login_form_link destination_link">${v(`LoginPage.LoginForm.Forgot.`)}</a>
         </label>
 
         <label class="form_row_checkbox">
@@ -239,26 +239,26 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
 
         <p class="support_text">${v(`LoginPage.LoginForm.NotAMember`)}</p>
 
-        ${xe()}
+        ${Se()}
 
       </form>
     </div>
-  `,tt=()=>`
+  `,rt=()=>`
     <div id="login_page">
-      ${et()}
+      ${nt()}
     </div>
-    `;function nt(e){return`
+    `;function it(e){return`
     <section class="login_success">
     <h1 class="quote">${v(`LoginPage.SuccessMessage1`)} ${e.firstName}! </h1>
     <h3 class="quote">${v(`LoginPage.SuccessMessage2`)}</h3>
     <h5 class="quote">${v(`LoginPage.SuccessMessage3`)}</h5>
-    ${S(v(`LoginPage.Success.Button`),`goToDestinationFromOther`)}
+    ${C(v(`LoginPage.Success.Button`),`goToDestinationFromOther`)}
     </section>
-  `}function V(e){return`
+  `}function at(e){return`
     <div id="login-success" class="page">
-      ${nt(e)}
+      ${it(e)}
     </div>
-  `}async function rt(){let e=document.getElementById(`login-form`);e.innerHTML=`<h3 class="subtitle">${v(`LoginPage.Processing1`)}</h3>`,await x(1500),e.innerHTML=`<h3 class="subtitle">${v(`LoginPage.Processing2`)}</h3>`,await x(1500)}async function it(e){await rt();let t=document.getElementById(`login_page`);t.innerHTML=V(e)}function at(e){let t=e.target;if(t.id!==`login-form`)return;e.preventDefault(),B(t);let n=Je();if(Object.keys(n).length>0){Object.entries(n).forEach(([e,n])=>{z(t,e,n)});return}let r=new FormData(t),i=Object.fromEntries(r);console.log(`Login data: `,i),it(i)}var H=`/spa_desert_trails/`,ot=()=>`
+  `}async function ot(){let e=document.getElementById(`login-form`);e.innerHTML=`<h3 class="subtitle">${v(`LoginPage.Processing1`)}</h3>`,await S(1500),e.innerHTML=`<h3 class="subtitle">${v(`LoginPage.Processing2`)}</h3>`,await S(1500)}async function st(e){await ot();let t=document.getElementById(`login_page`);t.innerHTML=at(e)}function V(e){let t=e.target;if(t.id!==`login-form`)return;e.preventDefault(),B(t);let n=Xe();if(Object.keys(n).length>0){Object.entries(n).forEach(([e,n])=>{z(t,e,n)});return}let r=new FormData(t),i=Object.fromEntries(r);console.log(`Login data: `,i),st(i)}var H=`/spa_desert_trails/`,ct=()=>`
     <div class="register_page_content">
       <h1 class="title">${v(`RegistrationPage.RegisterForm.Title`)}</h1>
       <form method="post" id="register-form" novalidate autofill="off">
@@ -302,7 +302,7 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
 
         <p class="support_text">${v(`RegistrationPage.RegisterForm.Already`)}</p>
 
-        ${ye()}
+        ${be()}
 
       <p class="agree_note support_text">${v(`RegistrationPage.RegisterForm.Warning1`)}
         <a href="${H}terms" class="destination_link">${v(`RegistrationPage.RegisterForm.Warning2`)}</a> 
@@ -313,11 +313,11 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
     </div>
 
     
-  `,st=()=>`
+  `,lt=()=>`
     <div id="registration_page">
-      ${ot()}
+      ${ct()}
     </div>
-    `;function ct(){let e=document.getElementById(`register-form`);if(!e)return;let t={},n=e.elements.firstName.value.trim(),r=e.elements.lastName.value.trim(),i=e.elements.email.value.trim(),a=e.elements.password.value,o=e.elements.passwordConfirm.value;return n?n.length<2&&(t.firstName=v(`LoginPage.LoginForm.Error.Name1`)):t.firstName=v(`RegistrationPage.RegisterForm.Error.Name2`),r?r.length<2&&(t.lastName=v(`LoginPage.LoginForm.Error.Name1`)):t.lastName=v(`RegistrationPage.RegisterForm.Error.Name2`),i?i.includes(`@`)||(t.email=v(`LoginPage.LoginForm.Error.Email2`)):t.email=v(`LoginPage.LoginForm.Error.Email1`),a?a.length<6&&(t.password=v(`LoginPage.LoginForm.Error.Password2`)):t.password=v(`LoginPage.LoginForm.Error.Password1`),o?o!==a&&(t.passwordConfirm=v(`RegistrationPage.RegisterForm.Error.Password4`)):t.passwordConfirm=v(`RegistrationPage.RegisterForm.Error.Password3`),t}function lt(){let e=document.querySelectorAll(`form`);e&&e.forEach(e=>{e.elements.email&&(e.elements.email.value=``),e.elements.password&&(e.elements.password.value=``)})}function ut(e){let t=e.target;if(t.id!==`register-form`)return;e.preventDefault(),B(t);let n=ct();if(Object.keys(n).length>0){Object.entries(n).forEach(([e,n])=>{z(t,e,n)});return}let r=new FormData(t),i=Object.fromEntries(r);console.log(`Registration data: `,i),he(i)}var dt=()=>`
+    `;function ut(){let e=document.getElementById(`register-form`);if(!e)return;let t={},n=e.elements.firstName.value.trim(),r=e.elements.lastName.value.trim(),i=e.elements.email.value.trim(),a=e.elements.password.value,o=e.elements.passwordConfirm.value;return n?n.length<2&&(t.firstName=v(`LoginPage.LoginForm.Error.Name1`)):t.firstName=v(`RegistrationPage.RegisterForm.Error.Name2`),r?r.length<2&&(t.lastName=v(`LoginPage.LoginForm.Error.Name1`)):t.lastName=v(`RegistrationPage.RegisterForm.Error.Name2`),i?i.includes(`@`)||(t.email=v(`LoginPage.LoginForm.Error.Email2`)):t.email=v(`LoginPage.LoginForm.Error.Email1`),a?a.length<6&&(t.password=v(`LoginPage.LoginForm.Error.Password2`)):t.password=v(`LoginPage.LoginForm.Error.Password1`),o?o!==a&&(t.passwordConfirm=v(`RegistrationPage.RegisterForm.Error.Password4`)):t.passwordConfirm=v(`RegistrationPage.RegisterForm.Error.Password3`),t}function dt(){let e=document.querySelectorAll(`form`);e&&e.forEach(e=>{e.elements.email&&(e.elements.email.value=``),e.elements.password&&(e.elements.password.value=``)})}function ft(e){let t=e.target;if(t.id!==`register-form`)return;e.preventDefault(),B(t);let n=ut();if(Object.keys(n).length>0){Object.entries(n).forEach(([e,n])=>{z(t,e,n)});return}let r=new FormData(t),i=Object.fromEntries(r);console.log(`Registration data: `,i),ge(i)}var pt=()=>`
       <section class="hero morocco">
         <div class="hero_container morocco">
           <div class="hero_background"></div>
@@ -329,7 +329,7 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
           </div>
         </div>
       </section>
-    `,ft=()=>`
+    `,mt=()=>`
     <section class="dest_about_section">
       <h1 class="title">${v(`Morocco.AboutSection.Title`)}</h1>
       <div class="dest_about_content">
@@ -342,7 +342,7 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
         </div>
       </div>
     </section>
-  `,pt=()=>`
+  `,ht=()=>`
       <section class="rythm_section">
       <h1 class="title">${v(`Morocco.TravelNotesSection.Title`)}</h1>
       <div class="rythm_content">
@@ -352,15 +352,15 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
         <h3 class="subtitle">${v(`Morocco.TravelNotesSection.Point4`)}</h3>
        </div>
       </section>
-    `,mt=()=>`
+    `,gt=()=>`
       <section class="cta_section">
         <div class="cta_container">
           <div class="section_background"></div>
           <h2 class="title">${v(`Morocco.CTASection.Title`)}</h2>
-          ${S(`Morocco.CTASection.Button`,`contact_btn`)}
+          ${C(`Morocco.CTASection.Button`,`contact_btn`)}
         </div>
       </section>
-    `,U=`/spa_desert_trails/`,ht=()=>`
+    `,U=`/spa_desert_trails/`,_t=()=>`
     <section class="gallery">
       <div class="gallery_item morocco"><img src="${U}images/Morocco/doors/1.jpeg" alt=""></div>
       <div class="gallery_item morocco"><img src="${U}images/Morocco/doors/2.jpeg" alt=""></div>
@@ -397,7 +397,7 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
       <div class="gallery_item morocco"><img src="${U}images/Morocco/green/3.jpg" alt=""></div>
       <div class="gallery_item morocco"><img src="${U}images/Morocco/green/4.jpeg" alt=""></div>
     </section>
-  `,W=`/spa_desert_trails/`;function gt(){return`
+  `,W=`/spa_desert_trails/`;function vt(){return`
   <section class="experience_section">
     <h1 class="title">${v(`Morocco.ExperiencesSection.Title`)}</h1>
       
@@ -415,16 +415,16 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
       </div>
     </div>
   </section>
-  `}var _t=()=>`
+  `}var yt=()=>`
     <div id="morocco_page" class="page">
-      ${dt()}
-      ${ft()}
-      ${gt()}
       ${pt()}
-      ${ht()}
       ${mt()}
+      ${vt()}
+      ${ht()}
+      ${_t()}
+      ${gt()}
     </div>
-    `,vt=()=>`
+    `,bt=()=>`
       <section class="hero jordan">
         <div class="hero_container jordan">
           <div class="hero_background"></div>
@@ -436,7 +436,7 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
           </div>
         </div>
       </section>
-    `,yt=()=>`
+    `,xt=()=>`
     <section class="dest_about_section">
       <h1 class="title">${v(`Morocco.AboutSection.Title`)}</h1>
       <div class="dest_about_content">
@@ -449,7 +449,7 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
         </div>
       </div>
     </section>
-  `,bt=()=>`
+  `,St=()=>`
       <section class="rythm_section">
       <h1 class="title">${v(`Jordan.TravelNotesSection.Title`)}</h1>
       <div class="rythm_content">
@@ -459,15 +459,15 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
         <h3 class="subtitle">${v(`Jordan.TravelNotesSection.Point4`)}</h3>
        </div>
       </section>
-    `,xt=()=>`
+    `,Ct=()=>`
       <section class="cta_section">
         <div class="cta_container">
           <div class="section_background"></div>
           <h2 class="title">${v(`Jordan.CTASection.Title`)}</h2>
-          ${S(`Jordan.CTASection.Button`,`contact_btn`)}
+          ${C(`Jordan.CTASection.Button`,`contact_btn`)}
         </div>
       </section>
-    `,G=`/spa_desert_trails/`,St=()=>`
+    `,G=`/spa_desert_trails/`,wt=()=>`
     <section class="gallery">
       <div class="gallery_item jordan"><img src="${G}images/Jordan/photo_2026-03-28 18.27.40.jpeg" alt=""></div>
       <div class="gallery_item jordan"><img src="${G}images/Jordan/photo_2026-03-28 18.27.46.jpeg" alt=""></div>
@@ -493,7 +493,7 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
       <div class="gallery_item jordan"><img src="${G}images/Jordan/photo_2026-03-28 18.32.15.jpeg" alt=""></div>
       <div class="gallery_item jordan"><img src="${G}images/Jordan/photo_2026-03-28 18.32.17.jpeg" alt=""></div>
     </section>
-    `,K=`/spa_desert_trails/`;function Ct(){return`
+    `,K=`/spa_desert_trails/`;function Tt(){return`
     <section class="experience_section">
       <h1 class="title">${v(`Jordan.ExperiencesSection.Title`)}</h1>
       
@@ -510,16 +510,16 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
         </div>
       </div>
     </section>
-  `}var wt=()=>`
+  `}var Et=()=>`
     <div id="jordan_page" class="page">
-      ${vt()}
-      ${yt()}
-      ${Ct()}
       ${bt()}
-      ${St()}
       ${xt()}
+      ${Tt()}
+      ${St()}
+      ${wt()}
+      ${Ct()}
     </div>
-    `,Tt=()=>`
+    `,Dt=()=>`
     <section class="dest_about_section">
       <h1 class="title">${v(`Oman.AboutSection.Title`)}</h1>
       <div class="dest_about_content">
@@ -532,7 +532,7 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
         </div>
       </div>
     </section>
-  `,Et=()=>`
+  `,Ot=()=>`
       <section class="hero oman">
         <div class="hero_container oman">
           <div class="hero_background"></div>
@@ -544,7 +544,7 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
           </div>
         </div>
       </section>
-    `,Dt=()=>`
+    `,kt=()=>`
       <section class="rythm_section">
       <h1 class="title">${v(`Oman.TravelNotesSection.Title`)}</h1>
       <div class="rythm_content">
@@ -554,15 +554,15 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
         <h3 class="subtitle">${v(`Oman.TravelNotesSection.Point4`)}</h3>
        </div>
       </section>
-    `,Ot=()=>`
+    `,At=()=>`
       <section class="cta_section">
         <div class="cta_container">
           <div class="section_background"></div>
           <h2 class="title">${v(`Oman.CTASection.Title`)}</h2>
-          ${S(`Oman.CTASection.Button`,`contact_btn`)}
+          ${C(`Oman.CTASection.Button`,`contact_btn`)}
         </div>
       </section>
-    `,q=`/spa_desert_trails/`,kt=()=>`
+    `,q=`/spa_desert_trails/`,jt=()=>`
     <section class="gallery">
       <div class="gallery_item oman"><img src="${q}images/Oman/photo_2026-03-28 18.30.22.jpeg" alt=""></div>
       <div class="gallery_item oman"><img src="${q}images/Oman/photo_2026-03-28 18.30.25.jpeg" alt=""></div>
@@ -590,7 +590,7 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
       <div class="gallery_item oman"><img src="${q}images/Oman/photo_2026-03-28 18.31.48.jpeg" alt=""></div>
       <div class="gallery_item oman"><img src="${q}images/Oman/photo_2026-03-28 18.31.51.jpeg" alt=""></div>
     </section>
-  `,J=`/spa_desert_trails/`;function At(){return`
+  `,J=`/spa_desert_trails/`;function Mt(){return`
     <section class="experience_section">
       <h1 class="title">${v(`Oman.ExperiencesSection.Title`)}</h1>
       
@@ -607,25 +607,25 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
         </div>
       </div>
     </section>
-  `}var jt=()=>`
+  `}var Nt=()=>`
     <div id="oman_page" class="page">
-      ${Et()}
-      ${Tt()}
-      ${At()}
-      ${Dt()}
-      ${kt()}
       ${Ot()}
+      ${Dt()}
+      ${Mt()}
+      ${kt()}
+      ${jt()}
+      ${At()}
     </div>
-    `,Mt=()=>`
+    `,Pt=()=>`
     <div id="page_404" class="page">
       <h1 class="quote">${v(`404.Message1`)} </h1>
       <h3 class="quote">${v(`404.Message2`)}</h3>
-      ${S(v(`404.Button`),`goToDestinationFromOther`)}
+      ${C(v(`404.Button`),`goToDestinationFromOther`)}
     </div>
-    `;function Nt(){return`
+    `,Ft=`/spa_desert_trails/`;function It(){return`
     <div class="popup_bg"></div>
     <div id="contact-form-container">
-      <button id="contact-close-btn" type="button"><img src="/icons/cross.svg"></button>
+      <button id="contact-close-btn" type="button"><img src="${Ft}icons/cross.svg"></button>
       <h1 class="title">${v(`ContactForm.Title`)}</h1>
       <form id="contact-form" novalidate>
         <label class="form_row">
@@ -642,31 +642,31 @@ var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=
           <p class="support_text">${v(`ContactForm.Message`)}: </p>
           <textarea name="message" placeholder=" " class="textarea"></textarea>
         </label>
-        ${S(v(`ContactForm.Btn`),`contact_submit_btn`)}
+        ${C(v(`ContactForm.Btn`),`contact_submit_btn`,`submit`)}
         <p class="result_message support_text"></p>
       </form>
     </div>
-  `}function Y(){let e=document.getElementById(`popup-wrapper`);e.innerHTML=Nt()}function Pt(e){e.target.closest(`.contact_btn`)&&document.getElementById(`popup-wrapper`).classList.remove(`hidden`)}function Ft(e){(e.target.closest(`#contact-close-btn`)||e.target.closest(`.popup_bg`))&&document.getElementById(`popup-wrapper`).classList.add(`hidden`)}function It(){let e=document.getElementById(`contact-form`);if(!e)return;let t={},n=e.elements.firstName.value.trim(),r=e.elements.email.value.trim();return n?n.length<2&&(t.firstName=v(`RegistrationPage.RegisterForm.Error.Name1`)):t.firstName=v(`RegistrationPage.RegisterForm.Error.Name1`),r?r.includes(`@`)||(t.email=v(`RegistrationPage.RegisterForm.Error.Email2`)):t.email=v(`RegistrationPage.RegisterForm.Error.Email1`),t}function Lt(e){return`
+  `}function Y(){let e=document.getElementById(`popup-wrapper`);e.innerHTML=It()}function Lt(e){e.target.closest(`.contact_btn`)&&document.getElementById(`popup-wrapper`).classList.remove(`hidden`)}function Rt(e){(e.target.closest(`#contact-close-btn`)||e.target.closest(`.popup_bg`))&&document.getElementById(`popup-wrapper`).classList.add(`hidden`)}function zt(){let e=document.getElementById(`contact-form`);if(!e)return;let t={},n=e.elements.firstName.value.trim(),r=e.elements.email.value.trim();return n?n.length<2&&(t.firstName=v(`RegistrationPage.RegisterForm.Error.Name1`)):t.firstName=v(`RegistrationPage.RegisterForm.Error.Name1`),r?r.includes(`@`)||(t.email=v(`RegistrationPage.RegisterForm.Error.Email2`)):t.email=v(`RegistrationPage.RegisterForm.Error.Email1`),t}function Bt(e){return`
   <div class="contactMessageContainer">
     <h3 class="quote">${v(`ContactForm.Final`)} ${e.firstName}! ${v(`ContactForm.Final1`)}</h3>
     </div>
-  `}async function Rt(e){let t=document.getElementById(`contact-form-container`),n=document.querySelector(`.contact_submit_btn`);await x(1e3),n.classList.remove(`btn_disabled`),t.innerHTML=Lt(e),await x(5e3),Y()}async function zt(e){let t=e.target;if(t.id!==`contact-form`)return;e.preventDefault();let n=document.querySelector(`.contact_submit_btn`);n.classList.add(`btn_disabled`),B(t);let r=It();if(Object.keys(r).length>0){Object.entries(r).forEach(([e,n])=>{z(t,e,n)}),n.classList.remove(`btn_disabled`);return}let i=new FormData(t),a=Object.fromEntries(i);console.log(`Contact data: `,a),await emailjs.sendForm(`contact_service`,`template_k31sx4s`,t,{publicKey:`Aq0zDHmoRxghcpM1Y`}),await emailjs.sendForm(`contact_service`,`template_injoqap`,t,{publicKey:`Aq0zDHmoRxghcpM1Y`}),Rt(a)}p.default.base(`/spa_desert_trails`);var X=null,Z=null;function Bt(e,t){X=e,Z=t}function Vt(){return{currentPage:X,currentPath:Z}}var Ht=[{path:`/`,page:Qe},{path:`/about`,page:Fe},{path:`/login`,page:tt},{path:`/registration`,page:st},{path:`/morocco`,page:_t},{path:`/jordan`,page:wt},{path:`/oman`,page:jt}];function Ut(){document.body.classList.remove(`no_scroll`)}var Wt=e=>{(0,p.default)(`*`,t=>{let n=Ht.find(e=>e.path===t.path)?.page||Mt;Bt(n,t.path),e(n,t.path),Ut(),window.scrollTo(0,0)}),(0,p.default)()};function Gt(e){let{currentPage:t}=Vt();return`
+  `}async function Vt(e){let t=document.getElementById(`contact-form-container`),n=document.querySelector(`.contact_submit_btn`);await S(1e3),n.classList.remove(`btn_disabled`),t.innerHTML=Bt(e),await S(5e3),Y()}async function Ht(e){let t=e.target;if(t.id!==`contact-form`)return;e.preventDefault();let n=document.querySelector(`.contact_submit_btn`);n.classList.add(`btn_disabled`),B(t);let r=zt();if(Object.keys(r).length>0){Object.entries(r).forEach(([e,n])=>{z(t,e,n)}),n.classList.remove(`btn_disabled`);return}let i=new FormData(t),a=Object.fromEntries(i);console.log(`Contact data: `,a),await emailjs.sendForm(`contact_service`,`template_k31sx4s`,t,{publicKey:`Aq0zDHmoRxghcpM1Y`}),await emailjs.sendForm(`contact_service`,`template_injoqap`,t,{publicKey:`Aq0zDHmoRxghcpM1Y`}),Vt(a)}p.default.base(`/spa_desert_trails`);var X=null,Z=null;function Ut(e,t){X=e,Z=t}function Wt(){return{currentPage:X,currentPath:Z}}var Gt=[{path:`/`,page:et},{path:`/about`,page:Le},{path:`/login`,page:rt},{path:`/registration`,page:lt},{path:`/morocco`,page:yt},{path:`/jordan`,page:Et},{path:`/oman`,page:Nt}];function Kt(){document.body.classList.remove(`no_scroll`)}var qt=e=>{(0,p.default)(`*`,t=>{let n=Gt.find(e=>e.path===t.path)?.page||Pt;Ut(n,t.path),e(n,t.path),Kt(),window.scrollTo(0,0)}),(0,p.default)()};function Jt(e){let{currentPage:t}=Wt();return`
     <main class="Main">
         ${t()}
     </main>
-    `}var Kt=`/spa_desert_trails/`;function qt(e){return`${Kt.replace(/\/$/,``)}${e}`}var Jt=[{path:`contacts`,name:`footer.link.contacts`},{path:`privacy`,name:`footer.link.privacy`},{path:`terms`,name:`footer.link.terms`}];function Yt(e){return Jt.map(t=>`<a href="${qt(t.path)}" class="footer_link ${e===t.path?` active`:``}" >${v(t.name)}</a>`).join(``)}var Xt=`/spa_desert_trails/`;function Zt(e){return`
+    `}var Yt=`/spa_desert_trails/`;function Xt(e){return`${Yt.replace(/\/$/,``)}${e}`}var Zt=[{path:`contacts`,name:`footer.link.contacts`},{path:`privacy`,name:`footer.link.privacy`},{path:`terms`,name:`footer.link.terms`}];function Qt(e){return Zt.map(t=>`<a href="${Xt(t.path)}" class="footer_link ${e===t.path?` active`:``}" >${v(t.name)}</a>`).join(``)}var $t=`/spa_desert_trails/`;function en(e){return`
     <footer id="footer">
       <div class="footer_top">
-        <a href="${Xt}" class="footer_name">Desert Trails</a>
+        <a href="${$t}" class="footer_name">Desert Trails</a>
         <div class="footer_links">
-          ${Yt(e)}
+          ${Qt(e)}
         </div>
       </div>
       <div class="footer_bottom"><p class="support_text">&copy; 2026. Desert Trails. ${v(`footer.rights`)}</p></div>
     </footer>
-    `}var Qt=()=>{document.addEventListener(`submit`,e=>{switch(e.target.id){case`login-form`:at(e);break;case`register-form`:ut(e);break;case`contact-form`:zt(e);break;case`subscribtion_form`:Ze(e);break;default:break}})};function Q(){document.querySelector(`.Main`).style.animation=`fadeIn 1s ease-out 0.3s forwards`}function $(e,t){document.querySelector(`#app`).innerHTML=`
-    ${Ne(t)}
-    ${Gt(e)}
-    ${Zt(t)}
-    ${ce()}
-  `,ae(),Ae(),je(),Q()}Wt($),Qt(),Y(),document.addEventListener(`change`,e=>{re(e)}),document.addEventListener(`click`,e=>{ve(e),Se(e),be(e),b(e),de(e),He(e),ge(e),Pt(e),Ft(e),oe(e),se(e),le(e),Ge(e)}),window.addEventListener(`scroll`,Pe),window.addEventListener(`load`,()=>{setTimeout(lt,100),setTimeout(Q,500)});
+    `}var tn=()=>{document.addEventListener(`submit`,e=>{switch(e.target.id){case`login-form`:V(e);break;case`register-form`:ft(e);break;case`contact-form`:Ht(e);break;case`subscribtion_form`:$e(e);break;default:break}})};function Q(){document.querySelector(`.Main`).style.animation=`fadeIn 1s ease-out 0.3s forwards`}function $(e,t){document.querySelector(`#app`).innerHTML=`
+    ${Fe(t)}
+    ${Jt(e)}
+    ${en(t)}
+    ${le()}
+  `,ae(),Me(),Ne(),Q()}qt($),tn(),Y(),document.addEventListener(`change`,e=>{re(e)}),document.addEventListener(`click`,e=>{ye(e),Ce(e),xe(e),x(e),fe(e),We(e),_e(e),Lt(e),Rt(e),oe(e),se(e),ue(e),qe(e)}),window.addEventListener(`scroll`,Ie),window.addEventListener(`load`,()=>{setTimeout(dt,100),setTimeout(Q,500)});
