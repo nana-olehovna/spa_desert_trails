@@ -50,3 +50,25 @@ section {
 .page_leave {
     animation: pageLeave 0.8s ease;
 }
+
+.hero_reveal {
+    opacity: 0;
+    animation: heroRevealUp 0.8s ease-out forwards;
+    will-change: transform, opacity;
+}
+
+.hero_reveal_delay_1 {
+    animation-delay: 0.2s;
+}
+
+.hero_reveal_delay_2 {
+    animation-delay: 0.4s;
+}
+
+.hero_reveal_delay_3 {
+    animation-delay: 0.6s;
+}
+
+.hero_reveal_delay_4 {
+    animation-delay: 0.8s;
+}

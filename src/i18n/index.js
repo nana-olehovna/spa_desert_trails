@@ -4,11 +4,6 @@ import cz from "./cz.json";
 import ua from "./ua.json";
 import ar from "./ar.json";
 
-
-import { t } from "../languages";
-import {renderApp} from "../main.js"
-import page from "page";
-
 const translations = {
     en,
     ru,
@@ -19,6 +14,7 @@ const translations = {
 
 const defaultLanguage = 'en'
 const keyLangLocalstorage = "desert-trails-lang"
+let rerenderApp = () => {}
 
 
 export const setLanguage = (lang) => localStorage.setItem(keyLangLocalstorage, lang)
@@ -43,7 +39,7 @@ export function changeLanguage(event){
 export function applyLang(lang) {
     setLanguage(lang)
     document.documentElement.setAttribute("data-lang", lang)
-    renderApp()
+    rerenderApp()
 }
 
 
@@ -52,4 +48,8 @@ export function updateLangBtnValue() {
     const currentLang = getLanguage()
     langBtn.value = currentLang
     document.documentElement.setAttribute("data-lang", currentLang)
+}
+
+export function setRenderAppCallback(callback) {
+    rerenderApp = callback
 }

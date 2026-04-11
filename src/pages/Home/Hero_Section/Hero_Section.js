@@ -6,9 +6,9 @@ export const HomeHeroSection = () => {
       <section class="hero home">
         <div class="hero_container">
           <div class="hero_background"></div>
-          <h1 class="headliner overlay_text">${t("Home.HeroSection.Title")}</h1>
-          <h3 class="subtitle overlay_text">${t("Home.HeroSection.Subtitle")}</h3>
-        <div class="hero_btns">
+          <h1 class="headliner overlay_text hero_reveal hero_reveal_delay_1">${t("Home.HeroSection.Title")}</h1>
+          <h3 class="subtitle overlay_text hero_reveal hero_reveal_delay_2">${t("Home.HeroSection.Subtitle")}</h3>
+        <div class="hero_btns hero_reveal hero_reveal_delay_3">
           ${GetInTouchBtn("Home.HeroSection.PrimaryButton", "goToDestinationFromHomePage")}
           ${SecondaryActionBtn("Home.HeroSection.SecondaryButton", "contact_btn")}
         </div>

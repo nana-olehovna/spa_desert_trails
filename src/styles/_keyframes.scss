@@ -3,6 +3,17 @@
     to {opacity: 1}
 }
 
+@keyframes heroRevealUp {
+    from {
+        opacity: 0;
+        transform: translateY(28px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @keyframes fullScreen {
     from {
         clip-path: inset(50% 50% 50% 50%);
