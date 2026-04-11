@@ -2,9 +2,9 @@ import { t } from "../../../languages"
 import { wait } from "../../../pages/RegistrationPage/RegistrationMessage/RegistrationMessage"
 import page from "page"
 
-export const GetInTouchBtn = (content, Class=" ") => {
+export const GetInTouchBtn = (content, Class=" ", type = "button") => {
     return `
-        <button type="submit" class="get_in_touch_btn ${Class}"><span class="btn_accent">${t(content)}</span></button>
+        <button type="${type}" class="get_in_touch_btn ${Class}"><span class="btn_accent">${t(content)}</span></button>
     `
 }
 
@@ -18,10 +18,10 @@ export const SecondaryActionBtn = (content, Class=" ") => {
 export async function goToDestinationFromOther(event) {
     if (event.target.closest(".goToDestinationFromOther")) {
 
-        const page = event.target.closest(".page")
-        if (page) {
-            page.classList.remove("page_leave")
-            page.classList.add("page_leave")
+        const pageContainer = event.target.closest(".page")
+        if (pageContainer) {
+            pageContainer.classList.remove("page_leave")
+            pageContainer.classList.add("page_leave")
             await wait(400)
         }
         page.show("/")

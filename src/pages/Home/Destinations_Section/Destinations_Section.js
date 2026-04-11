@@ -28,6 +28,6 @@ export function openDestination(event) {
   const destContainer = event.target.closest(".destination_container")
   if (!destContainer) return
 
-  const path = destContainer.id
+  const path = `/${destContainer.id}`
   page.show(path) 
 }

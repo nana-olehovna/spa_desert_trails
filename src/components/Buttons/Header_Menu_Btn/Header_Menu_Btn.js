@@ -1,8 +1,10 @@
+const base = import.meta.env.BASE_URL;
+
 export const HeaderMenuBtn = () => {
     return`
       <button class="header_menu_btn">
-        <div id="header-menu-btn" class="open_btn_box"><img src="/icons/menu_burger.svg" alt="Header Menu Button"></div>
-        <div id="header-menu-close" class="closing_btn_box hidden"><img src="/icons/cross.svg" alt="Header Menu Closing Button"></img></div>
+        <div id="header-menu-btn" class="open_btn_box"><img src="${base}icons/menu_burger.svg" alt="Header Menu Button"></div>
+        <div id="header-menu-close" class="closing_btn_box hidden"><img src="${base}icons/cross.svg" alt="Header Menu Closing Button"></img></div>
       </button>
     `
 }

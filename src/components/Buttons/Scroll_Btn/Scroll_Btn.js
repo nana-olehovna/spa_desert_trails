@@ -1,8 +1,10 @@
+const base = import.meta.env.BASE_URL;
+
 export function Scroll_Btn() {
   return `
     <div class="scroll_btn_box">
       <button type="button" id="scroll-btn">
-        <img src="/icons/arrow.png" alt="scroll button">
+        <img src="${base}icons/arrow.png" alt="scroll button">
       </button>
     </div>
   `

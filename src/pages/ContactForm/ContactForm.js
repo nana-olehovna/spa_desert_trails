@@ -1,12 +1,13 @@
 import { t } from "../../languages";
 import { GetInTouchBtn } from "../../components";
 
+const base = import.meta.env.BASE_URL;
 
 export function ContactFormHTML() {
   return`
     <div class="popup_bg"></div>
     <div id="contact-form-container">
-      <button id="contact-close-btn" type="button"><img src="/icons/cross.svg"></button>
+      <button id="contact-close-btn" type="button"><img src="${base}icons/cross.svg"></button>
       <h1 class="title">${t("ContactForm.Title")}</h1>
       <form id="contact-form" novalidate>
         <label class="form_row">
@@ -23,7 +24,7 @@ export function ContactFormHTML() {
           <p class="support_text">${t("ContactForm.Message")}: </p>
           <textarea name="message" placeholder=" " class="textarea"></textarea>
         </label>
-        ${GetInTouchBtn(t("ContactForm.Btn"), "contact_submit_btn")}
+        ${GetInTouchBtn(t("ContactForm.Btn"), "contact_submit_btn", "submit")}
         <p class="result_message support_text"></p>
       </form>
     </div>
