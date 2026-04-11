@@ -1,6 +1,6 @@
 import { Header, Main , Footer, goToLogin, ShowMenu, HideMenu, goToRegistration, goToLoginPage, HeaderScroll, goToDestinationFromOther , changeTheme, initTheme, openCard, closeCard, Scroll_Btn, ScrollUp} from "./components";
-import { updateLangBtnValue, changeLanguage, setRenderAppCallback } from "./i18n";
-import { InitRouter, getCurrentRoute } from "./router";
+import { updateLangBtnValue, changeLanguage} from "./i18n";
+import { InitRouter } from "./router";
 import { submitListener } from "./submit_listener/SubmitListener.js";
 import { FormReset, goToDestinationFromHome , contactFormClose, contactFormOpen, ContactPopup, openDestination} from "./pages";
 import { loadingPage } from "./animations"
@@ -22,13 +22,6 @@ export function renderApp( currentPage, currentPath) {
   changeTheme()
   loadingPage()
 }
-
-setRenderAppCallback(() => {
-  const { currentPage, currentPath } = getCurrentRoute()
-  if (currentPage) {
-    renderApp(currentPage, currentPath)
-  }
-})
 
 
 InitRouter(renderApp)
