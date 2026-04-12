@@ -11,6 +11,7 @@
 
 .dest_about_content {
     @include flex-row();
+    flex-direction: var(--flex-reverse);
     flex:1;
     align-items: stretch;
     gap: 2rem;

@@ -12,7 +12,11 @@ export function Footer(currentPath) {
           ${footerLinkGenerator(currentPath)}
         </div>
       </div>
-      <div class="footer_bottom"><p class="support_text">&copy; 2026. Desert Trails. ${t("footer.rights")}</p></div>
+      <div class="footer_bottom">
+        <p class="support_text">&copy;</p>
+        <p class="support_text">2026</p>
+        <p class="support_text">Desert Trails</p>
+        <p class="support_text">${t("footer.rights")}</p></div>
     </footer>
     `
 }

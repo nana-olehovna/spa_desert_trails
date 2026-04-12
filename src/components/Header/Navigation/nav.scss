@@ -2,6 +2,7 @@
 
 .header_nav {
     @include flex-row($jc: center, $g: clamp(1rem, 2vw, 2.5rem));
+    flex-direction: var(--flex-reverse);
     width: 35%;
     min-width: 355px;
     height: 100%;

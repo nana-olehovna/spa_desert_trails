@@ -3,7 +3,7 @@
 
 .philosophy_section {
     min-height: 80dvh;
-    flex-direction: row;
+    flex-direction: var(--flex-reverse);
     justify-content: space-between;
     background-color: var(--color-bg-secondary);
     justify-content: center;

@@ -13,6 +13,7 @@
 .footer_top {
     width: 100%;
     @include flex-row($jc: space-between);
+    flex-direction: var(--flex-reverse);
     flex:1;
 }
 
@@ -31,6 +32,7 @@
 }
 .footer_links {
     @include flex-row($g: 2rem);
+    flex-direction: var(--flex-reverse);
 }
 
 

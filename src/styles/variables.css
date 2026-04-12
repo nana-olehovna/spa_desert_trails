@@ -118,6 +118,7 @@
     --font-btn: "Bodoni Moda";
     --font-cta: "Bodoni Moda";
     --font-quote-dest: "Bodoni Moda";
+    --flex-reverse: flex-row;
 }
 
 :root[data-lang="ru"] {
@@ -130,6 +131,7 @@
     --font-btn: "Cormorant Garamond";
     --font-cta: "Bodoni Moda";
     --font-quote-dest: "Bodoni Moda";
+    --flex-reverse: row;
 }
 
 :root[data-lang="ar"] {
@@ -162,4 +164,5 @@
 
     --align-items: end;
     --justify-content: end;
+    --flex-reverse: row-reverse;
 }
