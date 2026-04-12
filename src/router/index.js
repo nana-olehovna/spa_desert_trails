@@ -6,10 +6,6 @@ page.base("/spa_desert_trails")
 let currentPage = null
 let currentPath = null
 
-export function setCurrentRoute(page, path) {
-    currentPage = page
-    currentPath = path
-}
 
 export function getCurrentRoute() {
     return { currentPage, currentPath }
